@@ -1,0 +1,22 @@
+http://python-course.eu/python_tkinter.php
+
+---- Chapter List ----
+    Saying Hello with Labels
+    Message Widget
+    Buttons
+    Variable Classes
+    Radiobuttons
+    Checkboxes
+    Entry Widgets
+    Canvas Widgets
+    Sliders
+    Text Widget
+    Dialogs
+    Layout Management
+    Bulls and Cows / Mastermind in TK
+    Creating Menus
+    Events and Binds
+
+_/
+
+Also check out http://effbot.org/tkinterbook/ for an in-depth guide to all the components of tkinter
