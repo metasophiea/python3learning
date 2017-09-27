@@ -1,0 +1,73 @@
+http://www.python-course.eu/python3_course.php
+
+---- Python 3 Tutorial Chapter List ----
+    The Origins of Python
+    Starting with Python: The Interactive Shell
+    Executing a Script
+    Indentation
+    Data Types and Variables
+    Operators
+    Sequential Data Types: Lists and Strings
+    List Manipulations
+    Shallow and Deep Copy
+    Dictionaries
+    Sets and Frozen Sets
+    input via the keyboard
+    Conditional Statements
+    Loops, while Loop
+    For Loops
+    Output with Print
+    Formatted output with string modulo and the format method
+    Functions
+    Recursion and Recursive Functions
+    Parameter Passing in Functions
+    Namespaces
+    Global and Local Variables
+    Decorators
+    Memoization with Decorators
+    Read and Write Files
+    Modular Programming and Modules
+    Packages in Python
+    Regular Expressions
+    Regular Expressions, Advanced
+    Lambda Operator, Filter, Reduce and Map
+    List Comprehension
+    Iterators and Generators
+    Exception Handling
+    Tests, DocTests, UnitTests
+    Object Oriented Programming
+    Class and Instance Attributes
+    Properties vs. getters and setters
+    Inheritance
+    Multiple Inheritance
+    Magic Methods and Operator Overloading
+    OOP, Inheritance Example
+    Slots
+    Classes and Class Creation
+    Road to Metaclasses
+    Metaclasses
+    Metaclass Use Case: Count Function Calls
+    Abstract Classes
+
+_/
+
+---- Advanced Topics Chapter List ----
+    Introduction into the sys module
+    Python and the Shell
+    Forks and Forking in Python
+    Introduction into Threads
+    Pipe, Pipes and "99 Bottles of Beer"
+    Python Network Scanner
+*   Graph Theory and Graphs in Python -> Tree / Forest
+    Graphs: PyGraph
+    Graphs
+    Finite State Machine in Python
+    Turing Machine in Python
+    Levenshtein Distance
+    Example for recursive Programming: Towers of Hanoi
+    Mastermind / Bulls and Cows
+    Creating dynamic websites with WSGI
+    Dynamic websites with mod_python
+    Dynamic websites with Pylons
+    Python, SQL, MySQL and SQLite
+    Python Scores
