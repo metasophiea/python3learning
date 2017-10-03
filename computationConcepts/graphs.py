@@ -20,6 +20,19 @@
 # possible distance to a node from that node in the graph, produced by taking the shortest distance between a root node and all other
 # nodes in the graph, finding the longest. A graphs "diameter" is the biggest 'eccentricity' out of all the nodes.
 #
+#
+# Tree/Forest
+#       A 'Tree' is a connected collection of nodes in an undirected graph; as such, there could be more than one tree in a graph
+#   if the connected collections of nodes are multiple distinct networks. A 'tree' is a connected network of 1 or more nodes, A 
+#   graph of 1 or  more 'trees' is called a forest. In a tree there are no cycles, thus any two nodes of the tree are connected 
+#   by one simple path.
+#       A Spanning Tree is a subset of a regular graph which contains all the nodes, but only the connections needed to create
+#   a tree. As such, there are sometimes a multiple valid spanning trees for a given graph.
+#
+# Hamiltonian Path
+#       This is a path in an undirected or directed graph that visits each node exactly once. A Hamiltonian Cycle (or circuit)
+#   is a path who's end connects to its start. 
+#
 
 #   The simplist way to represent a graph (in python anyway) is as follows:
 #   {

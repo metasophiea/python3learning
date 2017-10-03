@@ -58,9 +58,9 @@ _/
     Introduction into Threads
     Pipe, Pipes and "99 Bottles of Beer"
     Python Network Scanner
-*   Graph Theory and Graphs in Python -> Tree / Forest
-    Graphs: PyGraph
-    Graphs
+    Graph Theory and Graphs in Python
+    - (unfinished chapter) Graphs: PyGraph      basically, PyGraph is a module which implements graphs
+*   Graphs - Generate Path Graph                basically, NetworkX is a module which implements graphs, also Pygraphviz is a module that interfaces with Graphviz which is a graph layout and visualization package
     Finite State Machine in Python
     Turing Machine in Python
     Levenshtein Distance
