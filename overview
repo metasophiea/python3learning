@@ -60,9 +60,9 @@ _/
     Python Network Scanner
     Graph Theory and Graphs in Python
     - (unfinished chapter) Graphs: PyGraph      basically, PyGraph is a module which implements graphs
-*   Graphs - Generate Path Graph                basically, NetworkX is a module which implements graphs, also Pygraphviz is a module that interfaces with Graphviz which is a graph layout and visualization package
+    Graphs                                      basically, NetworkX is a module which implements graphs, also Pygraphviz is a module that interfaces with Graphviz which is a graph layout and visualization package
     Finite State Machine in Python
-    Turing Machine in Python
+*   Turing Machine in Python
     Levenshtein Distance
     Example for recursive Programming: Towers of Hanoi
     Mastermind / Bulls and Cows
