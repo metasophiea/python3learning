@@ -13,87 +13,98 @@ def check(rootPermutation, newPermutation):
                 whites += 1
     return [blacks, whites] 
 
-def show_current_guess(new_guess):
+def showCurrentGuess(new_guess):
     """ The current guess is printed to stdout """
     print("New Guess: ",end=" ")
-
-    for c in new_guess:
-        print(c, end=" ")
+    for colour in new_guess:
+        print(colour, end=" ")
     print()
-def inconsistent(permutation, guesses):
-    """ the function checks, if a permutation, i.e. a list of 
-    colours like 'permutation' = ['pink', 'yellow', 'green', 'red'] is consistent
-    with the previous colours. Each previous colour permutation guess[0]
-    compared with 'permutation' (using the check function) has to return the same amount of blacks 
-    (rightly positioned colours) and whites (right colour at wrong 
-    position) as the corresponding evaluation (guess[1] in the 
-    list guesses) """
+def isInconsistent(permutation, guesses):
+    """ this function goes through all the previous guesses, generating 
+    black/white values against the provided permutation 'permutation'.
+    These values are compared to the user provided black/white values
+    which are attached to each guess. If at any point the generated and
+    provided black/white values are different; there is an inconsistency.
+    """
+
     for guess in guesses:
         res = check(guess[0], permutation)
-        (rightly_positioned, permutated) = guess[1]
-        if res != [rightly_positioned, permutated]:
+        if res != [guess[1][0], guess[1][1]]: # [correctlyPositioned, correctlyPresent]
             return True # inconsistent
-    return False # i.e. consistent
+    return False # consistent
 
-def get_evaluation():
-    """ asks the human player for an evaluation """
-    show_current_guess(new_guess[0])
-    rightly_positioned = int(input("Blacks: "))
-    permutated = int(input("Whites: "))
-    return (rightly_positioned, permutated)
-def answer_ok(a):
-    """ checking of an evaluation given by the human player makes 
-    sense. 3 blacks and 1 white make no sense for example. """
-    (rightly_positioned, permutated) = a
-    if (rightly_positioned + permutated > gameWidth) or (rightly_positioned + permutated < len(colours) - gameWidth):
-        return False
-    if rightly_positioned == 3 and permutated == 1:
+def getEvaluation():
+    """ asks the human player for an evaluation on the current guess"""
+    showCurrentGuess(newGuess[0])
+    return (int(input("Blacks: ")), int(input("Whites: ")))
+def answerOk(answerData):
+    """ checking that the evaluation given by the human player makes sense """
+    # answerData => [correctlyPositioned, correctlyPresent]
+    if  (answerData[0]+answerData[1] > gameWidth) or \
+        (answerData[0]+answerData[1] < len(colours)-gameWidth) or \
+        (answerData[0] == 3 and answerData[1] == 1):
+        # black + white is beyond game size (eg. "10 correct values in your guess of 4 values")
+        # black + white is below logical possibility
+        # 3 blacks and 1 white (that white has nowhere else to go)
         return False
     return True
-def view_guesses():
-    """ The list of all guesses with the corresponding evaluations 
-    is printed """
+def viewGuesses():
+    """ prints out all previous guesses """
     print("Previous Guesses:")
     for guess in guesses:
-        guessed_colours = guess[0]
-        for c in guessed_colours:
-            print(c, end=" ")
-        for i in guess[1]:
-            print(" %i " % i, end=" ")
+        # some spacing
+        print("   ", end=" ")
+
+        # print permutation
+        for colour in guess[0]: print(colour, end=" ")
+        print("-", end=" ")
+
+        # print black/white values
+        for val in guess[1]: print(val, end=" ")
         print()
-def create_new_guess():
-    """ a new guess is created, which is consistent to the 
-    previous guesses """
-    next_choice = next(permutation_iterator) 
-    while inconsistent(next_choice, guesses):
-        try:
-            next_choice = next(permutation_iterator)
-        except StopIteration:
+def createNewGuess():
+    """ generate new permutations with the iterator, checking to see if they are 
+    consistent/valid guesses. Once a consistent/valid one is found, return it. If
+    the iterator runs out of permutations; return an inconsistency error"""
+
+    while True:
+        nextChoice = next(permutationIterator, None)
+        if nextChoice == None:
             print("Error: Your answers were inconsistent!")
-            return ()
-    return next_choice
+            return None
+        elif not isInconsistent(nextChoice, guesses):
+            return nextChoice
 
-def new_evaluation(current_colour_choices):
-    """ This funtion gets an evaluation of the current guess, checks 
-    the consistency of this evaluation, adds the guess together with
-    the evaluation to the list of guesses, shows the previous guesses 
-    and creates a new guess """
+def newEvaluation(currentColourGuess):
+    """ this function:
+        - gets an evaluation from the human of the current guess
+        - checks if evaluation is ok
+        - checks if its a win situation
+        - appends the latest guess to the list of incorrect guesses, then prints them all out
+        - produce a new guess (end the game if we're out of permutations, otherwise; return the guess with the current evaluation)
+    """
 
-    rightly_positioned, permutated = get_evaluation()
-    if rightly_positioned == gameWidth:
-        return(current_colour_choices, (rightly_positioned, permutated))
+    # get an evaluation from the human of the current guess
+    correctlyPositioned, correctlyPresent = getEvaluation()
 	
-    if not answer_ok((rightly_positioned, permutated)):
+    # check if evaluation is ok
+    if not answerOk((correctlyPositioned, correctlyPresent)):
         print("Input Error: Sorry, the input makes no sense")
-        return(current_colour_choices, (-1, permutated))
-    guesses.append((current_colour_choices, (rightly_positioned, permutated)))
-    view_guesses()
-	
-    current_colour_choices = create_new_guess() 
-    if not current_colour_choices:
-        return(current_colour_choices, (-1, permutated))
-    return(current_colour_choices, (rightly_positioned, permutated))
+        return(currentColourGuess, (-1, correctlyPresent))
 
+    # win situation
+    if correctlyPositioned == gameWidth:
+        return(currentColourGuess, (correctlyPositioned, correctlyPresent))
+
+    # append this guess to the list of incorrect guesses, then print them out
+    guesses.append((currentColourGuess, (correctlyPositioned, correctlyPresent)))
+    viewGuesses()
+	
+    # produce a new guess (end the game if we're out of permutations, otherwise; return the guess with the current evaluation)
+    currentColourGuess = createNewGuess() 
+    if currentColourGuess == None:
+        return None
+    return(currentColourGuess, (correctlyPositioned, correctlyPresent))
 
 if __name__ == "__main__":
     colours = ["red","blue","green","black","white","yellow"]
@@ -101,9 +112,9 @@ if __name__ == "__main__":
     gameHeight = 12
     guesses = []	
 
-    permutation_iterator = combinatorics.all_colours(colours, gameWidth)
-    current_colour_choices = next(permutation_iterator)
+    permutationIterator = combinatorics.all_colours(colours, gameWidth)
+    currentColourChoices = next(permutationIterator)
 
-    new_guess = (current_colour_choices, (0,0) )
-    while (new_guess[1][0] == -1) or (new_guess[1][0] != gameWidth):
-        new_guess = new_evaluation(new_guess[0])
+    newGuess = (currentColourChoices, (0,0) )
+    while newGuess != None and ((newGuess[1][0] == -1) or (newGuess[1][0] != gameWidth)):
+        newGuess = newEvaluation(newGuess[0])
