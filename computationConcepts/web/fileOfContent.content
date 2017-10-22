@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>metasophiea</title>
+
+<body>
+    <h1>Metasophiea's HTML Experiment Page</h1>
+    <p>Oh, hello there.</p>
+
+    <map name="BJandHawkeyeMap">
+        <area
+            shape="circle"
+            coords="145,175,30"
+            alt="BJ"
+            href="https://en.wikipedia.org/wiki/List_of_M*A*S*H_characters#B.J._Hunnicutt"
+            target="_blank"
+        >
+        <area
+            shape="circle"
+            coords="420,140,30"
+            alt="Hawkeye"
+            href="https://en.wikipedia.org/wiki/List_of_M*A*S*H_characters#Hawkeye_Pierce"
+            target="_blank"
+        >
+    </map>
+
+    <img 
+    usemap="#BJandHawkeyeMap"
+    src="https://pbs.twimg.com/media/CTAN2m3W4AA1Xpn.jpg" 
+    >
+        <br>
+        <a href="http://www.metasophieasotherblog.blogspot.com"><img 
+        title="website under construction (author under instruction)"
+        src="http://www.w3schools.com/html/programming.gif" 
+        ></a>
+    </img>
+
+</body>
+</html>

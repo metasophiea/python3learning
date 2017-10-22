@@ -65,9 +65,9 @@ _/
     Turing Machine in Python
     Levenshtein Distance
     Example for recursive Programming: Towers of Hanoi
-*   Mastermind / Bulls and Cows
+    Mastermind / Bulls and Cows
     Creating dynamic websites with WSGI
-    Dynamic websites with mod_python
-    Dynamic websites with Pylons
-    Python, SQL, MySQL and SQLite
+    Dynamic websites with mod_python            (requires installing modules into apache)
+    Dynamic websites with Pylons                (requires installing modules into apache)
+*   Python, SQL, MySQL and SQLite
     Python Scores
