@@ -69,5 +69,34 @@ _/
     Creating dynamic websites with WSGI
     Dynamic websites with mod_python            (requires installing modules into apache)
     Dynamic websites with Pylons                (requires installing modules into apache)
-*   Python, SQL, MySQL and SQLite
-    Python Scores
+    Python, SQL, MySQL and SQLite
+    Python Scores                               (this is just how to make files for some other program to use)
+
+_/
+
+---- Numerical Python ----
+    NumPy Introduction
+*   Create Numpy Arrays - Shape of an Array
+    Data Type Object, dtype
+    Numerical Operations on Numpy Arrays
+    Changing the Dimensions of Arrays
+    Python, Numpy and Probability
+    Weighted Choices and Weighted Samples
+    Creation of Synthetical Test Data
+    Boolean Masking of Arrays
+    Matrix Arithmetic
+    Reading and Writing ndarrays
+    Matplotlib Introduction
+    Spines and Ticks
+    Legends and Annotations
+    Multiple Figures and Axes
+    Histograms
+    Contour Plots
+    Python Image Processing Tutorial
+    Image Processing Techniques
+    Pandas Tutorial
+    Pandas Tutorial Continuation
+    Data Visualization with Pandas and Python
+    Python, Date and Time
+    Python, Pandas and Timeseries
+    Linear Combinations
