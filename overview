@@ -76,8 +76,8 @@ _/
 
 ---- Numerical Python ----
     NumPy Introduction
-*   Create Numpy Arrays - Shape of an Array
-    Data Type Object, dtype
+    Create Numpy Arrays
+*   Data Type Object, dtype
     Numerical Operations on Numpy Arrays
     Changing the Dimensions of Arrays
     Python, Numpy and Probability
