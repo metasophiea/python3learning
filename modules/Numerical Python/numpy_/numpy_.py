@@ -5,8 +5,26 @@ import numpy
 
 
 
-
-
+# mat(data, dtype=None)
+#    This function converts the 'data' (usually a two-dimensional vector) to a matrix
+#       data  - input data
+#       dtype - Data-type of the output matrix
+x = numpy.array(
+    [
+        [1, 2], 
+        [3, 4]
+    ]
+)
+m = numpy.mat(x)
+print( type(x) )
+print( x )
+print( type(m) )
+print( m )
+# operations between matrixes comply with regular matrix operations
+a = numpy.mat( [[1,2],[3,4]] )
+b = numpy.mat( [[5,6],[7,8]] )
+print( a*b ) # matrix multiplication
+print()
 
 
 

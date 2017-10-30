@@ -52,14 +52,12 @@ print("\n\n")
 
 
 # Records
-#   One can create a non-homogenous collection of data within a dtype, but defining 
+#   One can create a non-homogenous collection of data within a dtype, by defining 
 # the name of each section along with it's data type in a tuple (which in turn can be
-# placed in a list)
+# placed in a homogenous list (of this data type (dtype (very clever))))
 num = numpy.dtype(
-    [
-        ("a","i2"),
-        ("b","i2")
-    ]
+    # ("columnName","columnDataType")
+    [ ("a","i2"), ("b","i2") ]
 )
 print(num)
 # placing this type into an array:
@@ -74,3 +72,21 @@ print(array) # getting the whole array
 print(array["a"]) # getting just the 'a' records
 print(array["a"][0]) # getting more specific
 print()
+# Multi Level Records
+description = numpy.dtype(
+    [
+        ("sub1", numpy.dtype([ ("a","i2"),("b","i2") ])),
+        ("sub2", numpy.dtype([ ("a","i2"),("b","i2") ])) 
+    ]
+)
+array = numpy.array(
+    [
+        ((10, 20),(100, 200)),
+        ((10, 20),(100, 200))
+    ],
+    dtype = description
+)
+print(array) # getting the whole array
+print(array["sub1"]) # getting just the 'sub1' records
+print(array["sub1"]["a"]) # getting just the 'sub1:a' records
+print(array["sub1"]["a"][0]) # getting more specific

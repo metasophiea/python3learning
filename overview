@@ -77,8 +77,8 @@ _/
 ---- Numerical Python ----
     NumPy Introduction
     Create Numpy Arrays
-*   Data Type Object, dtype
-    Numerical Operations on Numpy Arrays
+    Data Type Object, dtype
+*   Numerical Operations on Numpy Arrays - Applying Operators on Arrays with Different Shapes
     Changing the Dimensions of Arrays
     Python, Numpy and Probability
     Weighted Choices and Weighted Samples

@@ -4,6 +4,12 @@ import numpy
 #   Used within the numpy module as the main data type for storing items. 
 
 
+
+
+
+
+
+
 print("-- Basic Creation --")
 # Creation of a Zero-dimensional Array (a scalar)
 x = numpy.array(42) # produces a "ndarray" object
@@ -50,6 +56,9 @@ print( numpy.zeros((2,4)) )
 # Creating an array of a given number, with the same shape as a different array
 print( numpy.ones_like(A) )
 print( numpy.zeros_like(A) )
+
+
+
 
 
 
@@ -198,6 +207,66 @@ print( numpy.identity(4, dtype=int) )
 print( numpy.eye(5, 8, k=-1, dtype=int) )
 print( numpy.eye(5, 8, k=0, dtype=int) )
 print( numpy.eye(5, 8, k=1, dtype=int) )
+print()
+
+
+
+
+
+
+
+
+print("\n\n\n\n-- Numerical And Logical Operations --")
+# Scalars
+# this form of operation is much much faster than equivalent actions in raw python (with a for-loop or comprehension) 
+vector = numpy.array( [2,3, 7.9, 3.3, 6.9, 0.11, 10.3, 12.9] )
+print(vector)
+print(vector + 2)
+print(vector - 2)
+print(vector * 2)
+print(vector ** 2)
+print(vector / 2)
+print(vector // 2) # divide with floor
+print()
+
+# Vectors
+# - Component-wise Operations
+A = numpy.array(
+    [ 
+        [11, 12, 13], 
+        [21, 22, 23], 
+        [31, 32, 33] 
+    ]
+)
+B = numpy.ones( (3,3) )
+print(A + B)
+print(A - B)
+print(A * B)
+print(A / B)
+print()
+# - Matrix-wise Operations
+print( numpy.dot(A,B) ) # dot product (one can also write "A.dot(B)")
+print()
+
+# Comparison
+# standard comparison will return an vector of equal dimension, but with the boolean result of checking each value
+A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])
+B = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])
+C = numpy.array([ [11, 102, 13], [201, 22, 203], [31, 32, 303] ])
+print( A == C )
+print( A > C )
+# complete comparison can be performed with the 'numpu.array_equal' command
+# this will only return true when the arrays are exactly the same (in value)
+print( numpy.array_equal(A,B) )
+print( numpy.array_equal(A,C) )
+print()
+
+# Logical
+# these operations can be performed on vectors which consist solely of boolean values
+a = numpy.array([ [True, True], [False, False]])
+b = numpy.array([ [True, False], [True, False]])
+print( numpy.logical_or(a, b)  )
+print( numpy.logical_and(a, b) )
 print()
 
 
