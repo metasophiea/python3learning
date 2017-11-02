@@ -8,11 +8,13 @@ A	../modules/Numerical Python/numpy_/dtype_.py	/^A = numpy.array(lst, dtype=num)
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:234
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:30
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:253
+A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:275
 About	../TKinter/menus.py	/^def About():$/;"	kind:function	line:185
 AdderTest	../otherPythonConcepts/unitTesting/unittest_.py	/^class AdderTest(unittest.TestCase):$/;"	kind:class	line:19
 B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array($/;"	kind:variable	line:37
 B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array($/;"	kind:variable	line:99
 B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:254
+B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array([1, 2, 3])$/;"	kind:variable	line:276
 B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.ones( (3,3) )$/;"	kind:variable	line:241
 C	../modules/Numerical Python/numpy_/ndarray_.py	/^C = numpy.array([ [11, 102, 13], [201, 22, 203], [31, 32, 303] ])$/;"	kind:variable	line:255
 C	../modules/Numerical Python/numpy_/ndarray_.py	/^C = numpy.array(cvalues)$/;"	kind:variable	line:23

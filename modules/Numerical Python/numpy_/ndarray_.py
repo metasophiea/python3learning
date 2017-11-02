@@ -269,5 +269,110 @@ print( numpy.logical_or(a, b)  )
 print( numpy.logical_and(a, b) )
 print()
 
+# Broadcasting
+# this is the process of performing arithmetic operations on matrixes of different shapes (though, only matrixes which
+# are logically relatable)
+A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])
+B = numpy.array([1, 2, 3])
+print(A * B)
+print(A + B)
+print()
+# here; the smaller matrix is applied repeatedly to the larger matrix, in the order that the larger matrix's
+# inner arrays are defined. As such, this operation is akin to writing a loop to repeatedly apply the smaller
+# matrix to different sections of the larger.
+#   For column-based operations, one needs to construct the smaller matrix differently (here, it is spun using 
+# the 'newaxis' command)
+B = numpy.array([1, 2, 3])[:, numpy.newaxis]
+print(A * B)
+print(A + B)
+print()
+#   This method can also be used where the matrixes are the same size but different shapes
+A = numpy.array([10, 20, 30])[:, numpy.newaxis]
+B = numpy.array([1, 2, 3])
+print(A * B)
+print(A + B)
+print()
 
 
+
+
+
+
+
+
+print("\n\n\n\n-- Editing An Array's Shape --")
+# Flattening with ndarray's 'flatten' method
+A = numpy.array(
+    [
+        [ 0,  1],
+        [ 2,  3],
+        [ 4,  5],
+        [ 6,  7]
+    ]
+)
+print( A )
+print( A.flatten(order="C") ) # use C-style flattening (row-major) (default)
+print( A.flatten(order="F") ) # use Fortran-style flattening (column-major)
+print( A.flatten(order="A") ) # use Fortran-style if the array is Fortran contiguous in memory
+print()
+
+# Flattening with ndarray's 'ravel' method
+print( A.ravel(order="C") ) # use C-style flattening (row-major) (default)
+print( A.ravel(order="F") ) # use Fortran-style flattening (column-major)
+print( A.ravel(order="A") ) # use Fortran-style if the array is Fortran contiguous in memory
+print( A.ravel(order="K") ) # read the elements in whatever order that they occur in memory (except for reversing the data when strides are negative)
+print()
+
+# Reshaping with ndarray's 'reshape' method
+print( A.reshape(2, 4, order="C") ) # use C-style flattening and construction (row-major) (default)
+print( A.reshape(2, 4, order="F") ) # use Fortran-style flattening and construction (column-major)
+print( A.reshape(2, 4, order="A") ) # use Fortran-style if the array is Fortran contiguous in memory
+print()
+
+# Concatenating
+c = numpy.concatenate(
+    (
+        numpy.array([11,22]),
+        numpy.array([18,7,6]),
+        numpy.array([1,3,5])
+    )
+)
+print(c) # all very simple
+print()
+# multidimensional concatenating must be done between matrixes of the same shape
+#   the 'axis' attribute can be used to select which axis the concatenation occurs
+#   with (default is 0)
+print( 
+    numpy.concatenate(
+        (
+            numpy.array(range(24)).reshape((3,4,2)),
+            numpy.array(range(100,124)).reshape((3,4,2))
+        )
+    )
+)
+print( 
+    numpy.concatenate(
+        (
+            numpy.array(range(24)).reshape((3,4,2)),
+            numpy.array(range(100,124)).reshape((3,4,2))
+        ),
+        axis = 0
+    )
+)
+print()
+
+# Adding Dimensions
+x = numpy.array([2,5,18,14,4])
+print( x )
+print( x[numpy.newaxis, :] ) # keeping the original array on the horizonal 
+print( x[:, numpy.newaxis] ) # spinning the original array to vertical
+print()
+
+# Vector Stacking
+vectorA = numpy.array([3, 4, 5])
+vectorB = numpy.array([1, 9, 0])
+print( numpy.row_stack(    (vectorA, vectorB) ) ) # stacking B upon A to create a matrix
+print( numpy.column_stack( (vectorA, vectorB) ) ) # turning both array's 90deg and placing them side-by-side to create a matrix
+print( numpy.column_stack( (vectorA, vectorA, vectorA) ) ) # multi stacking
+print( numpy.dstack( (vectorA, vectorA, vectorA) ) ) # seems to do the same as before, except it also wraps everything in a array
+print()
