@@ -1,0 +1,812 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	../modules/Numerical Python/numpy_/dtype_.py	/^A = numpy.array(lst, dtype=num)$/;"	kind:variable	line:14
+A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:234
+A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:30
+A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:253
+About	../TKinter/menus.py	/^def About():$/;"	kind:function	line:185
+AdderTest	../otherPythonConcepts/unitTesting/unittest_.py	/^class AdderTest(unittest.TestCase):$/;"	kind:class	line:19
+B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array($/;"	kind:variable	line:37
+B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array($/;"	kind:variable	line:99
+B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:254
+B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.ones( (3,3) )$/;"	kind:variable	line:241
+C	../modules/Numerical Python/numpy_/ndarray_.py	/^C = numpy.array([ [11, 102, 13], [201, 22, 203], [31, 32, 303] ])$/;"	kind:variable	line:255
+C	../modules/Numerical Python/numpy_/ndarray_.py	/^C = numpy.array(cvalues)$/;"	kind:variable	line:23
+Checkbar	../TKinter/basic.py	/^class Checkbar(tkinter.Frame):$/;"	kind:class	line:101
+Delta	../computationConcepts/graphs.py	/^    def Delta(self):$/;"	kind:member	line:210
+Employee	../baseObjects/objects.py	/^class Employee(Person):                                     # inheritance syntax$/;"	kind:class	line:438
+Foo	../baseObjects/objects.py	/^Foo = type('Foo', (), {})$/;"	kind:variable	line:541
+GetEmployee	../baseObjects/objects.py	/^    def GetEmployee(self):$/;"	kind:member	line:444
+Graph	../computationConcepts/graphs.py	/^class Graph(object):$/;"	kind:class	line:82
+LevenshteinDistance_Iterative	../computationConcepts/levenshteinDistance.py	/^def LevenshteinDistance_Iterative(s, t, deleteCost=1, insertCost=1, substituteCost=1):$/;"	kind:function	line:15
+LevenshteinDistance_Recursive	../computationConcepts/levenshteinDistance.py	/^def LevenshteinDistance_Recursive(s, t):$/;"	kind:function	line:1
+Machine	../baseObjects/objects.py	/^class Machine:$/;"	kind:class	line:478
+Name	../baseObjects/objects.py	/^    def Name(self):                                         # overriding$/;"	kind:member	line:442
+Name	../baseObjects/objects.py	/^    def Name(self):$/;"	kind:member	line:435
+NetworkX_.py	../modules/NetworkX_.py	1;"	kind:file	line:1
+NewFile	../TKinter/menus.py	/^def NewFile():$/;"	kind:function	line:169
+OSsoftware	../baseObjects/objects.py	/^class OSsoftware:$/;"	kind:class	line:486
+OpenFile	../TKinter/menus.py	/^def OpenFile():$/;"	kind:function	line:172
+Person	../baseObjects/objects.py	/^class Person:$/;"	kind:class	line:431
+S	../TKinter/text.py	/^S = tkinter.Scrollbar(root)$/;"	kind:variable	line:268
+ShowChoice	../TKinter/radio.py	/^def ShowChoice():$/;"	kind:function	line:117
+SimplistClass	../baseObjects/objects.py	/^class SimplistClass:$/;"	kind:class	line:2
+Singleton	../baseObjects/metaclasses.py	/^class Singleton(type):$/;"	kind:class	line:61
+SingletonClass	../baseObjects/metaclasses.py	/^class SingletonClass(metaclass=Singleton):$/;"	kind:class	line:76
+T	../TKinter/text.py	/^T = tkinter.Text($/;"	kind:variable	line:262
+Tape	../computationConcepts/statemachines/turingMachine.py	/^class Tape(object):$/;"	kind:class	line:1
+TuringMachine	../computationConcepts/statemachines/turingMachine.py	/^class TuringMachine(object):$/;"	kind:class	line:31
+WSGI_.py	../computationConcepts/web/WSGI_.py	1;"	kind:file	line:1
+__add__	../baseObjects/objects.py	/^    def __add__(self,obj):$/;"	kind:member	line:337
+__all__	../otherPythonConcepts/simplePackageExample_3/__init__.py	/^__all__ = ["submodule_a", "submodule_b"]/;"	kind:variable	line:6
+__call__	../baseObjects/metaclasses.py	/^    def __call__(cls):$/;"	kind:member	line:63
+__call__	../baseObjects/objects.py	/^    def __call__(self, input):$/;"	kind:member	line:274
+__del__	../baseObjects/objects.py	/^    def __del__(self):$/;"	kind:member	line:232
+__generate_edges	../computationConcepts/graphs.py	/^    def __generate_edges(self):$/;"	kind:member	line:90
+__getitem__	../computationConcepts/statemachines/turingMachine.py	/^    def __getitem__(self,index):$/;"	kind:member	line:22
+__init__	../TKinter/basic.py	/^    def __init__(self, parent=None, picks=[], side=tkinter.LEFT, anchor=tkinter.W):$/;"	kind:member	line:102
+__init__	../baseObjects/abstractClasses.py	/^    def __init__(self, value):$/;"	kind:member	line:37
+__init__	../baseObjects/abstractClasses.py	/^    def __init__(self, value):$/;"	kind:member	line:9
+__init__	../baseObjects/metaclasses.py	/^    def __init__(self, name):$/;"	kind:member	line:28
+__init__	../baseObjects/metaclasses.py	/^    def __init__(self, name):$/;"	kind:member	line:35
+__init__	../baseObjects/objects.py	/^    def __init__(self):$/;"	kind:member	line:220
+__init__	../baseObjects/objects.py	/^    def __init__(self):$/;"	kind:member	line:36
+__init__	../baseObjects/objects.py	/^    def __init__(self):$/;"	kind:member	line:361
+__init__	../baseObjects/objects.py	/^    def __init__(self):$/;"	kind:member	line:386
+__init__	../baseObjects/objects.py	/^    def __init__(self):$/;"	kind:member	line:402
+__init__	../baseObjects/objects.py	/^    def __init__(self):$/;"	kind:member	line:86
+__init__	../baseObjects/objects.py	/^    def __init__(self, first, last):$/;"	kind:member	line:432
+__init__	../baseObjects/objects.py	/^    def __init__(self, first, last, staffnum):$/;"	kind:member	line:439
+__init__	../baseObjects/objects.py	/^    def __init__(self, machineName, power, OSsoftwareName, version):$/;"	kind:member	line:495
+__init__	../baseObjects/objects.py	/^    def __init__(self, name):$/;"	kind:member	line:536
+__init__	../baseObjects/objects.py	/^    def __init__(self, name, power):$/;"	kind:member	line:479
+__init__	../baseObjects/objects.py	/^    def __init__(self, name, version):$/;"	kind:member	line:487
+__init__	../baseObjects/objects.py	/^    def __init__(self,val):$/;"	kind:member	line:331
+__init__	../computationConcepts/graphs.py	/^    def __init__(self, graph_dict=None):$/;"	kind:member	line:84
+__init__	../computationConcepts/statemachines/statemachine.py	/^    def __init__(self):$/;"	kind:member	line:5
+__init__	../computationConcepts/statemachines/turingMachine.py	/^    def __init__(self, tape = "", offset = 0, blank_symbol = " ", initial_state = "", final_states = None, transition_function = None):$/;"	kind:member	line:33
+__init__	../computationConcepts/statemachines/turingMachine.py	/^    def __init__(self,tape_string = "",offset = 0):$/;"	kind:member	line:5
+__init__	../modules/threading_.py	/^    def __init__ (self,ip):$/;"	kind:member	line:135
+__init__.py	../otherPythonConcepts/simplePackageExample/__init__.py	1;"	kind:file	line:1
+__init__.py	../otherPythonConcepts/simplePackageExample_2/__init__.py	1;"	kind:file	line:1
+__init__.py	../otherPythonConcepts/simplePackageExample_2/subsection_1/__init__.py	1;"	kind:file	line:1
+__init__.py	../otherPythonConcepts/simplePackageExample_2/subsection_2/__init__.py	1;"	kind:file	line:1
+__init__.py	../otherPythonConcepts/simplePackageExample_3/__init__.py	1;"	kind:file	line:1
+__new__	../baseObjects/metaclasses.py	/^    def __new__(Class, classname, superclasses, attributedict):$/;"	kind:member	line:17
+__new__	../baseObjects/metaclasses.py	/^    def __new__(Class, classname, superclasses, attributedict):$/;"	kind:member	line:72
+__privateAttribute	../baseObjects/objects.py	/^    __privateAttribute = "private stuff"$/;"	kind:variable	line:33
+__repr__	../baseObjects/objects.py	/^    def __repr__(self):$/;"	kind:member	line:260
+__setitem__	../computationConcepts/statemachines/turingMachine.py	/^    def __setitem__(self, pos, char):$/;"	kind:member	line:28
+__slots__	../baseObjects/objects.py	/^    __slots__ = ['a','b']$/;"	kind:variable	line:84
+__str__	../baseObjects/objects.py	/^    def __str__(self):$/;"	kind:member	line:244
+__str__	../baseObjects/objects.py	/^    def __str__(self):$/;"	kind:member	line:257
+__str__	../baseObjects/objects.py	/^    def __str__(self):$/;"	kind:member	line:334
+__str__	../computationConcepts/graphs.py	/^    def __str__(self):$/;"	kind:member	line:99
+__str__	../computationConcepts/statemachines/turingMachine.py	/^    def __str__(self):$/;"	kind:member	line:12
+_instances	../baseObjects/metaclasses.py	/^    _instances = {}$/;"	kind:variable	line:62
+_protectedAttribute	../baseObjects/objects.py	/^    _protectedAttribute = "dangerous stuff" # this is more of a naming convention than anything technical$/;"	kind:variable	line:32
+a	../baseObjects/dictionaries.py	/^a = {"key":"value", "key2":2, "key4":7654}$/;"	kind:variable	line:4
+a	../baseObjects/dictionaries.py	/^a = {}$/;"	kind:variable	line:3
+a	../baseObjects/lists.py	/^a = [1,2,3]$/;"	kind:variable	line:2
+a	../baseObjects/lists.py	/^a = [["strings","Hello"],[1,2,3],[4,5,6]]$/;"	kind:variable	line:81
+a	../baseObjects/lists.py	/^a = []$/;"	kind:variable	line:1
+a	../baseObjects/metaclasses.py	/^a = regularClass1("James")$/;"	kind:variable	line:40
+a	../baseObjects/objects.py	/^    a = 10 $/;"	kind:variable	line:30
+a	../baseObjects/objects.py	/^a = SimplistClass()$/;"	kind:variable	line:48
+a	../baseObjects/objects.py	/^a = classWithAttributes()$/;"	kind:variable	line:39
+a	../baseObjects/objects.py	/^a = classWithDynamicMethod()$/;"	kind:variable	line:140
+a	../baseObjects/objects.py	/^a = classWithSlots()$/;"	kind:variable	line:91
+a	../baseObjects/objects.py	/^a = classWith__call__()$/;"	kind:variable	line:278
+a	../baseObjects/objects.py	/^a = computer("Tluxis", 240, "Anica", 4.5)$/;"	kind:variable	line:512
+a	../baseObjects/objects.py	/^a = newGetterAndSetter()$/;"	kind:variable	line:411
+a	../baseObjects/objects.py	/^a = propertyDecoratorObject()$/;"	kind:variable	line:369
+a	../baseObjects/objects.py	/^a = regularClass("Bob")$/;"	kind:variable	line:555
+a	../baseObjects/objects.py	/^a = regularGetterAndSetter()$/;"	kind:variable	line:393
+a	../baseObjects/strings.py	/^a = "Hello"$/;"	kind:variable	line:18
+a	../baseObjects/tuples.py	/^a = ("tuples", "are", "uneditable")$/;"	kind:variable	line:3
+a	../baseObjects/variables.py	/^a = 300$/;"	kind:variable	line:43
+a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.array([ [True, True], [False, False]])$/;"	kind:variable	line:266
+a	../modules/Numerical Python/numpy_/numpy_.py	/^a = numpy.mat( [[1,2],[3,4]] )$/;"	kind:variable	line:24
+a	../otherPythonConcepts/decorators.py	/^    a = 10$/;"	kind:variable	line:187
+a	../otherPythonConcepts/decorators.py	/^a = classToBeDecorated()$/;"	kind:variable	line:189
+a	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+aList	../classicStuff/loops.py	/^aList = ["ham", "spam","eggs","nuts"]$/;"	kind:variable	line:72
+aList	../modules/functools_.py	/^aList = (1,2,3,4)$/;"	kind:variable	line:19
+aList	../modules/functools_.py	/^aList = (1,2,3,4)$/;"	kind:variable	line:24
+aList	../modules/functools_.py	/^aList = (1,2,3,4)$/;"	kind:variable	line:29
+aList	../modules/standardFunctions/defaultFunctions.py	/^aList = [0,1,2,3,4,5,6,7,8,9]$/;"	kind:variable	line:61
+aList	../otherPythonConcepts/comprehensions.py	/^aList = [1,2,3,4]$/;"	kind:variable	line:12
+aList	../otherPythonConcepts/comprehensions.py	/^aList = [1,2,3,4]$/;"	kind:variable	line:8
+abc	../baseObjects/abstractClasses.py	/^import abc$/;"	kind:namespace	line:6
+abstractClass	../baseObjects/abstractClasses.py	/^class abstractClass(abc.ABC):$/;"	kind:class	line:8
+abstractClass_withMethodCode	../baseObjects/abstractClasses.py	/^class abstractClass_withMethodCode(abc.ABC):$/;"	kind:class	line:36
+abstractClasses.py	../baseObjects/abstractClasses.py	1;"	kind:file	line:1
+accepting_states	../computationConcepts/statemachines/turingMachine.py	/^accepting_states = ["final"],$/;"	kind:variable	line:78
+accepting_states	../computationConcepts/statemachines/turingMachine.py	/^accepting_states = ["stop"],$/;"	kind:variable	line:100
+add_edge	../computationConcepts/graphs.py	/^    def add_edge(self, edge):$/;"	kind:member	line:121
+add_state	../computationConcepts/statemachines/statemachine.py	/^    def add_state(self, name, handler, end_state=0):$/;"	kind:member	line:10
+add_vertex	../computationConcepts/graphs.py	/^    def add_vertex(self, vertex):$/;"	kind:member	line:116
+adder	../otherPythonConcepts/unitTesting/basic.py	/^def adder(a,b):$/;"	kind:function	line:3
+adder	../otherPythonConcepts/unitTesting/doctest_.py	/^def adder(a,b):$/;"	kind:function	line:10
+affect	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+alist	../baseObjects/lists.py	/^alist = [1,2,3,4]$/;"	kind:variable	line:17
+all_colours	../computationConcepts/mastermind/combinatorics.py	/^def all_colours(colours, positions):$/;"	kind:function	line:32
+allowing	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+allstates	../TKinter/basic.py	/^def allstates(): $/;"	kind:function	line:128
+anObj	../modules/standardFunctions/defaultFunctions.py	/^anObj = exampleClass()$/;"	kind:variable	line:76
+answerOk	../computationConcepts/mastermind/game.py	/^def answerOk(answerData):$/;"	kind:function	line:40
+antherAbstractClass	../baseObjects/abstractClasses.py	/^class antherAbstractClass(abstractClass):$/;"	kind:class	line:19
+application	../computationConcepts/web/WSGI_.py	/^def application(environ, start_response):$/;"	kind:function	line:26
+arithmetic_mean	../classicStuff/functions.py	/^def arithmetic_mean(first, *values):$/;"	kind:function	line:95
+array	../modules/Numerical Python/numpy_/dtype_.py	/^array = numpy.array($/;"	kind:variable	line:64
+array	../modules/Numerical Python/numpy_/dtype_.py	/^array = numpy.array($/;"	kind:variable	line:82
+atr	../baseObjects/metaclasses.py	/^    atr = 10$/;"	kind:variable	line:77
+atr	../baseObjects/objects.py	/^    atr = 10$/;"	kind:variable	line:116
+atr	../baseObjects/objects.py	/^    atr = 100$/;"	kind:variable	line:186
+atr	../baseObjects/objects.py	/^    atr = 34$/;"	kind:variable	line:133
+atr	../baseObjects/objects.py	/^    atr = 34$/;"	kind:variable	line:162
+atr	../baseObjects/objects.py	/^    atr = 456$/;"	kind:variable	line:173
+atr	../baseObjects/objects.py	/^    atr = 456$/;"	kind:variable	line:193
+b	../baseObjects/metaclasses.py	/^b = regularClass1("Sarah") # this does not invoke the '__new__' method, as the class was already put together in the line above$/;"	kind:variable	line:41
+b	../baseObjects/objects.py	/^    b = "Hello" $/;"	kind:variable	line:31
+b	../baseObjects/objects.py	/^b = SimplistClass()$/;"	kind:variable	line:49
+b	../baseObjects/objects.py	/^b = irregularClass("James")$/;"	kind:variable	line:556
+b	../baseObjects/objects.py	/^b = newGetterAndSetter()$/;"	kind:variable	line:412
+b	../baseObjects/objects.py	/^b = regularGetterAndSetter()$/;"	kind:variable	line:394
+b	../baseObjects/variables.py	/^b = 300$/;"	kind:variable	line:44
+b	../modules/Numerical Python/numpy_/ndarray_.py	/^b = numpy.array([ [True, False], [True, False]])$/;"	kind:variable	line:267
+b	../modules/Numerical Python/numpy_/numpy_.py	/^b = numpy.mat( [[5,6],[7,8]] )$/;"	kind:variable	line:25
+background	../TKinter/label.py	/^    background  = "dark green",$/;"	kind:variable	line:100
+bar	../otherPythonConcepts/simplePackageExample/submodule_a.py	/^def bar():$/;"	kind:function	line:3
+bar	../otherPythonConcepts/simplePackageExample_2/submodule_a.py	/^def bar():$/;"	kind:function	line:3
+basic	../otherPythonConcepts/unitTesting/unittest_.py	/^import basic$/;"	kind:namespace	line:4
+basic.py	../TKinter/basic.py	1;"	kind:file	line:1
+basic.py	../otherPythonConcepts/unitTesting/basic.py	1;"	kind:file	line:1
+bg	../TKinter/label.py	/^    bg          = "#00ffff",$/;"	kind:variable	line:106
+bg	../TKinter/message.py	/^    bg      = "lightgreen", $/;"	kind:variable	line:49
+binVal	../baseObjects/variables.py	/^binVal = bin(10)        # binVal = 0b1010$/;"	kind:variable	line:4
+binding.py	../TKinter/binding.py	1;"	kind:file	line:1
+birthdate	../computationConcepts/web/pymysql_.py	/^        birthdate = p[3]$/;"	kind:variable	line:94
+bitNegVal	../baseObjects/variables.py	/^bitNegVal = ~5$/;"	kind:variable	line:31
+bitmap	../TKinter/canvas.py	/^       bitmap=bitmaps[i]$/;"	kind:variable	line:111
+bitmaps	../TKinter/canvas.py	/^bitmaps = ["error", "gray75", "gray50", "gray25", "gray12", "hourglass", "info", "questhead", "question", "warning"]$/;"	kind:variable	line:105
+blank_symbol	../computationConcepts/statemachines/turingMachine.py	/^    blank_symbol = " "$/;"	kind:variable	line:3
+bool_false	../baseObjects/bools.py	/^bool_false = False$/;"	kind:variable	line:2
+bool_true	../baseObjects/bools.py	/^bool_true = True$/;"	kind:variable	line:1
+bools.py	../baseObjects/bools.py	1;"	kind:file	line:1
+bottom	../TKinter/basic.py	/^bottom = Checkbar($/;"	kind:variable	line:121
+button.py	../TKinter/button.py	1;"	kind:file	line:1
+c	../baseObjects/metaclasses.py	/^c = regularClass2("Phil")$/;"	kind:variable	line:42
+c	../baseObjects/objects.py	/^c = SimplistClass()$/;"	kind:variable	line:63
+callback	../TKinter/messageBox.py	/^def callback():$/;"	kind:function	line:84
+can	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+canvas.py	../TKinter/canvas.py	1;"	kind:file	line:1
+capital_country	../modules/standardFunctions/print.py	/^capital_country = {"United States" : "Washington", $/;"	kind:variable	line:67
+character	../modules/standardFunctions/console.py	/^character = sys.stdin.read(1)$/;"	kind:variable	line:8
+check	../computationConcepts/mastermind/game.py	/^def check(rootPermutation, newPermutation):$/;"	kind:function	line:3
+checkHost	../computationConcepts/networkScanning.py	/^def checkHost(IP,port):$/;"	kind:function	line:53
+checkbox.py	../TKinter/checkbox.py	1;"	kind:file	line:1
+child	../modules/os_.py	/^def child():$/;"	kind:function	line:218
+cities	../modules/NetworkX_.py	/^cities = {$/;"	kind:variable	line:36
+city	../baseObjects/generator.py	/^city = city_generator()$/;"	kind:variable	line:21
+city	../baseObjects/generator.py	/^city = city_generator_2("Dublin")$/;"	kind:variable	line:43
+city_generator	../baseObjects/generator.py	/^def city_generator():$/;"	kind:function	line:11
+city_generator_2	../baseObjects/generator.py	/^def city_generator_2(firstCity):$/;"	kind:function	line:33
+classDecorator	../otherPythonConcepts/decorators.py	/^def classDecorator(cls):  $/;"	kind:function	line:181
+classToBeDecorated	../otherPythonConcepts/decorators.py	/^class classToBeDecorated: $/;"	kind:class	line:186
+classWithAttributes	../baseObjects/objects.py	/^class classWithAttributes:$/;"	kind:class	line:28
+classWithClassMethod	../baseObjects/objects.py	/^class classWithClassMethod:$/;"	kind:class	line:185
+classWithDynamicMethod	../baseObjects/objects.py	/^class classWithDynamicMethod:$/;"	kind:class	line:132
+classWithMethod	../baseObjects/objects.py	/^class classWithMethod:$/;"	kind:class	line:115
+classWithOverriddenOperators	../baseObjects/objects.py	/^class classWithOverriddenOperators:$/;"	kind:class	line:329
+classWithSlots	../baseObjects/objects.py	/^class classWithSlots:$/;"	kind:class	line:83
+classWithStaticMethod	../baseObjects/objects.py	/^class classWithStaticMethod:$/;"	kind:class	line:161
+classWith__call__	../baseObjects/objects.py	/^class classWith__call__:$/;"	kind:class	line:272
+classWith__del__	../baseObjects/objects.py	/^class classWith__del__:$/;"	kind:class	line:230
+classWith__init__	../baseObjects/objects.py	/^class classWith__init__:$/;"	kind:class	line:218
+classWith__repr__	../baseObjects/objects.py	/^class classWith__repr__:$/;"	kind:class	line:255
+classWith__str__	../baseObjects/objects.py	/^class classWith__str__:$/;"	kind:class	line:242
+code	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+colorchooser	../TKinter/messageBox.py	/^from tkinter import colorchooser             $/;"	kind:namespace	line:80
+colours	../computationConcepts/mastermind/game.py	/^    colours = ["red","blue","green","black","white","yellow"]$/;"	kind:variable	line:110
+combinatorics	../computationConcepts/mastermind/game.py	/^import combinatorics$/;"	kind:namespace	line:1
+combinatorics.py	../computationConcepts/mastermind/combinatorics.py	1;"	kind:file	line:1
+command	../TKinter/button.py	/^    command = quit$/;"	kind:variable	line:99
+compVal	../baseObjects/variables.py	/^compVal = 5 + 1j $/;"	kind:variable	line:13
+compiled_regex	../modules/re(regex)_.py	/^compiled_regex = re.compile(regex)$/;"	kind:variable	line:104
+comprehensions.py	../otherPythonConcepts/comprehensions.py	1;"	kind:file	line:1
+computer	../baseObjects/objects.py	/^class computer(Machine,OSsoftware):$/;"	kind:class	line:494
+concatString	../baseObjects/strings.py	/^concatString = string + string$/;"	kind:variable	line:5
+connection	../computationConcepts/web/pymysql_.py	/^connection = pymysql.connect(host = "192.168.1.19", user = "pythonProgram", passwd = "woodensword", db = "example")$/;"	kind:variable	line:51
+console.py	../modules/standardFunctions/console.py	1;"	kind:file	line:1
+cos	../otherPythonConcepts/modules.py	/^from math import pi, sin, cos$/;"	kind:namespace	line:16
+counter	../TKinter/button.py	/^counter = 0$/;"	kind:variable	line:118
+counter	../baseObjects/generator.py	/^counter = get_ready(counter)$/;"	kind:variable	line:191
+counter	../baseObjects/generator.py	/^def counter(x):$/;"	kind:function	line:179
+counter	../baseObjects/generator.py	/^def counter(x):$/;"	kind:function	line:201
+counter	../classicStuff/loops.py	/^counter = 0$/;"	kind:variable	line:12
+counter	../classicStuff/loops.py	/^counter = 0$/;"	kind:variable	line:26
+counter	../classicStuff/loops.py	/^counter = 0$/;"	kind:variable	line:3
+courses	../modules/re(regex)_.py	/^courses = "Python Training Course for Beginners: 15\/Aug\/2011 - 19\/Aug\/2011;Python Training Course Intermediate: 12\/Dec\/2011 - 16\/Dec\/2011;Python Text Processing Course:31\/Oct\/2011 - 4\/Nov\/2011"$/;"	kind:variable	line:97
+cr	../baseObjects/generator.py	/^cr = sendAndReceive()$/;"	kind:variable	line:136
+cr	../baseObjects/generator.py	/^cr = simple_coroutine()$/;"	kind:variable	line:118
+createNewGuess	../computationConcepts/mastermind/game.py	/^def createNewGuess():$/;"	kind:function	line:65
+current	../modules/threading_.py	/^    current = ip_check(ip)$/;"	kind:variable	line:170
+currentColourChoices	../computationConcepts/mastermind/game.py	/^    currentColourChoices = next(permutationIterator)$/;"	kind:variable	line:116
+cursor	../computationConcepts/web/pymysql_.py	/^cursor = connection.cursor()$/;"	kind:variable	line:52
+customPackages.py	../otherPythonConcepts/customPackages.py	1;"	kind:file	line:1
+cvalues	../modules/Numerical Python/numpy_/ndarray_.py	/^cvalues = [20.1, 20.8, 21.9, 22.5, 22.7, 22.3, 21.8, 21.2, 20.9, 20.1]$/;"	kind:variable	line:22
+decorator	../otherPythonConcepts/decorators.py	/^    def decorator(function):$/;"	kind:function	line:89
+decorators.py	../otherPythonConcepts/decorators.py	1;"	kind:file	line:1
+defaultFunctions.py	../modules/standardFunctions/defaultFunctions.py	1;"	kind:file	line:1
+degree_sequence	../computationConcepts/graphs.py	/^    def degree_sequence(self):$/;"	kind:member	line:219
+delegator	../baseObjects/generator.py	/^def delegator(x):$/;"	kind:function	line:209
+delta	../computationConcepts/graphs.py	/^    def delta(self):$/;"	kind:member	line:201
+density	../computationConcepts/graphs.py	/^    def density(self):$/;"	kind:member	line:243
+description	../modules/Numerical Python/numpy_/dtype_.py	/^description = numpy.dtype($/;"	kind:variable	line:76
+diameter	../computationConcepts/graphs.py	/^    def diameter(self):$/;"	kind:member	line:276
+dictionaries.py	../baseObjects/dictionaries.py	1;"	kind:file	line:1
+dictionary	../modules/standardFunctions/defaultFunctions.py	/^dictionary = {"key1":1,"key2":20,"key3":3}$/;"	kind:variable	line:28
+diffSet_1	../baseObjects/sets.py	/^diffSet_1 = diffSet_1 - diffSet_2$/;"	kind:variable	line:52
+diffSet_1	../baseObjects/sets.py	/^diffSet_1 = {1,2,3,4,5}$/;"	kind:variable	line:41
+diffSet_1	../baseObjects/sets.py	/^diffSet_1 = {1,2,3,4,5}$/;"	kind:variable	line:51
+diffSet_2	../baseObjects/sets.py	/^diffSet_2 = {1,2,3,4,6}$/;"	kind:variable	line:42
+dirrivedClassWithClassMethod	../baseObjects/objects.py	/^class dirrivedClassWithClassMethod(classWithClassMethod):$/;"	kind:class	line:192
+dirrivedClassWithStaticMethod	../baseObjects/objects.py	/^class dirrivedClassWithStaticMethod(classWithStaticMethod):$/;"	kind:class	line:172
+discardSet	../baseObjects/sets.py	/^discardSet = {1,2,3,4}$/;"	kind:variable	line:59
+discardSet	../baseObjects/sets.py	/^discardSet = {1,2,3,4}$/;"	kind:variable	line:67
+doCalc	../baseObjects/objects.py	/^    def doCalc(self,a,b=None,c=None):                       # sudo overloading example 1 (with a limit of three arguments)$/;"	kind:member	line:446
+doCalc2	../baseObjects/objects.py	/^    def doCalc2(self,*a):                                   # sudo overloading example 2 (with unlimited arguments (arguments are converted into a list))$/;"	kind:member	line:453
+do_something	../baseObjects/abstractClasses.py	/^    def do_something(self):$/;"	kind:member	line:13
+do_something	../baseObjects/abstractClasses.py	/^    def do_something(self):$/;"	kind:member	line:23
+do_something	../baseObjects/abstractClasses.py	/^    def do_something(self):$/;"	kind:member	line:41
+do_something	../baseObjects/abstractClasses.py	/^    def do_something(self):$/;"	kind:member	line:45
+doctest	../otherPythonConcepts/unitTesting/doctest_.py	/^import doctest$/;"	kind:namespace	line:1
+doctest_.py	../otherPythonConcepts/unitTesting/doctest_.py	1;"	kind:file	line:1
+double	../modules/Numerical Python/numpy_/ndarray_.py	/^double = numpy.array([[11,12,13,14,15],[21,22,23,24,25],[31,32,33,34,35],[41,42,43,44,45],[51,52,53,54,55]])$/;"	kind:variable	line:118
+dtype	../modules/Numerical Python/numpy_/dtype_.py	/^    dtype = description$/;"	kind:variable	line:87
+dtype	../modules/Numerical Python/numpy_/dtype_.py	/^    dtype = num$/;"	kind:variable	line:69
+dtype_.py	../modules/Numerical Python/numpy_/dtype_.py	1;"	kind:file	line:1
+e1	../TKinter/entry.py	/^e1 = tkinter.Entry(root)$/;"	kind:variable	line:146
+e2	../TKinter/entry.py	/^e2 = tkinter.Entry(root)$/;"	kind:variable	line:147
+edges	../computationConcepts/graphs.py	/^    def edges(self):$/;"	kind:member	line:112
+edibles	../classicStuff/loops.py	/^edibles = ["ham", "spam","eggs","nuts"]$/;"	kind:variable	line:49
+element	../TKinter/canvas.py	/^element = tkinter.Canvas($/;"	kind:variable	line:78
+element_1	../TKinter/scale.py	/^element_1 = tkinter.Scale($/;"	kind:variable	line:101
+element_2	../TKinter/scale.py	/^element_2 = tkinter.Scale($/;"	kind:variable	line:108
+entry.py	../TKinter/entry.py	1;"	kind:file	line:1
+erdoes_gallai	../computationConcepts/graphs.py	/^    def erdoes_gallai(dsequence):$/;"	kind:member	line:228
+exampleClass	../modules/standardFunctions/defaultFunctions.py	/^class exampleClass:$/;"	kind:class	line:73
+example_decorator	../otherPythonConcepts/decorators.py	/^def example_decorator(function):$/;"	kind:function	line:5
+example_decorator2	../otherPythonConcepts/decorators.py	/^def example_decorator2(function):$/;"	kind:function	line:124
+example_decorator3	../otherPythonConcepts/decorators.py	/^def example_decorator3(function):$/;"	kind:function	line:150
+example_decorator_withParametersValue	../otherPythonConcepts/decorators.py	/^def example_decorator_withParametersValue(parameter):$/;"	kind:function	line:88
+example_decorator_withStaticValues	../otherPythonConcepts/decorators.py	/^def example_decorator_withStaticValues(function):$/;"	kind:function	line:56
+exceptions.py	../otherPythonConcepts/exceptions.py	1;"	kind:file	line:1
+expVal	../baseObjects/variables.py	/^expVal = 5 ** 2$/;"	kind:variable	line:28
+f	../baseObjects/generator.py	/^f = counter(10)$/;"	kind:variable	line:186
+f	../baseObjects/generator.py	/^f = counter(10)$/;"	kind:variable	line:192
+f	../baseObjects/generator.py	/^f = delegator(5)$/;"	kind:variable	line:214
+f	../baseObjects/generator.py	/^f = fibonacci()$/;"	kind:variable	line:62
+f	../baseObjects/generator.py	/^f = fibonacci2()$/;"	kind:variable	line:156
+f	../baseObjects/generator.py	/^f = gen()$/;"	kind:variable	line:81
+f	../baseObjects/generator.py	/^f = gen()$/;"	kind:variable	line:96
+f	../baseObjects/generator.py	/^f = generatorGenerator()$/;"	kind:variable	line:255
+f	../classicStuff/functions.py	/^def f( **data ):$/;"	kind:function	line:111
+f	../otherPythonConcepts/exceptions.py	/^def f():$/;"	kind:function	line:39
+f_1	../baseObjects/generator.py	/^f_1 = next(f)$/;"	kind:variable	line:256
+f_2	../baseObjects/generator.py	/^f_2 = next(f)$/;"	kind:variable	line:265
+fac	../computationConcepts/mastermind/combinatorics.py	/^def fac(n):$/;"	kind:function	line:3
+fahrenheit	../classicStuff/functions.py	/^def fahrenheit(T_in_celsius): # returns the temperature in degrees Fahrenheit$/;"	kind:function	line:5
+fg	../TKinter/button.py	/^    fg = "dark green",$/;"	kind:variable	line:121
+fg	../TKinter/button.py	/^    fg = "red",$/;"	kind:variable	line:98
+fg	../TKinter/label.py	/^    fg          = "blue",$/;"	kind:variable	line:105
+fh	../modules/sys_.py	/^fh = open("output.txt","w")     # opening\/creating the output file$/;"	kind:variable	line:102
+fib	../otherPythonConcepts/memoization.py	/^def fib(n):$/;"	kind:function	line:18
+fibonacci	../baseObjects/generator.py	/^    def fibonacci():$/;"	kind:function	line:247
+fibonacci	../baseObjects/generator.py	/^def fibonacci():$/;"	kind:function	line:56
+fibonacci2	../baseObjects/generator.py	/^def fibonacci2():$/;"	kind:function	line:145
+fifoName	../modules/os_.py	/^fifoName = "theBestFifoNameICouldComeUpWith"$/;"	kind:variable	line:208
+file	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+file_	../modules/standardFunctions/defaultFunctions.py	/^file_ = open("data.txt","w")$/;"	kind:variable	line:4
+file_obj	../modules/pickle_.py	/^file_obj = open(filepath+"\/pickledStuff.pkl", "rb")$/;"	kind:variable	line:25
+file_obj	../modules/pickle_.py	/^file_obj = open(filepath+"\/pickledStuff.pkl", "wb")$/;"	kind:variable	line:20
+file_obj	../modules/standardFunctions/files.py	/^file_obj = open(filepath+"\/testFile.txt")$/;"	kind:variable	line:6
+file_obj	../modules/standardFunctions/files.py	/^file_obj = open(filepath+"\/testFile.txt")$/;"	kind:variable	line:64
+file_obj	../modules/standardFunctions/files.py	/^file_obj = open(filepath+"\/testFile.txt","a")$/;"	kind:variable	line:26
+file_obj	../modules/standardFunctions/files.py	/^file_obj = open(filepath+"\/testFile.txt","r+")$/;"	kind:variable	line:36
+file_obj	../modules/standardFunctions/files.py	/^file_obj = open(filepath+"\/testFile.txt","w")$/;"	kind:variable	line:20
+file_obj	../modules/standardFunctions/files.py	/^file_obj = open(filepath+"\/testFile.txt","w+")$/;"	kind:variable	line:32
+filedialog	../TKinter/menus.py	/^from tkinter import filedialog$/;"	kind:namespace	line:156
+filemenu	../TKinter/menus.py	/^filemenu = tkinter.Menu(menu)$/;"	kind:variable	line:167
+filepath	../modules/pickle_.py	/^filepath = os.path.dirname(__file__)$/;"	kind:variable	line:15
+filepath	../modules/shelve_.py	/^filepath = os.path.dirname(__file__)$/;"	kind:variable	line:7
+filepath	../modules/standardFunctions/files.py	/^filepath = os.path.dirname(__file__)$/;"	kind:variable	line:3
+files.py	../modules/standardFunctions/files.py	1;"	kind:file	line:1
+fill	../TKinter/canvas.py	/^    fill='yellow', $/;"	kind:variable	line:94
+final	../computationConcepts/statemachines/turingMachine.py	/^    def final(self):$/;"	kind:member	line:65
+final_states	../computationConcepts/statemachines/turingMachine.py	/^final_states = {"final"}$/;"	kind:variable	line:84
+final_states	../computationConcepts/statemachines/turingMachine.py	/^final_states = {"stop"}$/;"	kind:variable	line:134
+find_all_paths	../computationConcepts/graphs.py	/^    def find_all_paths(self, start_vertex, end_vertex, path=[]):$/;"	kind:member	line:159
+find_isolated_vertices	../computationConcepts/graphs.py	/^    def find_isolated_vertices(self):$/;"	kind:member	line:190
+find_path	../computationConcepts/graphs.py	/^    def find_path(self, start_vertex, end_vertex, path=None):$/;"	kind:member	line:129
+fip	../otherPythonConcepts/simplePackageExample_3/submodule_b.py	/^def fip():$/;"	kind:function	line:3
+first	../computationConcepts/web/pymysql_.py	/^        first=p[0], $/;"	kind:variable	line:91
+floorFractVal	../baseObjects/variables.py	/^floorFractVal = 1\/\/12$/;"	kind:variable	line:25
+font	../TKinter/label.py	/^    font        = "Times 50"$/;"	kind:variable	line:95
+font	../TKinter/label.py	/^    font        = "Verdana 50 bold"$/;"	kind:variable	line:107
+font	../TKinter/label.py	/^    font        = ("Helvetica",64,"bold","italic")$/;"	kind:variable	line:101
+font	../TKinter/message.py	/^    font    = ("times", 42, "italic")$/;"	kind:variable	line:50
+font	../TKinter/text.py	/^    font=('Arial', 12, 'bold', 'italic')$/;"	kind:variable	line:289
+font	../TKinter/text.py	/^    font=('Verdana', 20, 'bold')$/;"	kind:variable	line:293
+foo	../otherPythonConcepts/simplePackageExample/submodule_b.py	/^def foo():$/;"	kind:function	line:3
+foo	../otherPythonConcepts/simplePackageExample_2/submodule_b.py	/^def foo():$/;"	kind:function	line:3
+for	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+foreground	../TKinter/label.py	/^    foreground  = "light green",$/;"	kind:variable	line:99
+foreground	../TKinter/label.py	/^    foreground  = "red",$/;"	kind:variable	line:94
+fractVal	../baseObjects/variables.py	/^fractVal = 1\/12$/;"	kind:variable	line:22
+from	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+from_	../TKinter/scale.py	/^    from_=0, $/;"	kind:variable	line:103
+from_	../TKinter/scale.py	/^    from_=0, $/;"	kind:variable	line:110
+frozenSet_1	../baseObjects/sets.py	/^frozenSet_1 = frozenset(["Dublin","Cork","Galway"])$/;"	kind:variable	line:9
+fullClas_withMethodCodes	../baseObjects/abstractClasses.py	/^class fullClas_withMethodCodes(abstractClass_withMethodCode):$/;"	kind:class	line:44
+fullClass	../baseObjects/abstractClasses.py	/^class fullClass(antherAbstractClass):$/;"	kind:class	line:22
+func	../baseObjects/dictionaries.py	/^def func(key,key2,key4,key3):$/;"	kind:function	line:23
+func	../modules/functools_.py	/^func = lambda a,b : a if (a > b) else b$/;"	kind:variable	line:25
+func	../modules/functools_.py	/^func = lambda a,b : a*b$/;"	kind:variable	line:30
+func	../modules/functools_.py	/^func = lambda a,b : a+b$/;"	kind:variable	line:20
+func__init__	../baseObjects/objects.py	/^def func__init__(self, name):$/;"	kind:function	line:543
+function	../otherPythonConcepts/decorators.py	/^def function(var):$/;"	kind:function	line:14
+function	../otherPythonConcepts/decorators.py	/^function = example_decorator(function)$/;"	kind:variable	line:25
+function2	../otherPythonConcepts/decorators.py	/^def function2(var):$/;"	kind:function	line:40
+function3	../otherPythonConcepts/decorators.py	/^def function3(var):$/;"	kind:function	line:70
+function4	../otherPythonConcepts/decorators.py	/^def function4(var):$/;"	kind:function	line:99
+function5	../otherPythonConcepts/decorators.py	/^def function5(var):$/;"	kind:function	line:137
+function6	../otherPythonConcepts/decorators.py	/^def function6(var):$/;"	kind:function	line:160
+functionReturningMultipleValues	../classicStuff/functions.py	/^def functionReturningMultipleValues():$/;"	kind:function	line:39
+functionWithAGlobalVariable	../classicStuff/functions.py	/^def functionWithAGlobalVariable():$/;"	kind:function	line:52
+functionWithANonLocalVariable	../classicStuff/functions.py	/^    def functionWithANonLocalVariable():$/;"	kind:function	line:79
+functionWithDefault	../classicStuff/functions.py	/^def functionWithDefault( value=10 ):$/;"	kind:function	line:9
+functionWithDocString	../classicStuff/functions.py	/^def functionWithDocString():$/;"	kind:function	line:18
+functionWithKeywords	../classicStuff/functions.py	/^def functionWithKeywords(a,b,c,d):$/;"	kind:function	line:29
+functionWithStatic	../classicStuff/functions.py	/^def functionWithStatic():$/;"	kind:function	line:120
+function_wrapper	../otherPythonConcepts/decorators.py	/^        def function_wrapper(x):$/;"	kind:function	line:90
+function_wrapper	../otherPythonConcepts/decorators.py	/^    def function_wrapper(x):$/;"	kind:function	line:125
+function_wrapper	../otherPythonConcepts/decorators.py	/^    def function_wrapper(x):$/;"	kind:function	line:152
+function_wrapper	../otherPythonConcepts/decorators.py	/^    def function_wrapper(x):$/;"	kind:function	line:58
+function_wrapper	../otherPythonConcepts/decorators.py	/^    def function_wrapper(x):$/;"	kind:function	line:7
+functions.py	../classicStuff/functions.py	1;"	kind:file	line:1
+functools	../modules/functools_.py	/^import functools$/;"	kind:namespace	line:1
+functools_.py	../modules/functools_.py	1;"	kind:file	line:1
+g	../computationConcepts/graphs.py	/^    g = { "a" : ["c"],$/;"	kind:variable	line:474
+g	../computationConcepts/graphs.py	/^    g = { "a" : ["d"],$/;"	kind:variable	line:301
+game.py	../computationConcepts/mastermind/game.py	1;"	kind:file	line:1
+gameHeight	../computationConcepts/mastermind/game.py	/^    gameHeight = 12$/;"	kind:variable	line:112
+gameWidth	../computationConcepts/mastermind/game.py	/^    gameWidth = 4$/;"	kind:variable	line:111
+gen	../baseObjects/generator.py	/^def gen():$/;"	kind:function	line:77
+gen	../baseObjects/generator.py	/^def gen():$/;"	kind:function	line:92
+gender	../computationConcepts/web/pymysql_.py	/^        gender=p[2], $/;"	kind:variable	line:93
+generator	../baseObjects/generator.py	/^    def generator(*args,**kwargs):   $/;"	kind:function	line:172
+generator.py	../baseObjects/generator.py	1;"	kind:file	line:1
+generatorGenerator	../baseObjects/generator.py	/^def generatorGenerator():$/;"	kind:function	line:246
+getEvaluation	../computationConcepts/mastermind/game.py	/^def getEvaluation():$/;"	kind:function	line:36
+getPI	../otherPythonConcepts/modules.py	/^from math import pi as getPI$/;"	kind:namespace	line:20
+getPI	../otherPythonConcepts/modules.py	/^from math import pi as getPI, sin as math_sin$/;"	kind:namespace	line:21
+getStates	../TKinter/checkbox.py	/^def getStates(): $/;"	kind:function	line:133
+get_ready	../baseObjects/generator.py	/^def get_ready(gen):$/;"	kind:function	line:170
+get_tape	../computationConcepts/statemachines/turingMachine.py	/^    def get_tape(self): $/;"	kind:member	line:49
+get_value	../baseObjects/objects.py	/^    def get_value(self): $/;"	kind:member	line:388
+graph	../computationConcepts/graphs.py	/^    graph = Graph(g)$/;"	kind:variable	line:309
+graph	../modules/NetworkX_.py	/^graph = networkx.path_graph(5) # generating the simple path graph of nodes labeled by their number$/;"	kind:variable	line:35
+graphs.py	../computationConcepts/graphs.py	1;"	kind:file	line:1
+guesses	../computationConcepts/mastermind/game.py	/^    guesses = []	$/;"	kind:variable	line:113
+hanoi	../computationConcepts/towersOfHanoi.py	/^def hanoi(n, source, helper, target):$/;"	kind:function	line:39
+height	../TKinter/canvas.py	/^    height=canvasHeight)$/;"	kind:variable	line:81
+height	../TKinter/text.py	/^    height=10, $/;"	kind:variable	line:264
+hello	../otherPythonConcepts/simplePackageExample_3/submodule_a.py	/^def hello():$/;"	kind:function	line:3
+helper	../computationConcepts/towersOfHanoi.py	/^helper = []$/;"	kind:variable	line:53
+helper	../otherPythonConcepts/memoization.py	/^    def helper(x):$/;"	kind:function	line:8
+helpmenu	../TKinter/menus.py	/^helpmenu = tkinter.Menu(menu)$/;"	kind:variable	line:183
+here	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+hexVal	../baseObjects/variables.py	/^hexVal = hex(10)        # hexVal = 0xa$/;"	kind:variable	line:10
+hostChecker	../computationConcepts/networkScanning.py	/^def hostChecker(ip,port):$/;"	kind:function	line:62
+if.py	../classicStuff/if.py	1;"	kind:file	line:1
+img	../TKinter/canvas.py	/^img = tkinter.PhotoImage(file="\/Users\/metasophiea\/Code\/Python\/learning\/TKinter\/tuesdayPartTwo.ppm")$/;"	kind:variable	line:114
+import	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+in	../baseObjects/objects.py	/^x.method() # static method only accesses data local to the class in which it was implemented$/;"	kind:class	line:177
+in	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+incrementation	../TKinter/button.py	/^def incrementation():$/;"	kind:function	line:127
+initial_state	../computationConcepts/statemachines/turingMachine.py	/^initial_state = "0",$/;"	kind:variable	line:99
+initial_state	../computationConcepts/statemachines/turingMachine.py	/^initial_state = "init",$/;"	kind:variable	line:77
+intersectionset_1	../baseObjects/sets.py	/^intersectionset_1 = {1,2,3,4}$/;"	kind:variable	line:87
+intersectionset_1	../baseObjects/sets.py	/^intersectionset_1 = {1,2,3,4}$/;"	kind:variable	line:91
+intersectionset_2	../baseObjects/sets.py	/^intersectionset_2 = {3,4,5,6}$/;"	kind:variable	line:88
+intersectionset_2	../baseObjects/sets.py	/^intersectionset_2 = {3,4,5,6}$/;"	kind:variable	line:92
+intersectionset_3	../baseObjects/sets.py	/^intersectionset_3 = intersectionset_1 &intersectionset_2$/;"	kind:variable	line:93
+intersectionset_3	../baseObjects/sets.py	/^intersectionset_3 = intersectionset_1.intersection(intersectionset_2)$/;"	kind:variable	line:89
+ip	../modules/threading_.py	/^    ip = "192.168.10."+str(suffix)$/;"	kind:variable	line:169
+ipSuffixRange	../modules/threading_.py	/^ipSuffixRange = (0,255)$/;"	kind:variable	line:166
+ip_check	../modules/threading_.py	/^class ip_check(threading.Thread):$/;"	kind:class	line:132
+irregularClass	../baseObjects/objects.py	/^irregularClass = type($/;"	kind:variable	line:545
+isInconsistent	../computationConcepts/mastermind/game.py	/^def isInconsistent(permutation, guesses):$/;"	kind:function	line:22
+is_connected	../computationConcepts/graphs.py	/^    def is_connected(self, vertices_encountered=None, start_vertex=None):$/;"	kind:member	line:250
+is_state_transitions	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def is_state_transitions(txt):$/;"	kind:function	line:24
+isdisjointSet_1	../baseObjects/sets.py	/^isdisjointSet_1 = {1,2}$/;"	kind:variable	line:99
+isdisjointSet_2	../baseObjects/sets.py	/^isdisjointSet_2 = {2,3}$/;"	kind:variable	line:100
+isdisjointSet_3	../baseObjects/sets.py	/^isdisjointSet_3 = {8,9}$/;"	kind:variable	line:101
+issubsetSet_1	../baseObjects/sets.py	/^issubsetSet_1 = {1,2,3,4}$/;"	kind:variable	line:108
+issubsetSet_2	../baseObjects/sets.py	/^issubsetSet_2 = {1,2}$/;"	kind:variable	line:109
+issupersetSet_1	../baseObjects/sets.py	/^issupersetSet_1 = {1,2,3,4}$/;"	kind:variable	line:117
+issupersetSet_2	../baseObjects/sets.py	/^issupersetSet_2 = {1,2}$/;"	kind:variable	line:118
+iterator_dict	../baseObjects/iterators.py	/^iterator_dict = iter( {"key":"value", "key2":2, "key4":7654} )$/;"	kind:variable	line:6
+iterator_list	../baseObjects/iterators.py	/^iterator_list = iter( [1,2,3,4] )$/;"	kind:variable	line:20
+iterator_list	../baseObjects/iterators.py	/^iterator_list = iter( [1,2,3,4] )$/;"	kind:variable	line:4
+iterator_set	../baseObjects/iterators.py	/^iterator_set = iter( {1,2,3,4,4} )$/;"	kind:variable	line:5
+iterators.py	../baseObjects/iterators.py	1;"	kind:file	line:1
+justify	../TKinter/radio.py	/^      justify = tkinter.LEFT,$/;"	kind:variable	line:112
+k_permutations	../baseObjects/generator.py	/^def k_permutations(items, n):$/;"	kind:function	line:231
+k_permutations	../computationConcepts/mastermind/combinatorics.py	/^def k_permutations(items, n):$/;"	kind:function	line:8
+label	../TKinter/button.py	/^label = tkinter.Label($/;"	kind:variable	line:119
+label.py	../TKinter/label.py	1;"	kind:file	line:1
+lambdaFunc	../modules/standardFunctions/map.py	/^lambdaFunc = lambda x,y,z : x+y+z$/;"	kind:variable	line:20
+lambdas.py	../baseObjects/lambdas.py	1;"	kind:file	line:1
+languages	../TKinter/checkbox.py	/^languages = [$/;"	kind:variable	line:113
+languages	../TKinter/radio.py	/^languages = [$/;"	kind:variable	line:119
+languages	../classicStuff/loops.py	/^languages = ["Java", "C++", "JavaScript", "Python"] $/;"	kind:variable	line:43
+last	../computationConcepts/web/pymysql_.py	/^        last=p[1], $/;"	kind:variable	line:92
+layout.py	../TKinter/layout.py	1;"	kind:file	line:1
+leftShiftval	../baseObjects/variables.py	/^leftShiftval = 5 << 1$/;"	kind:variable	line:34
+levenshteinDistance.py	../computationConcepts/levenshteinDistance.py	1;"	kind:file	line:1
+like	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+lines	../modules/standardFunctions/files.py	/^lines = open(filepath+"\/testFile.txt").read()$/;"	kind:variable	line:58
+lines	../modules/standardFunctions/files.py	/^lines = open(filepath+"\/testFile.txt").readlines()$/;"	kind:variable	line:54
+list	../classicStuff/loops.py	/^list = ["Java", "C++", "JavaScript", "Python"]$/;"	kind:variable	line:65
+listA	../otherPythonConcepts/comprehensions.py	/^listA = ["square","circle","triangle"]$/;"	kind:variable	line:23
+listB	../otherPythonConcepts/comprehensions.py	/^listB = ["red","green","blue"]$/;"	kind:variable	line:24
+listOfIPs	../computationConcepts/networkScanning.py	/^listOfIPs = [$/;"	kind:variable	line:33
+lists.py	../baseObjects/lists.py	1;"	kind:file	line:1
+lock	../modules/threading_.py	/^    lock = threading.Lock()$/;"	kind:variable	line:133
+loops.py	../classicStuff/loops.py	1;"	kind:file	line:1
+lst	../modules/Numerical Python/numpy_/dtype_.py	/^lst = [ [3.4, 8.7, 9.9], $/;"	kind:variable	line:11
+m	../modules/Numerical Python/numpy_/numpy_.py	/^m = numpy.mat(x)$/;"	kind:variable	line:18
+map.py	../modules/standardFunctions/map.py	1;"	kind:file	line:1
+master	../TKinter/message.py	/^master = tkinter.Tk()$/;"	kind:variable	line:44
+math	../otherPythonConcepts/modules.py	/^import pickle, math$/;"	kind:namespace	line:8
+math_sin	../otherPythonConcepts/modules.py	/^from math import pi as getPI, sin as math_sin$/;"	kind:namespace	line:21
+matplotlib	../modules/NetworkX_.py	/^import networkx, matplotlib$/;"	kind:namespace	line:1
+maximum	../modules/standardFunctions/defaultFunctions.py	/^maximum = max( [1,2,3] )$/;"	kind:variable	line:24
+memoization.py	../otherPythonConcepts/memoization.py	1;"	kind:file	line:1
+memoize	../otherPythonConcepts/memoization.py	/^def memoize(f):$/;"	kind:function	line:6
+menu	../TKinter/menus.py	/^menu = tkinter.Menu(root)$/;"	kind:variable	line:163
+menus.py	../TKinter/menus.py	1;"	kind:file	line:1
+message.py	../TKinter/message.py	1;"	kind:file	line:1
+messageBox.py	../TKinter/messageBox.py	1;"	kind:file	line:1
+metaclassExample	../baseObjects/metaclasses.py	/^class metaclassExample(type):$/;"	kind:class	line:15
+metaclasses.py	../baseObjects/metaclasses.py	1;"	kind:file	line:1
+method	../baseObjects/objects.py	/^    def method():$/;"	kind:member	line:165
+method	../baseObjects/objects.py	/^    def method(cls):$/;"	kind:member	line:189
+method	../baseObjects/objects.py	/^    def method(self):$/;"	kind:member	line:118
+mo	../modules/re(regex)_.py	/^mo = re.findall("[force]at", t)$/;"	kind:variable	line:94
+mo	../modules/re(regex)_.py	/^mo = re.search("([0-9]+)", "Customer number: 232454, DateCode: 12022011, ShippingID: 98765")$/;"	kind:variable	line:22
+mo	../modules/re(regex)_.py	/^mo = re.search("([0-9]+).+ ([0-9]+).+ ([0-9]+).+", "Customer number: 232454, DateCode: 12022011, ShippingID: 98765")$/;"	kind:variable	line:31
+modVal	../baseObjects/variables.py	/^modVal = 5 % 2$/;"	kind:variable	line:19
+modules.py	../otherPythonConcepts/modules.py	1;"	kind:file	line:1
+motion	../TKinter/binding.py	/^def motion(event):$/;"	kind:function	line:130
+msg	../TKinter/binding.py	/^msg = tkinter.Message(root, text = whatever_you_do, bg='lightgreen', font=('times', 24, 'italic'))$/;"	kind:variable	line:126
+msg	../TKinter/message.py	/^msg = tkinter.Message($/;"	kind:variable	line:46
+multString	../baseObjects/strings.py	/^multString = string * 3$/;"	kind:variable	line:6
+multVal	../baseObjects/variables.py	/^multVal = 5 * 2$/;"	kind:variable	line:16
+multer	../otherPythonConcepts/unitTesting/basic.py	/^def multer(a,b):$/;"	kind:function	line:6
+n	../otherPythonConcepts/exceptions.py	/^        n = input("Please enter an integer: ")$/;"	kind:variable	line:23
+n	../otherPythonConcepts/exceptions.py	/^        n = int(n)$/;"	kind:variable	line:24
+name	../modules/standardFunctions/console.py	/^name = input("What is your name? ")$/;"	kind:variable	line:1
+ndarray_.py	../modules/Numerical Python/numpy_/ndarray_.py	1;"	kind:file	line:1
+neg_state	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def neg_state(txt):$/;"	kind:function	line:48
+negative_adjectives	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^negative_adjectives = ["boring", "difficult", "ugly", "bad"]$/;"	kind:variable	line:4
+networkScanning.py	../computationConcepts/networkScanning.py	1;"	kind:file	line:1
+networkx	../modules/NetworkX_.py	/^import networkx, matplotlib$/;"	kind:namespace	line:1
+newEvaluation	../computationConcepts/mastermind/game.py	/^def newEvaluation(currentColourGuess):$/;"	kind:function	line:78
+newGetterAndSetter	../baseObjects/objects.py	/^class newGetterAndSetter:$/;"	kind:class	line:401
+newGraph	../modules/NetworkX_.py	/^newGraph = networkx.relabel_nodes(graph,cities,copy=True) # this leaves the original graph alone (default is true)$/;"	kind:variable	line:43
+newGuess	../computationConcepts/mastermind/game.py	/^        newGuess = newEvaluation(newGuess[0])$/;"	kind:variable	line:120
+newGuess	../computationConcepts/mastermind/game.py	/^    newGuess = (currentColourChoices, (0,0) )$/;"	kind:variable	line:118
+newString	../baseObjects/strings.py	/^newString = "    Bonk      "$/;"	kind:variable	line:112
+newString	../baseObjects/strings.py	/^newString = "Look at all these letters!"$/;"	kind:variable	line:124
+newString	../baseObjects/strings.py	/^newString = newString.replace("es","os")$/;"	kind:variable	line:125
+notPrimes	../otherPythonConcepts/comprehensions.py	/^notPrimes = [j for i in range(2, 8) for j in range(i*2, 100, i)] # list of numbers from 2 to 100 that are producible with multiplication (lots of multiple values)$/;"	kind:variable	line:19
+notPrimes	../otherPythonConcepts/comprehensions.py	/^notPrimes = {j for i in range(2, 8) for j in range(i*2, 100, i)} # list of numbers from 2 to 100 that are producible with multiplication (no multiple values)$/;"	kind:variable	line:39
+not_state_transitions	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def not_state_transitions(txt):$/;"	kind:function	line:37
+num	../modules/Numerical Python/numpy_/dtype_.py	/^num = numpy.dtype($/;"	kind:variable	line:58
+num	../modules/Numerical Python/numpy_/dtype_.py	/^num = numpy.dtype(int)$/;"	kind:variable	line:10
+number	../classicStuff/if.py	/^number = 10 if (string == word) else 100$/;"	kind:variable	line:19
+number	../classicStuff/if.py	/^number = 2 * (10 if (string == word) else 100)$/;"	kind:variable	line:21
+numpy	../modules/Numerical Python/numpy_/dtype_.py	/^import numpy$/;"	kind:namespace	line:1
+numpy	../modules/Numerical Python/numpy_/ndarray_.py	/^import numpy$/;"	kind:namespace	line:1
+numpy	../modules/Numerical Python/numpy_/numpy_.py	/^import numpy$/;"	kind:namespace	line:1
+numpy_.py	../modules/Numerical Python/numpy_/numpy_.py	1;"	kind:file	line:1
+obj	../modules/pickle_.py	/^obj = ["all this crazy data",1,2,3]$/;"	kind:variable	line:18
+obj_a	../baseObjects/objects.py	/^obj_a = classWithOverriddenOperators(10)$/;"	kind:variable	line:343
+obj_b	../baseObjects/objects.py	/^obj_b = classWithOverriddenOperators(100)$/;"	kind:variable	line:344
+obj_c	../baseObjects/objects.py	/^obj_c = classWithOverriddenOperators(0)$/;"	kind:variable	line:345
+obj_c	../baseObjects/objects.py	/^obj_c = obj_a + obj_b$/;"	kind:variable	line:347
+objects.py	../baseObjects/objects.py	1;"	kind:file	line:1
+octVal	../baseObjects/variables.py	/^octVal = oct(10)        # octVal = 0o12$/;"	kind:variable	line:7
+of	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+one	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+opinionOfPythonRecogniser.py	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	1;"	kind:file	line:1
+or	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+orient	../TKinter/scale.py	/^    orient=tkinter.HORIZONTAL$/;"	kind:variable	line:112
+os	../modules/os_.py	/^import os$/;"	kind:namespace	line:5
+os	../modules/pickle_.py	/^import os$/;"	kind:namespace	line:14
+os	../modules/shelve_.py	/^import os$/;"	kind:namespace	line:6
+os	../modules/standardFunctions/files.py	/^import os$/;"	kind:namespace	line:2
+os	../modules/threading_.py	/^import os, re, threading$/;"	kind:namespace	line:129
+os_.py	../modules/os_.py	1;"	kind:file	line:1
+other	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+outline	../TKinter/canvas.py	/^    outline="#476042", $/;"	kind:variable	line:93
+package	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+padx	../TKinter/radio.py	/^      padx = 20).pack()$/;"	kind:variable	line:113
+paint	../TKinter/canvas.py	/^def paint(event):$/;"	kind:function	line:118
+parent	../modules/os_.py	/^def parent():$/;"	kind:function	line:212
+parentScope	../classicStuff/functions.py	/^def parentScope():$/;"	kind:function	line:60
+parentScope_nonLocal	../classicStuff/functions.py	/^def parentScope_nonLocal():$/;"	kind:function	line:77
+parts	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+pegPrinter	../computationConcepts/towersOfHanoi.py	/^def pegPrinter(*pegs,height=-1,width=-1):$/;"	kind:function	line:1
+permutationIterator	../computationConcepts/mastermind/game.py	/^    permutationIterator = combinatorics.all_colours(colours, gameWidth)$/;"	kind:variable	line:115
+permutations	../computationConcepts/mastermind/combinatorics.py	/^def permutations(items):$/;"	kind:function	line:17
+phoneBook	../modules/shelve_.py	/^phoneBook = shelve.open(filepath+"\/aShelve")$/;"	kind:variable	line:10
+phoneBook	../modules/shelve_.py	/^phoneBook = shelve.open(filepath+"\/aShelve")$/;"	kind:variable	line:20
+photo	../TKinter/text.py	/^photo = tkinter.PhotoImage(file="\/Users\/metasophiea\/Code\/Python\/learning\/TKinter\/tuesdayPartTwo.ppm")$/;"	kind:variable	line:299
+pi	../otherPythonConcepts/modules.py	/^from math import pi$/;"	kind:namespace	line:15
+pi	../otherPythonConcepts/modules.py	/^from math import pi, sin, cos$/;"	kind:namespace	line:16
+pickle	../modules/pickle_.py	/^import pickle$/;"	kind:namespace	line:2
+pickle	../otherPythonConcepts/modules.py	/^import pickle$/;"	kind:namespace	line:7
+pickle	../otherPythonConcepts/modules.py	/^import pickle, math$/;"	kind:namespace	line:8
+pickle_.py	../modules/pickle_.py	1;"	kind:file	line:1
+pingers	../modules/threading_.py	/^pingers = []$/;"	kind:variable	line:131
+pingersCount	../modules/threading_.py	/^pingersCount = ipSuffixRange[1] + ipSuffixRange[0]$/;"	kind:variable	line:167
+popUpFunction	../TKinter/menus.py	/^def popUpFunction():$/;"	kind:function	line:196
+popup	../TKinter/menus.py	/^def popup(event):$/;"	kind:function	line:205
+popupmenu	../TKinter/menus.py	/^popupmenu = tkinter.Menu(root, tearoff=0)$/;"	kind:variable	line:193
+positive_adjectives	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^positive_adjectives = ["great","super", "fun", "entertaining", "easy"]$/;"	kind:variable	line:3
+print.py	../modules/standardFunctions/print.py	1;"	kind:file	line:1
+process	../modules/subprocess_.py	/^process = subprocess.Popen("ls -l",shell="True", stdout=subprocess.PIPE,stderr=subprocess.PIPE)$/;"	kind:variable	line:22
+propertyDecoratorObject	../baseObjects/objects.py	/^class propertyDecoratorObject:$/;"	kind:class	line:360
+pymysql	../computationConcepts/web/pymysql_.py	/^import pymysql$/;"	kind:namespace	line:1
+pymysql_.py	../computationConcepts/web/pymysql_.py	1;"	kind:file	line:1
+python_state_transitions	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def python_state_transitions(txt):$/;"	kind:function	line:15
+python_storage	../otherPythonConcepts/modules.py	/^import pickle as python_storage$/;"	kind:namespace	line:11
+radio.py	../TKinter/radio.py	1;"	kind:file	line:1
+random	../computationConcepts/mastermind/combinatorics.py	/^import random$/;"	kind:namespace	line:1
+random_permutation	../computationConcepts/mastermind/combinatorics.py	/^def random_permutation(list):$/;"	kind:function	line:21
+re	../modules/re(regex)_.py	/^import re$/;"	kind:namespace	line:1
+re	../modules/threading_.py	/^import os, re, threading$/;"	kind:namespace	line:129
+re(regex)_.py	../modules/re(regex)_.py	1;"	kind:file	line:1
+regex	../modules/re(regex)_.py	/^regex = r"[A-Z]"$/;"	kind:variable	line:103
+regularClass	../baseObjects/objects.py	/^class regularClass:$/;"	kind:class	line:534
+regularClass1	../baseObjects/metaclasses.py	/^class regularClass1(metaclass=metaclassExample):$/;"	kind:class	line:26
+regularClass2	../baseObjects/metaclasses.py	/^class regularClass2(metaclass=metaclassExample):$/;"	kind:class	line:33
+regularGetterAndSetter	../baseObjects/objects.py	/^class regularGetterAndSetter:$/;"	kind:class	line:385
+report	../baseObjects/objects.py	/^    def report(self):$/;"	kind:member	line:482
+report	../baseObjects/objects.py	/^    def report(self):$/;"	kind:member	line:490
+res	../modules/re(regex)_.py	/^res = re.search(r"<(?P<tag>[a-z]+)>(?P<name>.*)<\/(?P=tag)>", "<composer>Wolfgang Amadeus Mozart<\/composer>")$/;"	kind:variable	line:46
+res	../modules/re(regex)_.py	/^res = re.search(r"<([a-z]+)>(.*)<\/\\1>", "<composer>Wolfgang Amadeus Mozart<\/composer>") # here, '\\1' refers to the first group, thus it's a short hand for "<([a-z]+)>(.*)<\/([a-z]+)>" though this would capture the closing tag as a separate group$/;"	kind:variable	line:43
+rightShiftval	../baseObjects/variables.py	/^rightShiftval = 5 >> 1$/;"	kind:variable	line:37
+root	../TKinter/basic.py	/^root = tkinter.Tk()$/;"	kind:variable	line:114
+root	../TKinter/binding.py	/^root = tkinter.Tk()$/;"	kind:variable	line:122
+root	../TKinter/button.py	/^root = tkinter.Tk()$/;"	kind:variable	line:91
+root	../TKinter/canvas.py	/^root = tkinter.Tk()$/;"	kind:variable	line:73
+root	../TKinter/checkbox.py	/^root = tkinter.Tk()$/;"	kind:variable	line:108
+root	../TKinter/entry.py	/^root = tkinter.Tk()$/;"	kind:variable	line:141
+root	../TKinter/label.py	/^root = tkinter.Tk()$/;"	kind:variable	line:88
+root	../TKinter/menus.py	/^root = tkinter.Tk()$/;"	kind:variable	line:159
+root	../TKinter/messageBox.py	/^root = tkinter.Tk()$/;"	kind:variable	line:81
+root	../TKinter/radio.py	/^root = tkinter.Tk()$/;"	kind:variable	line:101
+root	../TKinter/scale.py	/^root = tkinter.Tk()$/;"	kind:variable	line:97
+root	../TKinter/text.py	/^root = tkinter.Tk()$/;"	kind:variable	line:258
+run	../computationConcepts/statemachines/statemachine.py	/^    def run(self, cargo):$/;"	kind:member	line:19
+run	../modules/threading_.py	/^    def run(self):$/;"	kind:member	line:140
+s	../modules/standardFunctions/print.py	/^s = "x: %5.2f" % 0.876543$/;"	kind:variable	line:43
+save_stdout	../modules/sys_.py	/^save_stdout = sys.stdout        # saving the output stream$/;"	kind:variable	line:101
+sayHello	../baseObjects/metaclasses.py	/^    def sayHello(self):$/;"	kind:member	line:30
+sayHello	../baseObjects/metaclasses.py	/^    def sayHello(self):$/;"	kind:member	line:37
+sayHello	../baseObjects/objects.py	/^    def sayHello(self):$/;"	kind:member	line:538
+scale.py	../TKinter/scale.py	1;"	kind:file	line:1
+see	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+sendAndReceive	../baseObjects/generator.py	/^def sendAndReceive():$/;"	kind:function	line:128
+seq_1	../modules/standardFunctions/map.py	/^seq_1 = [1,2,3,4]$/;"	kind:variable	line:17
+seq_2	../modules/standardFunctions/map.py	/^seq_2 = [1,2,3,4]$/;"	kind:variable	line:18
+seq_3	../modules/standardFunctions/map.py	/^seq_3 = [1,2,3,4]$/;"	kind:variable	line:19
+server	../computationConcepts/web/WSGI_.py	/^server = wsgiref.simple_server.make_server('localhost', 8080, application)$/;"	kind:variable	line:34
+setUp	../otherPythonConcepts/unitTesting/unittest_.py	/^    def setUp(self):$/;"	kind:member	line:21
+set_1	../baseObjects/sets.py	/^set_1 = set("Hello")$/;"	kind:variable	line:5
+set_2	../baseObjects/sets.py	/^set_2 = set( ["JavaScript", "Python", "C++"] )$/;"	kind:variable	line:6
+set_3	../baseObjects/sets.py	/^set_3 = set(("Paris", "Lyon", "London","Berlin","Paris","Birmingham"))$/;"	kind:variable	line:7
+set_4	../baseObjects/sets.py	/^set_4 = {1,2,3,4}$/;"	kind:variable	line:8
+set_5	../baseObjects/sets.py	/^set_5 = set_2.copy()$/;"	kind:variable	line:33
+set_start	../computationConcepts/statemachines/statemachine.py	/^    def set_start(self, name):$/;"	kind:member	line:16
+set_value	../baseObjects/objects.py	/^    def set_value(self,newValue):$/;"	kind:member	line:390
+sets.py	../baseObjects/sets.py	1;"	kind:file	line:1
+shelve	../modules/shelve_.py	/^import shelve$/;"	kind:namespace	line:4
+shelve_.py	../modules/shelve_.py	1;"	kind:file	line:1
+showCurrentGuess	../computationConcepts/mastermind/game.py	/^def showCurrentGuess(new_guess):$/;"	kind:function	line:16
+show_entry_fields	../TKinter/entry.py	/^def show_entry_fields():$/;"	kind:function	line:153
+show_values	../TKinter/scale.py	/^def show_values():$/;"	kind:function	line:119
+side	../TKinter/button.py	/^    side = tkinter.LEFT$/;"	kind:variable	line:101
+side	../TKinter/button.py	/^    side = tkinter.LEFT$/;"	kind:variable	line:113
+side	../TKinter/button.py	/^    side = tkinter.LEFT$/;"	kind:variable	line:125
+side	../TKinter/button.py	/^    side = tkinter.LEFT$/;"	kind:variable	line:137
+simplePackageExample	../otherPythonConcepts/customPackages.py	/^import simplePackageExample$/;"	kind:namespace	line:1
+simplePackageExample	../otherPythonConcepts/simplePackageExample/__init__.py	/^import simplePackageExample.submodule_a$/;"	kind:namespace	line:6
+simplePackageExample_2	../otherPythonConcepts/customPackages.py	/^import simplePackageExample_2.subsection_1.subsectionModule$/;"	kind:namespace	line:10
+simple_coroutine	../baseObjects/generator.py	/^def simple_coroutine():$/;"	kind:function	line:111
+simple_server	../computationConcepts/web/WSGI_.py	/^import wsgiref.simple_server$/;"	kind:namespace	line:25
+sin	../otherPythonConcepts/modules.py	/^from math import pi, sin, cos$/;"	kind:namespace	line:16
+single	../modules/Numerical Python/numpy_/ndarray_.py	/^single = numpy.array([1, 1, 2, 3, 5, 8, 13, 21])$/;"	kind:variable	line:117
+socket	../computationConcepts/networkScanning.py	/^import socket, threading$/;"	kind:namespace	line:52
+someFunc1	../baseObjects/objects.py	/^def someFunc1():$/;"	kind:function	line:135
+someFunc2	../baseObjects/objects.py	/^def someFunc2(self):$/;"	kind:function	line:137
+someFunction	../otherPythonConcepts/decorators.py	/^def someFunction(self, *args):              $/;"	kind:function	line:178
+source	../computationConcepts/towersOfHanoi.py	/^source = [4,3,2,1]$/;"	kind:variable	line:51
+sql_command	../computationConcepts/web/pymysql_.py	/^    sql_command = format_str.format($/;"	kind:variable	line:89
+staff_data	../computationConcepts/web/pymysql_.py	/^staff_data = [$/;"	kind:variable	line:68
+staff_no	../computationConcepts/web/pymysql_.py	/^        staff_no=staff, $/;"	kind:variable	line:90
+start_transitions	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def start_transitions(txt):$/;"	kind:function	line:6
+state	../TKinter/basic.py	/^    def state(self):$/;"	kind:member	line:110
+stateMachine	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^from statemachine import stateMachine$/;"	kind:namespace	line:1
+stateMachine	../computationConcepts/statemachines/statemachine.py	/^class stateMachine:$/;"	kind:class	line:4
+statemachine.py	../computationConcepts/statemachines/statemachine.py	1;"	kind:file	line:1
+status	../modules/threading_.py	/^    def status(self):$/;"	kind:member	line:154
+step	../computationConcepts/statemachines/turingMachine.py	/^    def step(self):$/;"	kind:member	line:52
+step_x	../TKinter/canvas.py	/^step_x = int(canvasWidth \/ len(bitmaps))$/;"	kind:variable	line:106
+string	../baseObjects/strings.py	/^string = "Hello"$/;"	kind:variable	line:1
+string	../classicStuff/if.py	/^string = "Hello"$/;"	kind:variable	line:4
+string_2	../classicStuff/if.py	/^string_2 = "Hello"$/;"	kind:variable	line:5
+strings.py	../baseObjects/strings.py	1;"	kind:file	line:1
+subfolders	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+submodule_a	../otherPythonConcepts/simplePackageExample/__init__.py	/^import simplePackageExample.submodule_a$/;"	kind:namespace	line:6
+submodule_a.py	../otherPythonConcepts/simplePackageExample/submodule_a.py	1;"	kind:file	line:1
+submodule_a.py	../otherPythonConcepts/simplePackageExample_2/submodule_a.py	1;"	kind:file	line:1
+submodule_a.py	../otherPythonConcepts/simplePackageExample_3/submodule_a.py	1;"	kind:file	line:1
+submodule_b	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+submodule_b.py	../otherPythonConcepts/simplePackageExample/submodule_b.py	1;"	kind:file	line:1
+submodule_b.py	../otherPythonConcepts/simplePackageExample_2/submodule_b.py	1;"	kind:file	line:1
+submodule_b.py	../otherPythonConcepts/simplePackageExample_3/submodule_b.py	1;"	kind:file	line:1
+subprocess	../modules/subprocess_.py	/^import subprocess$/;"	kind:namespace	line:3
+subprocess_.py	../modules/subprocess_.py	1;"	kind:file	line:1
+subsectionModule	../otherPythonConcepts/customPackages.py	/^import simplePackageExample_2.subsection_1.subsectionModule$/;"	kind:namespace	line:10
+subsectionModule	../otherPythonConcepts/simplePackageExample_2/subsection_2/__init__.py	/^from . import subsectionModule/;"	kind:namespace	line:3
+subsectionModule.py	../otherPythonConcepts/simplePackageExample_2/subsection_1/subsectionModule.py	1;"	kind:file	line:1
+subsectionModule.py	../otherPythonConcepts/simplePackageExample_2/subsection_2/subsectionModule.py	1;"	kind:file	line:1
+subsection_1	../otherPythonConcepts/customPackages.py	/^import simplePackageExample_2.subsection_1.subsectionModule$/;"	kind:namespace	line:10
+subsection_2	../otherPythonConcepts/simplePackageExample_2/subsection_1/__init__.py	/^from .. import subsection_2/;"	kind:namespace	line:5
+subsections	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+sum	../baseObjects/lambdas.py	/^sum = lambda x, y : x + y$/;"	kind:variable	line:5
+superReport	../baseObjects/objects.py	/^    def superReport(self):$/;"	kind:member	line:506
+superReport2	../baseObjects/objects.py	/^    def superReport2(self):$/;"	kind:member	line:509
+sys	../computationConcepts/statemachines/statemachine.py	/^import sys$/;"	kind:namespace	line:2
+sys	../modules/standardFunctions/console.py	/^import sys$/;"	kind:namespace	line:7
+sys	../modules/sys_.py	/^import sys$/;"	kind:namespace	line:5
+sys_.py	../modules/sys_.py	1;"	kind:file	line:1
+system	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+t	../computationConcepts/statemachines/turingMachine.py	/^t = TuringMachine("010011 ", $/;"	kind:variable	line:86
+t	../computationConcepts/statemachines/turingMachine.py	/^t = TuringMachine("11 111 ", $/;"	kind:variable	line:136
+t	../modules/re(regex)_.py	/^t = "A fat cat doesn't eat oat but a rat eats bats."$/;"	kind:variable	line:93
+target	../computationConcepts/towersOfHanoi.py	/^target = []$/;"	kind:variable	line:52
+tearDown	../otherPythonConcepts/unitTesting/unittest_.py	/^    def tearDown(self):$/;"	kind:member	line:25
+test	../otherPythonConcepts/simplePackageExample_2/subsection_1/subsectionModule.py	/^def test():$/;"	kind:function	line:3
+test	../otherPythonConcepts/simplePackageExample_2/subsection_2/subsectionModule.py	/^def test():$/;"	kind:function	line:3
+testCalculation	../otherPythonConcepts/unitTesting/unittest_.py	/^    def testCalculation(self):$/;"	kind:member	line:29
+testCalculation2	../otherPythonConcepts/unitTesting/unittest_.py	/^    def testCalculation2(self):$/;"	kind:member	line:37
+testCalculation3	../otherPythonConcepts/unitTesting/unittest_.py	/^    def testCalculation3(self):$/;"	kind:member	line:45
+text	../TKinter/button.py	/^    text = "QUIT", $/;"	kind:variable	line:97
+text	../TKinter/button.py	/^    text = counter$/;"	kind:variable	line:122
+text	../TKinter/checkbox.py	/^        text = text,$/;"	kind:variable	line:125
+text	../TKinter/label.py	/^    text        = "Blue Text in Verdana bold",$/;"	kind:variable	line:104
+text	../TKinter/label.py	/^    text        = "Green Text in Helvetica Font",$/;"	kind:variable	line:98
+text	../TKinter/label.py	/^    text        = "Red Text in Times Font",$/;"	kind:variable	line:93
+text	../TKinter/message.py	/^    text    = "Space is big. Really big. You just won't believe how vastly, hugely, mind-bogglingly big it is. I mean; you may think it's a long way down the road to the chemist, but that's just peanuts to space.\\n- Douglas Adams",$/;"	kind:variable	line:48
+text	../TKinter/radio.py	/^      text="Choose your favourite programming language:",$/;"	kind:variable	line:111
+text.py	../TKinter/text.py	1;"	kind:file	line:1
+the	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+threading	../computationConcepts/networkScanning.py	/^import socket, threading$/;"	kind:namespace	line:52
+threading	../modules/threading_.py	/^import os, re, threading$/;"	kind:namespace	line:129
+threading_.py	../modules/threading_.py	1;"	kind:file	line:1
+tickinterval	../TKinter/scale.py	/^    tickinterval=10$/;"	kind:variable	line:105
+time	../modules/os_.py	/^import time$/;"	kind:namespace	line:207
+tkinter	../TKinter/basic.py	/^import tkinter$/;"	kind:namespace	line:4
+tkinter	../TKinter/binding.py	/^import tkinter$/;"	kind:namespace	line:121
+tkinter	../TKinter/button.py	/^import tkinter$/;"	kind:namespace	line:90
+tkinter	../TKinter/canvas.py	/^import tkinter$/;"	kind:namespace	line:72
+tkinter	../TKinter/checkbox.py	/^import tkinter$/;"	kind:namespace	line:107
+tkinter	../TKinter/entry.py	/^import tkinter$/;"	kind:namespace	line:140
+tkinter	../TKinter/label.py	/^import tkinter$/;"	kind:namespace	line:87
+tkinter	../TKinter/menus.py	/^import tkinter$/;"	kind:namespace	line:155
+tkinter	../TKinter/message.py	/^import tkinter$/;"	kind:namespace	line:43
+tkinter	../TKinter/messageBox.py	/^import tkinter$/;"	kind:namespace	line:79
+tkinter	../TKinter/radio.py	/^import tkinter$/;"	kind:namespace	line:100
+tkinter	../TKinter/scale.py	/^import tkinter$/;"	kind:namespace	line:96
+tkinter	../TKinter/text.py	/^import tkinter$/;"	kind:namespace	line:257
+to	../TKinter/scale.py	/^    to=200, $/;"	kind:variable	line:111
+to	../TKinter/scale.py	/^    to=42,$/;"	kind:variable	line:104
+to	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+toString	../baseObjects/strings.py	/^toString = str(100+1)$/;"	kind:variable	line:7
+top	../TKinter/basic.py	/^top = Checkbar($/;"	kind:variable	line:116
+towersOfHanoi.py	../computationConcepts/towersOfHanoi.py	1;"	kind:file	line:1
+transition_function	../computationConcepts/statemachines/turingMachine.py	/^transition_function = {$/;"	kind:variable	line:101
+transition_function	../computationConcepts/statemachines/turingMachine.py	/^transition_function = {$/;"	kind:variable	line:79
+triple	../modules/Numerical Python/numpy_/ndarray_.py	/^triple = numpy.array([[[111, 112], [121, 122]],[[211, 212], [221, 222]],[[311, 312], [321, 322]]])$/;"	kind:variable	line:119
+tuples.py	../baseObjects/tuples.py	1;"	kind:file	line:1
+turingMachine.py	../computationConcepts/statemachines/turingMachine.py	1;"	kind:file	line:1
+unionSet_1	../baseObjects/sets.py	/^unionSet_1 = {1,2,3,4}$/;"	kind:variable	line:75
+unionSet_1	../baseObjects/sets.py	/^unionSet_1 = {1,2,3,4}$/;"	kind:variable	line:79
+unionSet_2	../baseObjects/sets.py	/^unionSet_2 = {3,4,5,6}$/;"	kind:variable	line:76
+unionSet_2	../baseObjects/sets.py	/^unionSet_2 = {3,4,5,6}$/;"	kind:variable	line:80
+unionSet_3	../baseObjects/sets.py	/^unionSet_3 = unionSet_1 | unionSet_2$/;"	kind:variable	line:81
+unionSet_3	../baseObjects/sets.py	/^unionSet_3 = unionSet_1.union(unionSet_2)$/;"	kind:variable	line:77
+unittest	../otherPythonConcepts/unitTesting/unittest_.py	/^import unittest$/;"	kind:namespace	line:1
+unittest_.py	../otherPythonConcepts/unitTesting/unittest_.py	1;"	kind:file	line:1
+use	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+usualFunction	../modules/standardFunctions/map.py	/^def usualFunction(input):$/;"	kind:function	line:7
+val	../baseObjects/variables.py	/^val = int(5)            # val    = 5   $/;"	kind:variable	line:1
+value	../baseObjects/metaclasses.py	/^    value = 0$/;"	kind:variable	line:27
+value	../baseObjects/metaclasses.py	/^    value = 0$/;"	kind:variable	line:34
+value	../baseObjects/objects.py	/^    def value(self):$/;"	kind:member	line:366
+value	../baseObjects/objects.py	/^    def value(self):$/;"	kind:member	line:405
+value	../baseObjects/objects.py	/^    def value(self, newValue):$/;"	kind:member	line:408
+value	../baseObjects/objects.py	/^    value = 0$/;"	kind:variable	line:535
+var	../TKinter/checkbox.py	/^    var = tkinter.IntVar()$/;"	kind:variable	line:121
+var	../classicStuff/functions.py	/^var = 0$/;"	kind:variable	line:66
+var2	../classicStuff/functions.py	/^var2 = 0$/;"	kind:variable	line:87
+variable	../TKinter/checkbox.py	/^        variable=var$/;"	kind:variable	line:126
+variable	../TKinter/radio.py	/^variable = tkinter.IntVar()$/;"	kind:variable	line:105
+variableArray	../TKinter/checkbox.py	/^variableArray = []$/;"	kind:variable	line:112
+variables.py	../baseObjects/variables.py	1;"	kind:file	line:1
+vector	../modules/Numerical Python/numpy_/ndarray_.py	/^vector = numpy.array( [2,3, 7.9, 3.3, 6.9, 0.11, 10.3, 12.9] )$/;"	kind:variable	line:222
+vertex_degree	../computationConcepts/graphs.py	/^    def vertex_degree(self, vertex):$/;"	kind:member	line:181
+vertices	../computationConcepts/graphs.py	/^    def vertices(self):$/;"	kind:member	line:108
+viewGuesses	../computationConcepts/mastermind/game.py	/^def viewGuesses():$/;"	kind:function	line:51
+was	../baseObjects/metaclasses.py	/^b = regularClass1("Sarah") # this does not invoke the '__new__' method, as the class was already put together in the line above$/;"	kind:class	line:41
+we	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+what	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+whatever_you_do	../TKinter/binding.py	/^whatever_you_do = "Whatever you do will be insignificant, but it is very important that you do it.\\n(Mahatma Gandhi)"$/;"	kind:variable	line:125
+width	../TKinter/canvas.py	/^    width=3$/;"	kind:variable	line:95
+width	../TKinter/canvas.py	/^    width=canvasWidth,$/;"	kind:variable	line:80
+width	../TKinter/text.py	/^    width=60)$/;"	kind:variable	line:265
+word	../classicStuff/if.py	/^word = input("enter input:")$/;"	kind:variable	line:9
+wraps	../otherPythonConcepts/decorators.py	/^from functools import wraps$/;"	kind:namespace	line:148
+write_slogan	../TKinter/button.py	/^def write_slogan():$/;"	kind:function	line:106
+wsgiref	../computationConcepts/web/WSGI_.py	/^import wsgiref.simple_server$/;"	kind:namespace	line:25
+x	../baseObjects/abstractClasses.py	/^x = fullClas_withMethodCodes(10)$/;"	kind:variable	line:50
+x	../baseObjects/abstractClasses.py	/^x = fullClass(10)$/;"	kind:variable	line:26
+x	../baseObjects/metaclasses.py	/^x = SingletonClass()$/;"	kind:variable	line:79
+x	../baseObjects/objects.py	/^x = Person("Brandon", "Walsh")$/;"	kind:variable	line:460
+x	../baseObjects/objects.py	/^x = SimplistClass()$/;"	kind:variable	line:5
+x	../baseObjects/objects.py	/^x = classWithClassMethod()$/;"	kind:variable	line:196
+x	../baseObjects/objects.py	/^x = classWithMethod()$/;"	kind:variable	line:121
+x	../baseObjects/objects.py	/^x = classWithStaticMethod()$/;"	kind:variable	line:169
+x	../baseObjects/objects.py	/^x = classWith__del__() $/;"	kind:variable	line:235
+x	../baseObjects/objects.py	/^x = classWith__init__() $/;"	kind:variable	line:223
+x	../baseObjects/objects.py	/^x = classWith__repr__()$/;"	kind:variable	line:263
+x	../baseObjects/objects.py	/^x = classWith__str__()$/;"	kind:variable	line:247
+x	../baseObjects/objects.py	/^x = dirrivedClassWithClassMethod()$/;"	kind:variable	line:199
+x	../baseObjects/objects.py	/^x = dirrivedClassWithStaticMethod()$/;"	kind:variable	line:176
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array($/;"	kind:variable	line:70
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array(11)$/;"	kind:variable	line:95
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array(42) # produces a "ndarray" object$/;"	kind:variable	line:15
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:163
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:173
+x	../modules/Numerical Python/numpy_/numpy_.py	/^x = numpy.array($/;"	kind:variable	line:12
+x	../modules/re(regex)_.py	/^x = r"[1-9]"$/;"	kind:variable	line:5
+x	../modules/subprocess_.py	/^x = subprocess.Popen("ls -l",shell="True")$/;"	kind:variable	line:10
+x	../modules/subprocess_.py	/^x = subprocess.Popen(["ls", "-l"])$/;"	kind:variable	line:9
+x	../otherPythonConcepts/comprehensions.py	/^x = "hello"$/;"	kind:variable	line:45
+y	../baseObjects/metaclasses.py	/^y = SingletonClass()$/;"	kind:variable	line:80
+y	../baseObjects/objects.py	/^y = Employee("Sarah", "Ryan", "123")$/;"	kind:variable	line:461
+y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = x.copy()$/;"	kind:variable	line:164
+y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = x.copy()$/;"	kind:variable	line:174
+zipList	../modules/standardFunctions/defaultFunctions.py	/^zipList = zip( ["item_1", "item_2", "item_3", "item_4", "ignored item"], ["1_item", "2_item", "3_item", "4_item"],[1,2,3,4])$/;"	kind:variable	line:13
