@@ -5,6 +5,11 @@ import numpy
 
 
 
+
+
+
+
+
 # mat(data, dtype=None)
 #    This function converts the 'data' (usually a two-dimensional vector) to a matrix
 #       data  - input data
@@ -29,6 +34,10 @@ print()
 
 
 
+
+
+
+
 # arange([start,] stop[, step,], dtype=None)
 #   This function returns evenly spaced values within a given interval (alot like 'range')
 print( numpy.arange(1, 10) )
@@ -36,6 +45,25 @@ print( numpy.arange(10.4) )
 print( numpy.arange(0.5, 10.4, step=0.8) )
 print( numpy.arange(0.5, 10.4, step=0.8, dtype=int) )
 print()
+
+
+
+
+
+
+
+
+# cumsum(a, axis=None, dtype=None, out=None)
+#   this function returns the cumulative sum of the elements along a given axis as an array
+print( numpy.cumsum([0.2,0.3,0.5]) ) # -> [0.2, 0.5, 1.0]
+print()
+
+
+
+
+
+
+
 
 # linspace(start, stop, num=50, endpoint=True, retstep=False)
 #   linspace returns an ndarray, consisting of 'num' equally spaced samples in the interval
@@ -96,6 +124,10 @@ print()
 randomFloatList = numpy.random.random(3)
 normalizedRandomFloatList = randomFloatList/randomFloatList.sum()
 print( normalizedRandomFloatList, "sum to:", normalizedRandomFloatList.sum() )
+
+
+
+
 
 
 

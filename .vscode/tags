@@ -7,14 +7,18 @@
 A	../modules/Numerical Python/numpy_/dtype_.py	/^A = numpy.array(lst, dtype=num)$/;"	kind:variable	line:14
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:234
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:30
+A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:305
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:253
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:275
+A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array([10, 20, 30])[:, numpy.newaxis]$/;"	kind:variable	line:290
 About	../TKinter/menus.py	/^def About():$/;"	kind:function	line:185
 AdderTest	../otherPythonConcepts/unitTesting/unittest_.py	/^class AdderTest(unittest.TestCase):$/;"	kind:class	line:19
 B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array($/;"	kind:variable	line:37
 B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array($/;"	kind:variable	line:99
 B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:254
 B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array([1, 2, 3])$/;"	kind:variable	line:276
+B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array([1, 2, 3])$/;"	kind:variable	line:291
+B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.array([1, 2, 3])[:, numpy.newaxis]$/;"	kind:variable	line:285
 B	../modules/Numerical Python/numpy_/ndarray_.py	/^B = numpy.ones( (3,3) )$/;"	kind:variable	line:241
 C	../modules/Numerical Python/numpy_/ndarray_.py	/^C = numpy.array([ [11, 102, 13], [201, 22, 203], [31, 32, 303] ])$/;"	kind:variable	line:255
 C	../modules/Numerical Python/numpy_/ndarray_.py	/^C = numpy.array(cvalues)$/;"	kind:variable	line:23
@@ -153,6 +157,7 @@ atr	../baseObjects/objects.py	/^    atr = 34$/;"	kind:variable	line:133
 atr	../baseObjects/objects.py	/^    atr = 34$/;"	kind:variable	line:162
 atr	../baseObjects/objects.py	/^    atr = 456$/;"	kind:variable	line:173
 atr	../baseObjects/objects.py	/^    atr = 456$/;"	kind:variable	line:193
+axis	../modules/Numerical Python/numpy_/ndarray_.py	/^        axis = 0$/;"	kind:variable	line:359
 b	../baseObjects/metaclasses.py	/^b = regularClass1("Sarah") # this does not invoke the '__new__' method, as the class was already put together in the line above$/;"	kind:variable	line:41
 b	../baseObjects/objects.py	/^    b = "Hello" $/;"	kind:variable	line:31
 b	../baseObjects/objects.py	/^b = SimplistClass()$/;"	kind:variable	line:49
@@ -184,6 +189,7 @@ bottom	../TKinter/basic.py	/^bottom = Checkbar($/;"	kind:variable	line:121
 button.py	../TKinter/button.py	1;"	kind:file	line:1
 c	../baseObjects/metaclasses.py	/^c = regularClass2("Phil")$/;"	kind:variable	line:42
 c	../baseObjects/objects.py	/^c = SimplistClass()$/;"	kind:variable	line:63
+c	../modules/Numerical Python/numpy_/ndarray_.py	/^c = numpy.concatenate($/;"	kind:variable	line:333
 callback	../TKinter/messageBox.py	/^def callback():$/;"	kind:function	line:84
 can	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 canvas.py	../TKinter/canvas.py	1;"	kind:file	line:1
@@ -392,6 +398,7 @@ gameWidth	../computationConcepts/mastermind/game.py	/^    gameWidth = 4$/;"	kind
 gen	../baseObjects/generator.py	/^def gen():$/;"	kind:function	line:77
 gen	../baseObjects/generator.py	/^def gen():$/;"	kind:function	line:92
 gender	../computationConcepts/web/pymysql_.py	/^        gender=p[2], $/;"	kind:variable	line:93
+generate_password	../modules/random_.py	/^def generate_password(length, valid_chars=None):$/;"	kind:function	line:56
 generator	../baseObjects/generator.py	/^    def generator(*args,**kwargs):   $/;"	kind:function	line:172
 generator.py	../baseObjects/generator.py	1;"	kind:file	line:1
 generatorGenerator	../baseObjects/generator.py	/^def generatorGenerator():$/;"	kind:function	line:246
@@ -519,6 +526,7 @@ newGuess	../computationConcepts/mastermind/game.py	/^    newGuess = (currentColo
 newString	../baseObjects/strings.py	/^newString = "    Bonk      "$/;"	kind:variable	line:112
 newString	../baseObjects/strings.py	/^newString = "Look at all these letters!"$/;"	kind:variable	line:124
 newString	../baseObjects/strings.py	/^newString = newString.replace("es","os")$/;"	kind:variable	line:125
+normalizedRandomFloatList	../modules/Numerical Python/numpy_/numpy_.py	/^normalizedRandomFloatList = randomFloatList\/randomFloatList.sum()$/;"	kind:variable	line:97
 notPrimes	../otherPythonConcepts/comprehensions.py	/^notPrimes = [j for i in range(2, 8) for j in range(i*2, 100, i)] # list of numbers from 2 to 100 that are producible with multiplication (lots of multiple values)$/;"	kind:variable	line:19
 notPrimes	../otherPythonConcepts/comprehensions.py	/^notPrimes = {j for i in range(2, 8) for j in range(i*2, 100, i)} # list of numbers from 2 to 100 that are producible with multiplication (no multiple values)$/;"	kind:variable	line:39
 not_state_transitions	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def not_state_transitions(txt):$/;"	kind:function	line:37
@@ -575,6 +583,8 @@ popUpFunction	../TKinter/menus.py	/^def popUpFunction():$/;"	kind:function	line:
 popup	../TKinter/menus.py	/^def popup(event):$/;"	kind:function	line:205
 popupmenu	../TKinter/menus.py	/^popupmenu = tkinter.Menu(root, tearoff=0)$/;"	kind:variable	line:193
 positive_adjectives	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^positive_adjectives = ["great","super", "fun", "entertaining", "easy"]$/;"	kind:variable	line:3
+possibleLetters	../modules/random_.py	/^possibleLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"$/;"	kind:variable	line:24
+possibleThings	../modules/random_.py	/^possibleThings  = ["sheep", "doughnut", 4, "paris", "an impending sense of dread"]$/;"	kind:variable	line:25
 print.py	../modules/standardFunctions/print.py	1;"	kind:file	line:1
 process	../modules/subprocess_.py	/^process = subprocess.Popen("ls -l",shell="True", stdout=subprocess.PIPE,stderr=subprocess.PIPE)$/;"	kind:variable	line:22
 propertyDecoratorObject	../baseObjects/objects.py	/^class propertyDecoratorObject:$/;"	kind:class	line:360
@@ -584,6 +594,9 @@ python_state_transitions	../computationConcepts/statemachines/opinionOfPythonRec
 python_storage	../otherPythonConcepts/modules.py	/^import pickle as python_storage$/;"	kind:namespace	line:11
 radio.py	../TKinter/radio.py	1;"	kind:file	line:1
 random	../computationConcepts/mastermind/combinatorics.py	/^import random$/;"	kind:namespace	line:1
+random	../modules/random_.py	/^import random$/;"	kind:namespace	line:1
+randomFloatList	../modules/Numerical Python/numpy_/numpy_.py	/^randomFloatList = numpy.random.random(3)$/;"	kind:variable	line:96
+random_.py	../modules/random_.py	1;"	kind:file	line:1
 random_permutation	../computationConcepts/mastermind/combinatorics.py	/^def random_permutation(list):$/;"	kind:function	line:21
 re	../modules/re(regex)_.py	/^import re$/;"	kind:namespace	line:1
 re	../modules/threading_.py	/^import os, re, threading$/;"	kind:namespace	line:129
@@ -769,6 +782,8 @@ variable	../TKinter/radio.py	/^variable = tkinter.IntVar()$/;"	kind:variable	lin
 variableArray	../TKinter/checkbox.py	/^variableArray = []$/;"	kind:variable	line:112
 variables.py	../baseObjects/variables.py	1;"	kind:file	line:1
 vector	../modules/Numerical Python/numpy_/ndarray_.py	/^vector = numpy.array( [2,3, 7.9, 3.3, 6.9, 0.11, 10.3, 12.9] )$/;"	kind:variable	line:222
+vectorA	../modules/Numerical Python/numpy_/ndarray_.py	/^vectorA = numpy.array([3, 4, 5])$/;"	kind:variable	line:372
+vectorB	../modules/Numerical Python/numpy_/ndarray_.py	/^vectorB = numpy.array([1, 9, 0])$/;"	kind:variable	line:373
 vertex_degree	../computationConcepts/graphs.py	/^    def vertex_degree(self, vertex):$/;"	kind:member	line:181
 vertices	../computationConcepts/graphs.py	/^    def vertices(self):$/;"	kind:member	line:108
 viewGuesses	../computationConcepts/mastermind/game.py	/^def viewGuesses():$/;"	kind:function	line:51
@@ -800,6 +815,7 @@ x	../baseObjects/objects.py	/^x = dirrivedClassWithStaticMethod()$/;"	kind:varia
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array($/;"	kind:variable	line:70
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array(11)$/;"	kind:variable	line:95
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array(42) # produces a "ndarray" object$/;"	kind:variable	line:15
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([2,5,18,14,4])$/;"	kind:variable	line:365
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:163
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:173
 x	../modules/Numerical Python/numpy_/numpy_.py	/^x = numpy.array($/;"	kind:variable	line:12
