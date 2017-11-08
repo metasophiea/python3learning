@@ -124,7 +124,25 @@ print()
 randomFloatList = numpy.random.random(3)
 normalizedRandomFloatList = randomFloatList/randomFloatList.sum()
 print( normalizedRandomFloatList, "sum to:", normalizedRandomFloatList.sum() )
+print()
 
+# Choice - for selecting a item from a array at random
+#   in this example, we select a profession from a list, while also providing
+# the (optional) probabilities attribute to weight the professions
+professions = ["scientist", "philosopher", "engineer", "priest", "programmer"]
+probabilities = [0.2, 0.05, 0.3, 0.15, 0.3]
+
+outcomeCounters, testCount = {}, 1000
+for a in range(testCount):
+    selection = numpy.random.choice(professions, p=probabilities)
+    if selection not in outcomeCounters: outcomeCounters[selection] = 1
+    else:                                outcomeCounters[selection] += 1
+
+for item in outcomeCounters:
+    print( item+":", outcomeCounters[item]/testCount, end="    " )
+print()
+
+print()
 
 
 

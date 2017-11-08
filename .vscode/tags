@@ -116,7 +116,7 @@ a	../baseObjects/strings.py	/^a = "Hello"$/;"	kind:variable	line:18
 a	../baseObjects/tuples.py	/^a = ("tuples", "are", "uneditable")$/;"	kind:variable	line:3
 a	../baseObjects/variables.py	/^a = 300$/;"	kind:variable	line:43
 a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.array([ [True, True], [False, False]])$/;"	kind:variable	line:266
-a	../modules/Numerical Python/numpy_/numpy_.py	/^a = numpy.mat( [[1,2],[3,4]] )$/;"	kind:variable	line:24
+a	../modules/Numerical Python/numpy_/numpy_.py	/^a = numpy.mat( [[1,2],[3,4]] )$/;"	kind:variable	line:29
 a	../otherPythonConcepts/decorators.py	/^    a = 10$/;"	kind:variable	line:187
 a	../otherPythonConcepts/decorators.py	/^a = classToBeDecorated()$/;"	kind:variable	line:189
 a	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
@@ -166,7 +166,7 @@ b	../baseObjects/objects.py	/^b = newGetterAndSetter()$/;"	kind:variable	line:41
 b	../baseObjects/objects.py	/^b = regularGetterAndSetter()$/;"	kind:variable	line:394
 b	../baseObjects/variables.py	/^b = 300$/;"	kind:variable	line:44
 b	../modules/Numerical Python/numpy_/ndarray_.py	/^b = numpy.array([ [True, False], [True, False]])$/;"	kind:variable	line:267
-b	../modules/Numerical Python/numpy_/numpy_.py	/^b = numpy.mat( [[5,6],[7,8]] )$/;"	kind:variable	line:25
+b	../modules/Numerical Python/numpy_/numpy_.py	/^b = numpy.mat( [[5,6],[7,8]] )$/;"	kind:variable	line:30
 background	../TKinter/label.py	/^    background  = "dark green",$/;"	kind:variable	line:100
 bar	../otherPythonConcepts/simplePackageExample/submodule_a.py	/^def bar():$/;"	kind:function	line:3
 bar	../otherPythonConcepts/simplePackageExample_2/submodule_a.py	/^def bar():$/;"	kind:function	line:3
@@ -309,6 +309,7 @@ f	../otherPythonConcepts/exceptions.py	/^def f():$/;"	kind:function	line:39
 f_1	../baseObjects/generator.py	/^f_1 = next(f)$/;"	kind:variable	line:256
 f_2	../baseObjects/generator.py	/^f_2 = next(f)$/;"	kind:variable	line:265
 fac	../computationConcepts/mastermind/combinatorics.py	/^def fac(n):$/;"	kind:function	line:3
+faces_of_die	../computationConcepts/weightedRandomChoice.py	/^faces_of_die = [1, 2, 3, 4, 5, 6]$/;"	kind:variable	line:45
 fahrenheit	../classicStuff/functions.py	/^def fahrenheit(T_in_celsius): # returns the temperature in degrees Fahrenheit$/;"	kind:function	line:5
 fg	../TKinter/button.py	/^    fg = "dark green",$/;"	kind:variable	line:121
 fg	../TKinter/button.py	/^    fg = "red",$/;"	kind:variable	line:98
@@ -340,6 +341,7 @@ final	../computationConcepts/statemachines/turingMachine.py	/^    def final(self
 final_states	../computationConcepts/statemachines/turingMachine.py	/^final_states = {"final"}$/;"	kind:variable	line:84
 final_states	../computationConcepts/statemachines/turingMachine.py	/^final_states = {"stop"}$/;"	kind:variable	line:134
 find_all_paths	../computationConcepts/graphs.py	/^    def find_all_paths(self, start_vertex, end_vertex, path=[]):$/;"	kind:member	line:159
+find_interval	../computationConcepts/weightedRandomChoice.py	/^def find_interval(x, partition, endpoints=True):$/;"	kind:function	line:3
 find_isolated_vertices	../computationConcepts/graphs.py	/^    def find_isolated_vertices(self):$/;"	kind:member	line:190
 find_path	../computationConcepts/graphs.py	/^    def find_path(self, start_vertex, end_vertex, path=None):$/;"	kind:member	line:129
 fip	../otherPythonConcepts/simplePackageExample_3/submodule_b.py	/^def fip():$/;"	kind:function	line:3
@@ -481,7 +483,7 @@ lists.py	../baseObjects/lists.py	1;"	kind:file	line:1
 lock	../modules/threading_.py	/^    lock = threading.Lock()$/;"	kind:variable	line:133
 loops.py	../classicStuff/loops.py	1;"	kind:file	line:1
 lst	../modules/Numerical Python/numpy_/dtype_.py	/^lst = [ [3.4, 8.7, 9.9], $/;"	kind:variable	line:11
-m	../modules/Numerical Python/numpy_/numpy_.py	/^m = numpy.mat(x)$/;"	kind:variable	line:18
+m	../modules/Numerical Python/numpy_/numpy_.py	/^m = numpy.mat(x)$/;"	kind:variable	line:23
 map.py	../modules/standardFunctions/map.py	1;"	kind:file	line:1
 master	../TKinter/message.py	/^master = tkinter.Tk()$/;"	kind:variable	line:44
 math	../otherPythonConcepts/modules.py	/^import pickle, math$/;"	kind:namespace	line:8
@@ -526,7 +528,7 @@ newGuess	../computationConcepts/mastermind/game.py	/^    newGuess = (currentColo
 newString	../baseObjects/strings.py	/^newString = "    Bonk      "$/;"	kind:variable	line:112
 newString	../baseObjects/strings.py	/^newString = "Look at all these letters!"$/;"	kind:variable	line:124
 newString	../baseObjects/strings.py	/^newString = newString.replace("es","os")$/;"	kind:variable	line:125
-normalizedRandomFloatList	../modules/Numerical Python/numpy_/numpy_.py	/^normalizedRandomFloatList = randomFloatList\/randomFloatList.sum()$/;"	kind:variable	line:97
+normalizedRandomFloatList	../modules/Numerical Python/numpy_/numpy_.py	/^normalizedRandomFloatList = randomFloatList\/randomFloatList.sum()$/;"	kind:variable	line:125
 notPrimes	../otherPythonConcepts/comprehensions.py	/^notPrimes = [j for i in range(2, 8) for j in range(i*2, 100, i)] # list of numbers from 2 to 100 that are producible with multiplication (lots of multiple values)$/;"	kind:variable	line:19
 notPrimes	../otherPythonConcepts/comprehensions.py	/^notPrimes = {j for i in range(2, 8) for j in range(i*2, 100, i)} # list of numbers from 2 to 100 that are producible with multiplication (no multiple values)$/;"	kind:variable	line:39
 not_state_transitions	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def not_state_transitions(txt):$/;"	kind:function	line:37
@@ -534,6 +536,7 @@ num	../modules/Numerical Python/numpy_/dtype_.py	/^num = numpy.dtype($/;"	kind:v
 num	../modules/Numerical Python/numpy_/dtype_.py	/^num = numpy.dtype(int)$/;"	kind:variable	line:10
 number	../classicStuff/if.py	/^number = 10 if (string == word) else 100$/;"	kind:variable	line:19
 number	../classicStuff/if.py	/^number = 2 * (10 if (string == word) else 100)$/;"	kind:variable	line:21
+numpy	../computationConcepts/weightedRandomChoice.py	/^import random, numpy$/;"	kind:namespace	line:1
 numpy	../modules/Numerical Python/numpy_/dtype_.py	/^import numpy$/;"	kind:namespace	line:1
 numpy	../modules/Numerical Python/numpy_/ndarray_.py	/^import numpy$/;"	kind:namespace	line:1
 numpy	../modules/Numerical Python/numpy_/numpy_.py	/^import numpy$/;"	kind:namespace	line:1
@@ -557,6 +560,7 @@ os	../modules/standardFunctions/files.py	/^import os$/;"	kind:namespace	line:2
 os	../modules/threading_.py	/^import os, re, threading$/;"	kind:namespace	line:129
 os_.py	../modules/os_.py	1;"	kind:file	line:1
 other	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+outcomeCounts	../computationConcepts/weightedRandomChoice.py	/^outcomeCounts = [0, 0, 0, 0, 0, 0]$/;"	kind:variable	line:47
 outline	../TKinter/canvas.py	/^    outline="#476042", $/;"	kind:variable	line:93
 package	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 padx	../TKinter/radio.py	/^      padx = 20).pack()$/;"	kind:variable	line:113
@@ -586,7 +590,9 @@ positive_adjectives	../computationConcepts/statemachines/opinionOfPythonRecognis
 possibleLetters	../modules/random_.py	/^possibleLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"$/;"	kind:variable	line:24
 possibleThings	../modules/random_.py	/^possibleThings  = ["sheep", "doughnut", 4, "paris", "an impending sense of dread"]$/;"	kind:variable	line:25
 print.py	../modules/standardFunctions/print.py	1;"	kind:file	line:1
+probabilities	../modules/Numerical Python/numpy_/numpy_.py	/^probabilities = [0.2, 0.05, 0.3, 0.15, 0.3]$/;"	kind:variable	line:133
 process	../modules/subprocess_.py	/^process = subprocess.Popen("ls -l",shell="True", stdout=subprocess.PIPE,stderr=subprocess.PIPE)$/;"	kind:variable	line:22
+professions	../modules/Numerical Python/numpy_/numpy_.py	/^professions = ["scientist", "philosopher", "engineer", "priest", "programmer"]$/;"	kind:variable	line:132
 propertyDecoratorObject	../baseObjects/objects.py	/^class propertyDecoratorObject:$/;"	kind:class	line:360
 pymysql	../computationConcepts/web/pymysql_.py	/^import pymysql$/;"	kind:namespace	line:1
 pymysql_.py	../computationConcepts/web/pymysql_.py	1;"	kind:file	line:1
@@ -594,8 +600,9 @@ python_state_transitions	../computationConcepts/statemachines/opinionOfPythonRec
 python_storage	../otherPythonConcepts/modules.py	/^import pickle as python_storage$/;"	kind:namespace	line:11
 radio.py	../TKinter/radio.py	1;"	kind:file	line:1
 random	../computationConcepts/mastermind/combinatorics.py	/^import random$/;"	kind:namespace	line:1
+random	../computationConcepts/weightedRandomChoice.py	/^import random, numpy$/;"	kind:namespace	line:1
 random	../modules/random_.py	/^import random$/;"	kind:namespace	line:1
-randomFloatList	../modules/Numerical Python/numpy_/numpy_.py	/^randomFloatList = numpy.random.random(3)$/;"	kind:variable	line:96
+randomFloatList	../modules/Numerical Python/numpy_/numpy_.py	/^randomFloatList = numpy.random.random(3)$/;"	kind:variable	line:124
 random_.py	../modules/random_.py	1;"	kind:file	line:1
 random_permutation	../computationConcepts/mastermind/combinatorics.py	/^def random_permutation(list):$/;"	kind:function	line:21
 re	../modules/re(regex)_.py	/^import re$/;"	kind:namespace	line:1
@@ -632,6 +639,7 @@ sayHello	../baseObjects/metaclasses.py	/^    def sayHello(self):$/;"	kind:member
 sayHello	../baseObjects/objects.py	/^    def sayHello(self):$/;"	kind:member	line:538
 scale.py	../TKinter/scale.py	1;"	kind:file	line:1
 see	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+selection	../modules/Numerical Python/numpy_/numpy_.py	/^    selection = numpy.random.choice(professions, p=probabilities)$/;"	kind:variable	line:137
 sendAndReceive	../baseObjects/generator.py	/^def sendAndReceive():$/;"	kind:function	line:128
 seq_1	../modules/standardFunctions/map.py	/^seq_1 = [1,2,3,4]$/;"	kind:variable	line:17
 seq_2	../modules/standardFunctions/map.py	/^seq_2 = [1,2,3,4]$/;"	kind:variable	line:18
@@ -718,6 +726,7 @@ test	../otherPythonConcepts/simplePackageExample_2/subsection_2/subsectionModule
 testCalculation	../otherPythonConcepts/unitTesting/unittest_.py	/^    def testCalculation(self):$/;"	kind:member	line:29
 testCalculation2	../otherPythonConcepts/unitTesting/unittest_.py	/^    def testCalculation2(self):$/;"	kind:member	line:37
 testCalculation3	../otherPythonConcepts/unitTesting/unittest_.py	/^    def testCalculation3(self):$/;"	kind:member	line:45
+testCount	../computationConcepts/weightedRandomChoice.py	/^testCount = 1000$/;"	kind:variable	line:48
 text	../TKinter/button.py	/^    text = "QUIT", $/;"	kind:variable	line:97
 text	../TKinter/button.py	/^    text = counter$/;"	kind:variable	line:122
 text	../TKinter/checkbox.py	/^        text = text,$/;"	kind:variable	line:125
@@ -789,6 +798,9 @@ vertices	../computationConcepts/graphs.py	/^    def vertices(self):$/;"	kind:mem
 viewGuesses	../computationConcepts/mastermind/game.py	/^def viewGuesses():$/;"	kind:function	line:51
 was	../baseObjects/metaclasses.py	/^b = regularClass1("Sarah") # this does not invoke the '__new__' method, as the class was already put together in the line above$/;"	kind:class	line:41
 we	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
+weightedRandomChoice.py	../computationConcepts/weightedRandomChoice.py	1;"	kind:file	line:1
+weighted_choice	../computationConcepts/weightedRandomChoice.py	/^def weighted_choice(sequence, weights, secure=True):$/;"	kind:function	line:24
+weights	../computationConcepts/weightedRandomChoice.py	/^weights = [1\/12, 1\/6, 1\/6, 1\/6, 1\/6, 3\/12]$/;"	kind:variable	line:46
 what	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 whatever_you_do	../TKinter/binding.py	/^whatever_you_do = "Whatever you do will be insignificant, but it is very important that you do it.\\n(Mahatma Gandhi)"$/;"	kind:variable	line:125
 width	../TKinter/canvas.py	/^    width=3$/;"	kind:variable	line:95
@@ -818,7 +830,7 @@ x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array(42) # produce
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([2,5,18,14,4])$/;"	kind:variable	line:365
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:163
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:173
-x	../modules/Numerical Python/numpy_/numpy_.py	/^x = numpy.array($/;"	kind:variable	line:12
+x	../modules/Numerical Python/numpy_/numpy_.py	/^x = numpy.array($/;"	kind:variable	line:17
 x	../modules/re(regex)_.py	/^x = r"[1-9]"$/;"	kind:variable	line:5
 x	../modules/subprocess_.py	/^x = subprocess.Popen("ls -l",shell="True")$/;"	kind:variable	line:10
 x	../modules/subprocess_.py	/^x = subprocess.Popen(["ls", "-l"])$/;"	kind:variable	line:9

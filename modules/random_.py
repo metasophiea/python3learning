@@ -19,6 +19,28 @@ print()
 
 
 
+# Seed
+#   this command can be used to set the seed of the random number generator. Calling
+# this command without arguments, sets the seed to the current time or from an operating
+# system specific randomness source (if one is available)
+# seed(a=None, version=2)
+#   a           the seed
+#   version     1 : the hash() of *a* is used
+#               2 : (default) all of the bits are used if *a* is a str, bytes, or bytearray
+#               if 'a' is an int; all bits are used
+random.seed(0)
+print( [ random.randint(1, 10) for x in range(10)] ) # print an array of 10 random numbers
+random.seed(0)
+print( [ random.randint(1, 10) for x in range(10)] ) # print an array of 10 random number
+print()
+
+
+
+
+
+
+
+
 # Choice
 # this function selects a random element from a provided list, set, array, etc.
 possibleLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
