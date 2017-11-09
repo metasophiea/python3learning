@@ -19,6 +19,54 @@ print()
 
 
 
+# Gaussian and Normalvariate Distributions
+#   these commands generate a random number- based on a number of provided arguments -
+# in accordace with Gaussian and Normalvariate distribution functions
+# (they're very similar)
+data = {
+    "count":100000,
+    "bottom":130,
+    "top":230,
+    "avg":None,
+    "mean":550,
+    "deviation":30
+}
+data["avg"] = (data["top"]-data["bottom"])/2 + data["bottom"]
+
+# generate gaussian values
+counter, gaussian_frequencies = 0, {}
+while counter < data["count"]:
+    value = random.gauss(data["avg"], data["deviation"])
+    if data["bottom"] < value < data["top"]:
+        gaussian_frequencies[int(value)] = gaussian_frequencies.get(int(value), 0) + 1
+        counter += 1
+# generate normalvariaten values
+counter, normalvariate_frequencies = 0, {}
+while counter < data["count"]:
+    value = random.gauss(data["avg"], data["deviation"])
+    if data["bottom"] < value < data["top"]:
+        normalvariate_frequencies[int(value)] = normalvariate_frequencies.get(int(value), 0) + 1
+        counter += 1
+
+# sortation and display of data
+import matplotlib.pyplot
+    # Gaussian
+freq = list(gaussian_frequencies.items()); freq.sort()
+matplotlib.pyplot.plot(*list(zip(*freq)))
+    # Normalvariate
+freq = list(normalvariate_frequencies.items()); freq.sort()
+matplotlib.pyplot.plot(*list(zip(*freq)))
+    # push to display
+matplotlib.pyplot.show()
+print()
+
+
+
+
+
+
+
+
 # Seed
 #   this command can be used to set the seed of the random number generator. Calling
 # this command without arguments, sets the seed to the current time or from an operating

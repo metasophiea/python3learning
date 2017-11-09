@@ -81,8 +81,8 @@ _/
     Numerical Operations on Numpy Arrays
     Changing the Dimensions of Arrays
     Python, Numpy and Probability
-*   Weighted Choices and Weighted Samples - Random Numbers in Python with Gaussian and Normalvariate Distribution
-    Creation of Synthetical Test Data
+    Weighted Choices and Weighted Samples
+*   Creation of Synthetical Test Data
     Boolean Masking of Arrays
     Matrix Arithmetic
     Reading and Writing ndarrays
