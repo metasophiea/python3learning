@@ -251,6 +251,7 @@ currentColourChoices	../computationConcepts/mastermind/game.py	/^    currentColo
 cursor	../computationConcepts/web/pymysql_.py	/^cursor = connection.cursor()$/;"	kind:variable	line:52
 customPackages.py	../otherPythonConcepts/customPackages.py	1;"	kind:file	line:1
 cvalues	../modules/Numerical Python/numpy_/ndarray_.py	/^cvalues = [20.1, 20.8, 21.9, 22.5, 22.7, 22.3, 21.8, 21.2, 20.9, 20.1]$/;"	kind:variable	line:22
+data	../modules/random_.py	/^data = {$/;"	kind:variable	line:26
 decorator	../otherPythonConcepts/decorators.py	/^    def decorator(function):$/;"	kind:function	line:89
 decorators.py	../otherPythonConcepts/decorators.py	1;"	kind:file	line:1
 defaultFunctions.py	../modules/standardFunctions/defaultFunctions.py	1;"	kind:file	line:1
@@ -363,6 +364,8 @@ for	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import subm
 foreground	../TKinter/label.py	/^    foreground  = "light green",$/;"	kind:variable	line:99
 foreground	../TKinter/label.py	/^    foreground  = "red",$/;"	kind:variable	line:94
 fractVal	../baseObjects/variables.py	/^fractVal = 1\/12$/;"	kind:variable	line:22
+freq	../modules/random_.py	/^freq = list(gaussian_frequencies.items()); freq.sort()$/;"	kind:variable	line:54
+freq	../modules/random_.py	/^freq = list(normalvariate_frequencies.items()); freq.sort()$/;"	kind:variable	line:57
 from	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 from_	../TKinter/scale.py	/^    from_=0, $/;"	kind:variable	line:103
 from_	../TKinter/scale.py	/^    from_=0, $/;"	kind:variable	line:110
@@ -404,7 +407,7 @@ gameWidth	../computationConcepts/mastermind/game.py	/^    gameWidth = 4$/;"	kind
 gen	../baseObjects/generator.py	/^def gen():$/;"	kind:function	line:77
 gen	../baseObjects/generator.py	/^def gen():$/;"	kind:function	line:92
 gender	../computationConcepts/web/pymysql_.py	/^        gender=p[2], $/;"	kind:variable	line:93
-generate_password	../modules/random_.py	/^def generate_password(length, valid_chars=None):$/;"	kind:function	line:78
+generate_password	../modules/random_.py	/^def generate_password(length, valid_chars=None):$/;"	kind:function	line:126
 generator	../baseObjects/generator.py	/^    def generator(*args,**kwargs):   $/;"	kind:function	line:172
 generator.py	../baseObjects/generator.py	1;"	kind:file	line:1
 generatorGenerator	../baseObjects/generator.py	/^def generatorGenerator():$/;"	kind:function	line:246
@@ -493,6 +496,7 @@ master	../TKinter/message.py	/^master = tkinter.Tk()$/;"	kind:variable	line:44
 math	../otherPythonConcepts/modules.py	/^import pickle, math$/;"	kind:namespace	line:8
 math_sin	../otherPythonConcepts/modules.py	/^from math import pi as getPI, sin as math_sin$/;"	kind:namespace	line:21
 matplotlib	../modules/NetworkX_.py	/^import networkx, matplotlib$/;"	kind:namespace	line:1
+matplotlib	../modules/random_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:52
 maximum	../modules/standardFunctions/defaultFunctions.py	/^maximum = max( [1,2,3] )$/;"	kind:variable	line:24
 memoization.py	../otherPythonConcepts/memoization.py	1;"	kind:file	line:1
 memoize	../otherPythonConcepts/memoization.py	/^def memoize(f):$/;"	kind:function	line:6
@@ -596,8 +600,8 @@ popUpFunction	../TKinter/menus.py	/^def popUpFunction():$/;"	kind:function	line:
 popup	../TKinter/menus.py	/^def popup(event):$/;"	kind:function	line:205
 popupmenu	../TKinter/menus.py	/^popupmenu = tkinter.Menu(root, tearoff=0)$/;"	kind:variable	line:193
 positive_adjectives	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^positive_adjectives = ["great","super", "fun", "entertaining", "easy"]$/;"	kind:variable	line:3
-possibleLetters	../modules/random_.py	/^possibleLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"$/;"	kind:variable	line:46
-possibleThings	../modules/random_.py	/^possibleThings  = ["sheep", "doughnut", 4, "paris", "an impending sense of dread"]$/;"	kind:variable	line:47
+possibleLetters	../modules/random_.py	/^possibleLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"$/;"	kind:variable	line:94
+possibleThings	../modules/random_.py	/^possibleThings  = ["sheep", "doughnut", 4, "paris", "an impending sense of dread"]$/;"	kind:variable	line:95
 print.py	../modules/standardFunctions/print.py	1;"	kind:file	line:1
 probabilities	../modules/Numerical Python/numpy_/numpy_.py	/^probabilities = [0.2, 0.05, 0.3, 0.15, 0.3]$/;"	kind:variable	line:133
 process	../modules/subprocess_.py	/^process = subprocess.Popen("ls -l",shell="True", stdout=subprocess.PIPE,stderr=subprocess.PIPE)$/;"	kind:variable	line:22
@@ -605,6 +609,7 @@ professions	../modules/Numerical Python/numpy_/numpy_.py	/^professions = ["scien
 propertyDecoratorObject	../baseObjects/objects.py	/^class propertyDecoratorObject:$/;"	kind:class	line:360
 pymysql	../computationConcepts/web/pymysql_.py	/^import pymysql$/;"	kind:namespace	line:1
 pymysql_.py	../computationConcepts/web/pymysql_.py	1;"	kind:file	line:1
+pyplot	../modules/random_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:52
 python_state_transitions	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def python_state_transitions(txt):$/;"	kind:function	line:15
 python_storage	../otherPythonConcepts/modules.py	/^import pickle as python_storage$/;"	kind:namespace	line:11
 radio.py	../TKinter/radio.py	1;"	kind:file	line:1
@@ -793,6 +798,8 @@ value	../baseObjects/objects.py	/^    def value(self):$/;"	kind:member	line:366
 value	../baseObjects/objects.py	/^    def value(self):$/;"	kind:member	line:405
 value	../baseObjects/objects.py	/^    def value(self, newValue):$/;"	kind:member	line:408
 value	../baseObjects/objects.py	/^    value = 0$/;"	kind:variable	line:535
+value	../modules/random_.py	/^    value = random.gauss(data["avg"], data["deviation"])$/;"	kind:variable	line:39
+value	../modules/random_.py	/^    value = random.gauss(data["avg"], data["deviation"])$/;"	kind:variable	line:46
 var	../TKinter/checkbox.py	/^    var = tkinter.IntVar()$/;"	kind:variable	line:121
 var	../classicStuff/functions.py	/^var = 0$/;"	kind:variable	line:66
 var2	../classicStuff/functions.py	/^var2 = 0$/;"	kind:variable	line:87

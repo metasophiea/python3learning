@@ -1,5 +1,12 @@
 import random, numpy
 
+# tiny code to disactive print command (for this file only? it seems so)
+if __name__ != "__main__":
+    def print(*input, **arg):
+        pass
+
+
+# These functions are here to reproduce the outcomes of a weighted dice
 def find_interval(x, partition, endpoints=True):
     # this function finds the location of the value 'x' in the 
     # sorted array 'partition', if it were to be inserted
@@ -61,6 +68,9 @@ print("\n")
 
 
 
+
+# These functions reproduce the act of gathering a number of values; in this case,
+# this is the act of pulling a number of coloured balls from a bag
 def weighted_sample(population, weights, k):
     # this function selects 'k' items from the array 'population' based
     # on their weights (which are stored in the array 'weights')
@@ -138,6 +148,9 @@ print()
 
 
 
+
+# These functions use functions from above to create a random and weighted random
+# sentence generator
 def cartesian_choice(*iterables):
     """
     A list with random choices from each iterable of iterables 
