@@ -169,7 +169,7 @@ profession_prob = [
 
 helpers = []
 identifier = 1
-for _ in range(200):
+for _ in range(200): # for the number of people we want
     # based on their weightings; select a country and profession
     country, profession = weightedRandomChoice.weighted_cartesian_choice( zip(*nation_prob), zip(*profession_prob) )
 

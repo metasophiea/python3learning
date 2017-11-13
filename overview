@@ -83,8 +83,8 @@ _/
     Python, Numpy and Probability
     Weighted Choices and Weighted Samples
     Creation of Synthetical Test Data
-*   Boolean Masking of Arrays
-    Matrix Arithmetic
+    Boolean Masking of Arrays
+*   Matrix Arithmetic
     Reading and Writing ndarrays
     Matplotlib Introduction
     Spines and Ticks

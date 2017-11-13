@@ -144,6 +144,40 @@ print(double[3:,:])
 print(double[::2,4:]) # even stepping is possible
 # Note: unlike standard arrays; slicing numpy arrays does not produce a new array, but a view of the original object.
 #       As such; any modification made to a view will effect the original array.
+print()
+
+# Masking
+# one can select the elements of one vector based on a boolean array, this array can also
+# be produced on the fly by judging another vector
+A = numpy.array([1, 1, 2, 3, 5, 8, 13, 21])
+mask = numpy.array([True, False, True, False, True, False, True, False])
+print( A[ mask ] )
+print()
+# on the fly
+mask = numpy.array([5, 6, 1 ,0, 8, 0, 10, 11])
+print( A[mask>3] )
+print()
+
+# Integer Array Indexing
+# this is a method of creating an array out of another, by selecting which elements of the first array
+# you want. Multiples can be selected
+A = numpy.array([1, 1, 2, 3, 5, 8, 13, 21])
+selection = [1, 1, 0, 7]
+print( A[selection] )
+print()
+
+# Finding non-zero values
+# the 'nonzero' method (array.nonzero()) (or the 'nonzero' function (numpy.nonzero())) can be used
+# to find all the non-zero values in a vector. The command returns a number of arrays - one per 
+# for each dimension of the original vector - indicating the location of these values.
+a = numpy.array([0, 2, 3, 0, 1])
+print(a.nonzero()) # -> [1, 2, 4]
+a = numpy.array([[0, 2, 3, 0, 0], [5, 0, 0, 1, 0]])
+print(a.nonzero()) # -> [0, 0, 1, 1], [1, 2, 0, 3] | [xValues][yValues]
+# one can then use the 'transpose' command to rearrange this data into a list of grouped locations
+print(numpy.transpose(a.nonzero())) # -> [[0 1] [0 2] [1 0] [1 3]]
+# it is then possible to retrieve the original values 
+print( a[a.nonzero()] )
 
 
 
@@ -253,9 +287,12 @@ print()
 A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])
 B = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])
 C = numpy.array([ [11, 102, 13], [201, 22, 203], [31, 32, 303] ])
-print( A == C )
+print( A == 11 ) # vector against scaler
+print( A == C )  # vector against vector
 print( A > C )
-# complete comparison can be performed with the 'numpu.array_equal' command
+# one can convert these results back to a numerical value also
+print( (A==C).astype(numpy.int) )
+# complete comparison can be performed with the 'numpy.array_equal' command
 # this will only return true when the arrays are exactly the same (in value)
 print( numpy.array_equal(A,B) )
 print( numpy.array_equal(A,C) )
