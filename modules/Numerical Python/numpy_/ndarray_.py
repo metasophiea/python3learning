@@ -3,6 +3,15 @@ import numpy
 # The ndarray Object
 #   Used within the numpy module as the main data type for storing items. 
 
+# Basic Creation
+# The Shape Of An Array
+# Indexing And Slicing
+# Copying
+# Identity Array
+# Numerical And Logical Operations
+# Editing An Array's Shape
+# Matrixes
+
 
 
 
@@ -151,7 +160,7 @@ print()
 # be produced on the fly by judging another vector
 A = numpy.array([1, 1, 2, 3, 5, 8, 13, 21])
 mask = numpy.array([True, False, True, False, True, False, True, False])
-print( A[ mask ] )
+print( A[ mask ] ) # this produces a completely new array
 print()
 # on the fly
 mask = numpy.array([5, 6, 1 ,0, 8, 0, 10, 11])
@@ -280,6 +289,20 @@ print(A / B)
 print()
 # - Matrix-wise Operations
 print( numpy.dot(A,B) ) # dot product (one can also write "A.dot(B)")
+
+# Scalar Product
+x = numpy.array([1,2,3])
+y = numpy.array([-7,8,9])
+def scalarProduct_calculationOfTheAngleBetweenTwoVectors(x, y):
+    # angle = invCOS( (X•Y)/(Xmagnitude*Ymagnitude) )
+    return numpy.arccos(
+        numpy.dot(x,y) / (
+            numpy.sqrt((x*x).sum())*
+            numpy.sqrt((y*y).sum())
+        )
+    )
+
+print( scalarProduct_calculationOfTheAngleBetweenTwoVectors(x, y))
 print()
 
 # Comparison
@@ -413,3 +436,19 @@ print( numpy.column_stack( (vectorA, vectorB) ) ) # turning both array's 90deg a
 print( numpy.column_stack( (vectorA, vectorA, vectorA) ) ) # multi stacking
 print( numpy.dstack( (vectorA, vectorA, vectorA) ) ) # seems to do the same as before, except it also wraps everything in a array
 print()
+
+
+
+
+
+    
+
+
+print("\n\n\n\n-- Matrixes --")
+# the matrix class is a subclass of ndarray, as such it inherits much of ndarray's functionality, 
+# though comes with the limitation that the dimension is set to 2. The class also rewrites some of
+# the basic opperations to their matrix equivalents. 
+a = numpy.matrix( ((2,3), (3, 5)) )
+print( a )
+
+
