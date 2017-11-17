@@ -44,7 +44,7 @@ class AdderTest(unittest.TestCase):
 
     def testCalculation3(self):
         print ("running test testCalculation3")
-        # this test runs smooth, thus you won't hear much about it
+        # this test runs smooth, so you won't hear much about it
         self.assertEqual(basic.adder(0,0), 0)
         self.assertEqual(basic.adder(1,0), 1)
         self.assertEqual(basic.adder(5,0), 5)
