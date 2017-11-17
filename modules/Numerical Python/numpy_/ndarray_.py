@@ -451,4 +451,3 @@ print("\n\n\n\n-- Matrixes --")
 a = numpy.matrix( ((2,3), (3, 5)) )
 print( a )
 
-
