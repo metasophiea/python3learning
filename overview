@@ -84,9 +84,9 @@ _/
     Weighted Choices and Weighted Samples
     Creation of Synthetical Test Data
     Boolean Masking of Arrays
-*   Matrix Arithmetic - Matrix Class
+    Matrix Arithmetic
     Reading and Writing ndarrays
-    Matplotlib Introduction
+*   Matplotlib Introduction - Checking and Defining the Range of Axes
     Spines and Ticks
     Legends and Annotations
     Multiple Figures and Axes

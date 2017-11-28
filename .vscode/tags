@@ -37,9 +37,13 @@ Name	../baseObjects/objects.py	/^    def Name(self):                            
 Name	../baseObjects/objects.py	/^    def Name(self):$/;"	kind:member	line:435
 NetworkX_.py	../modules/NetworkX_.py	1;"	kind:file	line:1
 NewFile	../TKinter/menus.py	/^def NewFile():$/;"	kind:function	line:169
+NumPersons	../modules/Numerical Python/numpy_/ndarray_.py	/^NumPersons = numpy.matrix($/;"	kind:variable	line:472
 OSsoftware	../baseObjects/objects.py	/^class OSsoftware:$/;"	kind:class	line:486
 OpenFile	../TKinter/menus.py	/^def OpenFile():$/;"	kind:function	line:172
 Person	../baseObjects/objects.py	/^class Person:$/;"	kind:class	line:431
+Price_in_Cent	../modules/Numerical Python/numpy_/ndarray_.py	/^Price_in_Cent = numpy.dot(NumPersons,Price_per_100_g)$/;"	kind:variable	line:482
+Price_in_Euro	../modules/Numerical Python/numpy_/ndarray_.py	/^Price_in_Euro = Price_in_Cent \/ numpy.array([100,100,100,100])$/;"	kind:variable	line:483
+Price_per_100_g	../modules/Numerical Python/numpy_/ndarray_.py	/^Price_per_100_g = numpy.array([2.98,3.90,1.99])$/;"	kind:variable	line:481
 S	../TKinter/text.py	/^S = tkinter.Scrollbar(root)$/;"	kind:variable	line:268
 ShowChoice	../TKinter/radio.py	/^def ShowChoice():$/;"	kind:function	line:117
 SimplistClass	../baseObjects/objects.py	/^class SimplistClass:$/;"	kind:class	line:2
@@ -120,6 +124,7 @@ a	../baseObjects/variables.py	/^a = 300$/;"	kind:variable	line:43
 a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.array([ [True, True], [False, False]])$/;"	kind:variable	line:326
 a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.array([0, 2, 3, 0, 1])$/;"	kind:variable	line:182
 a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.array([[0, 2, 3, 0, 0], [5, 0, 0, 1, 0]])$/;"	kind:variable	line:184
+a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.mat( numpy.array( ((2,3), (3, 5)) ) )$/;"	kind:variable	line:454
 a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.matrix( ((2,3), (3, 5)) )$/;"	kind:variable	line:451
 a	../modules/Numerical Python/numpy_/numpy_.py	/^a = numpy.mat( [[1,2],[3,4]] )$/;"	kind:variable	line:29
 a	../otherPythonConcepts/decorators.py	/^    a = 10$/;"	kind:variable	line:187
@@ -887,6 +892,7 @@ x	../baseObjects/objects.py	/^x = classWith__repr__()$/;"	kind:variable	line:263
 x	../baseObjects/objects.py	/^x = classWith__str__()$/;"	kind:variable	line:247
 x	../baseObjects/objects.py	/^x = dirrivedClassWithClassMethod()$/;"	kind:variable	line:199
 x	../baseObjects/objects.py	/^x = dirrivedClassWithStaticMethod()$/;"	kind:variable	line:176
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array( ((2,3), (3, 5)) )$/;"	kind:variable	line:462
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array($/;"	kind:variable	line:79
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array(11)$/;"	kind:variable	line:104
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array(42) # produces a "ndarray" object$/;"	kind:variable	line:24
@@ -894,6 +900,7 @@ x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([1,2,3])$/;"	
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([2,5,18,14,4])$/;"	kind:variable	line:425
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:206
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:216
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.matrix( ((2,3), (3, 5)) )$/;"	kind:variable	line:466
 x	../modules/Numerical Python/numpy_/numpy_.py	/^x = numpy.array($/;"	kind:variable	line:17
 x	../modules/re(regex)_.py	/^x = r"[1-9]"$/;"	kind:variable	line:5
 x	../modules/subprocess_.py	/^x = subprocess.Popen("ls -l",shell="True")$/;"	kind:variable	line:10
@@ -902,6 +909,8 @@ x	../otherPythonConcepts/comprehensions.py	/^x = "hello"$/;"	kind:variable	line:
 y	../baseObjects/metaclasses.py	/^y = SingletonClass()$/;"	kind:variable	line:80
 y	../baseObjects/objects.py	/^y = Employee("Sarah", "Ryan", "123")$/;"	kind:variable	line:461
 y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.array([-7,8,9])$/;"	kind:variable	line:295
+y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.matrix( ((1,2), (5, -1)) )$/;"	kind:variable	line:463
+y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.matrix( ((1,2), (5, -1)) )$/;"	kind:variable	line:467
 y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = x.copy()$/;"	kind:variable	line:207
 y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = x.copy()$/;"	kind:variable	line:217
 zipList	../modules/standardFunctions/defaultFunctions.py	/^zipList = zip( ["item_1", "item_2", "item_3", "item_4", "ignored item"], ["1_item", "2_item", "3_item", "4_item"],[1,2,3,4])$/;"	kind:variable	line:13

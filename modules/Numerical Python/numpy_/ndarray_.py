@@ -353,6 +353,15 @@ print(A * B)
 print(A + B)
 print()
 
+# Cross Product / Vector Product
+#   This is a binary operation on two vectors in three-dimensional space. The result is a vector which 
+# is perpendicular to the vectors being multiplied and normal to the plane containing them. 
+# This opperation can be performed with the command:
+x = numpy.array( [0,0,1] )
+y = numpy.matrix( [0,0,1] )
+print( numpy.cross(x,y) )
+print()
+
 
 
 
@@ -450,4 +459,41 @@ print("\n\n\n\n-- Matrixes --")
 # the basic opperations to their matrix equivalents. 
 a = numpy.matrix( ((2,3), (3, 5)) )
 print( a )
+# casting from a ndarray is also possible
+a = numpy.mat( numpy.array( ((2,3), (3, 5)) ) )
+print(a)
+print()
 
+
+# Matrix Product
+#   The matrix product of two matrices can be calculated if the number of columns in the first matrix
+# is equal to the number of rows in the second matrix
+#   To do this, one can either use the 'numpy.dot' command
+x = numpy.array( ((2,3), (3, 5)) )
+y = numpy.matrix( ((1,2), (5, -1)) )
+print( numpy.dot(x,y) )
+#   or if both elements are of the matrix subtype; the asterisk
+x = numpy.matrix( ((2,3), (3, 5)) )
+y = numpy.matrix( ((1,2), (5, -1)) )
+print( x * y )
+print()
+
+#   In the following example; four people have bought three amounts of chocolate, each from a different
+# producer. The amounts they bought in grams are in the matrix below: 
+NumPersons = numpy.matrix(
+    [
+        [100, 175, 210],
+        [ 90, 160, 150],
+        [200,  50, 100],
+        [120,   0, 310]
+    ]
+)
+# The price for each type of chocolate is in the following matrix
+Price_per_100_g = numpy.array([2.98,3.90,1.99])
+
+# Our task is to determine how much each person has to pay. So we can simple get the dot-product of 
+# both matrixes, This will produce a matrix of one row with four numbers, each representing the cost
+# to each person in cents. Then; one simply has to divide those numbers by 100 to get the euro amounts
+Price_in_Cent = numpy.dot( NumPersons, Price_per_100_g )
+print( Price_in_Cent / 100 )
+print()

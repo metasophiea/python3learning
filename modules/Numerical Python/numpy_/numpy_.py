@@ -141,9 +141,70 @@ for a in range(testCount):
 for item in outcomeCounters:
     print( item+":", outcomeCounters[item]/testCount, end="    " )
 print()
-
 print()
 
+
+
+
+
+
+
+
+# Saving and Loading Data with a Text File
+#   This is a command for saving numpy mathematical data into a text file 
+# savetxt(fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', footer='', comments='# ')
+#   fname       - output file name
+#   X 	        - 'array_like' data to be saved to the text file
+#   fmt         - format of the printed string (or sequence of strings)(optional)
+#   delimiter   - A string used for separating the columns
+#   newline     - A string which will end a line
+#   header 	    - A String that will be written at the beginning of the file.
+#   footer 	    - A String that will be written at the end of the file.
+#   comments    - A String that will be prepended to the 'header' and 'footer' strings, to mark them 
+#                   as comments. The hash tag '#' is used as the default.
+
+x = numpy.array(
+    [
+        [1, 2, 3], 
+        [4, 5, 6],
+        [7, 8, 9]
+    ]
+)
+
+numpy.savetxt(
+    "test.txt", 
+    x,
+    fmt="%2.3f",
+    delimiter="|"
+)
+
+y = numpy.loadtxt(
+    "test.txt",
+    delimiter="|"
+)
+print(y)
+print()
+
+
+
+
+
+
+
+
+# Saving Loading Data with a File
+#   A simpler and perhaps frankly better approach to saving data to file
+x = numpy.array(
+    [
+        [1, 2, 3], 
+        [4, 5, 6],
+        [7, 8, 9]
+    ]
+)
+numpy.save("savedData", x)
+
+y = numpy.load("savedData.npy")
+print( y )
 
 
 
