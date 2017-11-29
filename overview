@@ -86,9 +86,9 @@ _/
     Boolean Masking of Arrays
     Matrix Arithmetic
     Reading and Writing ndarrays
-*   Matplotlib Introduction - Checking and Defining the Range of Axes
+    Matplotlib Introduction
     Spines and Ticks
-    Legends and Annotations
+*   Legends and Annotations
     Multiple Figures and Axes
     Histograms
     Contour Plots

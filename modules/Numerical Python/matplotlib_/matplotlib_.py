@@ -1,4 +1,4 @@
-import matplotlib
+import matplotlib, numpy
 
 # MatPlotLib is a plotting library, a lot like GNUplot
 
@@ -24,6 +24,73 @@ matplotlib.pyplot.show()
 # and the x values to their index positions. Two arrays are plotted to x and y respectively
 #   if more arrays are added; they are assumed to be additional graphs
 
+
+
+
+
+
+
+
+# -- Manipulation of the Graph
+# Dimensions
+matplotlib.pyplot.clf()
+matplotlib.pyplot.plot(
+    [1, 20, 8, 25],
+)
+
+# get the current dimensions of the graph
+# Xmin, Xmax, Ymin, Ymax
+print( matplotlib.pyplot.axis() ) 
+matplotlib.pyplot.axis( [0, 3, 0, 25] )         # set the dimensions of the graph
+matplotlib.pyplot.show()
+
+
+# - Axis and Spines
+matplotlib.pyplot.clf()
+matplotlib.pyplot.plot( [1, 20, 8, 25] )
+axis = matplotlib.pyplot.gca()                  # get axis object
+axis.spines['top'].set_color('none')            # removing the top border
+axis.spines['right'].set_color('none')          # removing the right border
+axis.xaxis.set_ticks_position('bottom')         # place the X number markings at the bottom of the graph
+axis.spines['bottom'].set_position(('data',5))  # move the bottom border (and subsequently the number markings
+                                                # up to 5 on the Y axis)
+axis.yaxis.set_ticks_position('left')           # place the Y number markings at the left of the graph
+axis.spines['left'].set_position(('data',0.5))  # move the left border (and subsequently the number markings
+                                                # over to 0.5 on the X axis)
+matplotlib.pyplot.show()                        
+
+
+# - Ticks
+# these are the number markings on the axises
+matplotlib.pyplot.clf()
+matplotlib.pyplot.plot( [1, 20, 8, 25] )
+axis = matplotlib.pyplot.gca()                  # get axis object
+print( matplotlib.pyplot.xticks() )             # get the current X ticks on the graph
+print( matplotlib.pyplot.yticks() )             # get the current Y ticks on the graph
+matplotlib.pyplot.xticks( numpy.arange(4) )     # set the X ticks on the graph
+matplotlib.pyplot.yticks( 
+    [1, 2, 4, 8, 16, 32],
+    ('Berlin', 'London', 'Hamburg', r'$+2\pi$', 'Paris', 'Dublin')
+) # set the ticks on the Y axis and name them
+  # (note the 'LaTeX' string, which is used for fancy formatting)
+
+# one can also adjust the font of each item on the axis using 'get_xticklabels()'
+for xtick in axis.get_xticklabels():
+    xtick.set_fontsize(18)
+    xtick.set_bbox(
+        dict(
+            facecolor='orange',
+            edgecolor='red',
+            alpha=0.7
+        )
+    )
+matplotlib.pyplot.show()    
+
+# - Legend
+matplotlib.pyplot.clf()
+matplotlib.pyplot.plot( [1, 20, 8, 25], label="Fanciness")
+matplotlib.pyplot.legend(loc='lower left')
+matplotlib.pyplot.show()
 
 
 
@@ -118,3 +185,57 @@ matplotlib.pyplot.xlabel("Days")
 matplotlib.pyplot.ylabel("Funkyness")
 
 matplotlib.pyplot.show()
+
+
+
+
+
+
+
+
+# -- Fill Between
+# using this function, one is able to colour the space between two curves
+# fill_between(x, y1, y2, where, interpolate, kwargs)
+# x 	        An N-length array of the x data
+# y1 	        An N-length array (or scalar) of the y data
+# y2 	        An N-length array (or scalar) of the y data
+# where 	    If None, default to fill between everywhere. If not None, it is an N-length numpy boolean
+#               array and the fill will only happen over the regions where where==True.
+# interpolate 	If True, interpolate between the two lines to find the precise point of intersection. 
+#               Otherwise, the start and end points of the filled region will only occur on explicit values
+#               in the x array.
+# kwargs 	    Keyword args passed on to the PolyCollection
+
+
+matplotlib.pyplot.clf()
+
+n = 256
+X = numpy.linspace(-numpy.pi,numpy.pi,n,endpoint=True)
+Y = numpy.sin(2*X)
+
+# plots the line as usual
+matplotlib.pyplot.plot(
+    X,
+    Y, 
+    color='blue',
+    alpha=1.0
+)
+
+# draws in the shading
+matplotlib.pyplot.fill_between(
+    X,
+    Y,    # primary line
+    0.25, # secondary line - shading is done between this. and the line above
+    color='blue',
+    alpha=0.1
+)
+
+matplotlib.pyplot.show()
+
+
+
+
+
+
+
+

@@ -6,7 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 A	../modules/Numerical Python/numpy_/dtype_.py	/^A = numpy.array(lst, dtype=num)$/;"	kind:variable	line:14
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:277
-A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:365
+A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:374
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array($/;"	kind:variable	line:39
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:310
 A	../modules/Numerical Python/numpy_/ndarray_.py	/^A = numpy.array([ [11, 12, 13], [21, 22, 23], [31, 32, 33] ])$/;"	kind:variable	line:335
@@ -37,13 +37,12 @@ Name	../baseObjects/objects.py	/^    def Name(self):                            
 Name	../baseObjects/objects.py	/^    def Name(self):$/;"	kind:member	line:435
 NetworkX_.py	../modules/NetworkX_.py	1;"	kind:file	line:1
 NewFile	../TKinter/menus.py	/^def NewFile():$/;"	kind:function	line:169
-NumPersons	../modules/Numerical Python/numpy_/ndarray_.py	/^NumPersons = numpy.matrix($/;"	kind:variable	line:472
+NumPersons	../modules/Numerical Python/numpy_/ndarray_.py	/^NumPersons = numpy.matrix($/;"	kind:variable	line:483
 OSsoftware	../baseObjects/objects.py	/^class OSsoftware:$/;"	kind:class	line:486
 OpenFile	../TKinter/menus.py	/^def OpenFile():$/;"	kind:function	line:172
 Person	../baseObjects/objects.py	/^class Person:$/;"	kind:class	line:431
-Price_in_Cent	../modules/Numerical Python/numpy_/ndarray_.py	/^Price_in_Cent = numpy.dot(NumPersons,Price_per_100_g)$/;"	kind:variable	line:482
-Price_in_Euro	../modules/Numerical Python/numpy_/ndarray_.py	/^Price_in_Euro = Price_in_Cent \/ numpy.array([100,100,100,100])$/;"	kind:variable	line:483
-Price_per_100_g	../modules/Numerical Python/numpy_/ndarray_.py	/^Price_per_100_g = numpy.array([2.98,3.90,1.99])$/;"	kind:variable	line:481
+Price_in_Cent	../modules/Numerical Python/numpy_/ndarray_.py	/^Price_in_Cent = numpy.dot( NumPersons, Price_per_100_g )$/;"	kind:variable	line:497
+Price_per_100_g	../modules/Numerical Python/numpy_/ndarray_.py	/^Price_per_100_g = numpy.array([2.98,3.90,1.99])$/;"	kind:variable	line:492
 S	../TKinter/text.py	/^S = tkinter.Scrollbar(root)$/;"	kind:variable	line:268
 ShowChoice	../TKinter/radio.py	/^def ShowChoice():$/;"	kind:function	line:117
 SimplistClass	../baseObjects/objects.py	/^class SimplistClass:$/;"	kind:class	line:2
@@ -124,8 +123,8 @@ a	../baseObjects/variables.py	/^a = 300$/;"	kind:variable	line:43
 a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.array([ [True, True], [False, False]])$/;"	kind:variable	line:326
 a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.array([0, 2, 3, 0, 1])$/;"	kind:variable	line:182
 a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.array([[0, 2, 3, 0, 0], [5, 0, 0, 1, 0]])$/;"	kind:variable	line:184
-a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.mat( numpy.array( ((2,3), (3, 5)) ) )$/;"	kind:variable	line:454
-a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.matrix( ((2,3), (3, 5)) )$/;"	kind:variable	line:451
+a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.mat( numpy.array( ((2,3), (3, 5)) ) )$/;"	kind:variable	line:463
+a	../modules/Numerical Python/numpy_/ndarray_.py	/^a = numpy.matrix( ((2,3), (3, 5)) )$/;"	kind:variable	line:460
 a	../modules/Numerical Python/numpy_/numpy_.py	/^a = numpy.mat( [[1,2],[3,4]] )$/;"	kind:variable	line:29
 a	../otherPythonConcepts/decorators.py	/^    a = 10$/;"	kind:variable	line:187
 a	../otherPythonConcepts/decorators.py	/^a = classToBeDecorated()$/;"	kind:variable	line:189
@@ -202,7 +201,7 @@ bottom	../TKinter/basic.py	/^bottom = Checkbar($/;"	kind:variable	line:121
 button.py	../TKinter/button.py	1;"	kind:file	line:1
 c	../baseObjects/metaclasses.py	/^c = regularClass2("Phil")$/;"	kind:variable	line:42
 c	../baseObjects/objects.py	/^c = SimplistClass()$/;"	kind:variable	line:63
-c	../modules/Numerical Python/numpy_/ndarray_.py	/^c = numpy.concatenate($/;"	kind:variable	line:393
+c	../modules/Numerical Python/numpy_/ndarray_.py	/^c = numpy.concatenate($/;"	kind:variable	line:402
 callback	../TKinter/messageBox.py	/^def callback():$/;"	kind:function	line:84
 can	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 canvas.py	../TKinter/canvas.py	1;"	kind:file	line:1
@@ -272,6 +271,8 @@ decorators.py	../otherPythonConcepts/decorators.py	1;"	kind:file	line:1
 defaultFunctions.py	../modules/standardFunctions/defaultFunctions.py	1;"	kind:file	line:1
 degree_sequence	../computationConcepts/graphs.py	/^    def degree_sequence(self):$/;"	kind:member	line:219
 delegator	../baseObjects/generator.py	/^def delegator(x):$/;"	kind:function	line:209
+delimiter	../modules/Numerical Python/numpy_/numpy_.py	/^    delimiter="|"$/;"	kind:variable	line:178
+delimiter	../modules/Numerical Python/numpy_/numpy_.py	/^    delimiter="|"$/;"	kind:variable	line:183
 delta	../computationConcepts/graphs.py	/^    def delta(self):$/;"	kind:member	line:201
 density	../computationConcepts/graphs.py	/^    def density(self):$/;"	kind:member	line:243
 describe	../computationConcepts/syntheticDataGeneration.py	/^def describe(data):$/;"	kind:function	line:84
@@ -372,6 +373,7 @@ firstnameWeightsSum	../computationConcepts/syntheticDataGeneration.py	/^    firs
 firstnames	../computationConcepts/syntheticDataGeneration.py	/^firstnames = ["John", "Eve", "Jane", "Paul", "Frank", "Laura", "Robert", "Kathrin", "Roger", "Simone", "Bernard", "Sarah", "Yvonne"]$/;"	kind:variable	line:6
 firstnames_weights	../computationConcepts/syntheticDataGeneration.py	/^firstnames_weights = [8\/24, 4\/24, 2\/24, 1\/24, 1\/24, 1\/24, 1\/24, 1\/24, 1\/24, 1\/24, 1\/24, 1\/24]$/;"	kind:variable	line:31
 floorFractVal	../baseObjects/variables.py	/^floorFractVal = 1\/\/12$/;"	kind:variable	line:25
+fmt	../modules/Numerical Python/numpy_/numpy_.py	/^    fmt="%2.3f",$/;"	kind:variable	line:177
 font	../TKinter/label.py	/^    font        = "Times 50"$/;"	kind:variable	line:95
 font	../TKinter/label.py	/^    font        = "Verdana 50 bold"$/;"	kind:variable	line:107
 font	../TKinter/label.py	/^    font        = ("Helvetica",64,"bold","italic")$/;"	kind:variable	line:101
@@ -523,7 +525,10 @@ master	../TKinter/message.py	/^master = tkinter.Tk()$/;"	kind:variable	line:44
 math	../otherPythonConcepts/modules.py	/^import pickle, math$/;"	kind:namespace	line:8
 math_sin	../otherPythonConcepts/modules.py	/^from math import pi as getPI, sin as math_sin$/;"	kind:namespace	line:21
 matplotlib	../modules/NetworkX_.py	/^import networkx, matplotlib$/;"	kind:namespace	line:1
+matplotlib	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^import matplotlib$/;"	kind:namespace	line:1
+matplotlib	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:8
 matplotlib	../modules/random_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:52
+matplotlib_.py	../modules/Numerical Python/matplotlib_/matplotlib_.py	1;"	kind:file	line:1
 maximum	../modules/standardFunctions/defaultFunctions.py	/^maximum = max( [1,2,3] )$/;"	kind:variable	line:24
 memoization.py	../otherPythonConcepts/memoization.py	1;"	kind:file	line:1
 memoize	../otherPythonConcepts/memoization.py	/^def memoize(f):$/;"	kind:function	line:6
@@ -644,6 +649,7 @@ professions	../modules/Numerical Python/numpy_/numpy_.py	/^professions = ["scien
 propertyDecoratorObject	../baseObjects/objects.py	/^class propertyDecoratorObject:$/;"	kind:class	line:360
 pymysql	../computationConcepts/web/pymysql_.py	/^import pymysql$/;"	kind:namespace	line:1
 pymysql_.py	../computationConcepts/web/pymysql_.py	1;"	kind:file	line:1
+pyplot	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:8
 pyplot	../modules/random_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:52
 python_state_transitions	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def python_state_transitions(txt):$/;"	kind:function	line:15
 python_storage	../otherPythonConcepts/modules.py	/^import pickle as python_storage$/;"	kind:namespace	line:11
@@ -851,8 +857,8 @@ variable	../TKinter/radio.py	/^variable = tkinter.IntVar()$/;"	kind:variable	lin
 variableArray	../TKinter/checkbox.py	/^variableArray = []$/;"	kind:variable	line:112
 variables.py	../baseObjects/variables.py	1;"	kind:file	line:1
 vector	../modules/Numerical Python/numpy_/ndarray_.py	/^vector = numpy.array( [2,3, 7.9, 3.3, 6.9, 0.11, 10.3, 12.9] )$/;"	kind:variable	line:265
-vectorA	../modules/Numerical Python/numpy_/ndarray_.py	/^vectorA = numpy.array([3, 4, 5])$/;"	kind:variable	line:432
-vectorB	../modules/Numerical Python/numpy_/ndarray_.py	/^vectorB = numpy.array([1, 9, 0])$/;"	kind:variable	line:433
+vectorA	../modules/Numerical Python/numpy_/ndarray_.py	/^vectorA = numpy.array([3, 4, 5])$/;"	kind:variable	line:441
+vectorB	../modules/Numerical Python/numpy_/ndarray_.py	/^vectorB = numpy.array([1, 9, 0])$/;"	kind:variable	line:442
 verb_phrases	../computationConcepts/weightedRandomChoice.py	/^verb_phrases = ($/;"	kind:variable	line:206
 vertex_degree	../computationConcepts/graphs.py	/^    def vertex_degree(self, vertex):$/;"	kind:member	line:181
 vertices	../computationConcepts/graphs.py	/^    def vertices(self):$/;"	kind:member	line:108
@@ -892,16 +898,19 @@ x	../baseObjects/objects.py	/^x = classWith__repr__()$/;"	kind:variable	line:263
 x	../baseObjects/objects.py	/^x = classWith__str__()$/;"	kind:variable	line:247
 x	../baseObjects/objects.py	/^x = dirrivedClassWithClassMethod()$/;"	kind:variable	line:199
 x	../baseObjects/objects.py	/^x = dirrivedClassWithStaticMethod()$/;"	kind:variable	line:176
-x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array( ((2,3), (3, 5)) )$/;"	kind:variable	line:462
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array( ((2,3), (3, 5)) )$/;"	kind:variable	line:472
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array( [0,0,1] )$/;"	kind:variable	line:360
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array($/;"	kind:variable	line:79
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array(11)$/;"	kind:variable	line:104
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array(42) # produces a "ndarray" object$/;"	kind:variable	line:24
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([1,2,3])$/;"	kind:variable	line:294
-x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([2,5,18,14,4])$/;"	kind:variable	line:425
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([2,5,18,14,4])$/;"	kind:variable	line:434
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:206
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array([[42,22,12],[44,53,66]], order='F')$/;"	kind:variable	line:216
-x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.matrix( ((2,3), (3, 5)) )$/;"	kind:variable	line:466
+x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.matrix( ((2,3), (3, 5)) )$/;"	kind:variable	line:476
+x	../modules/Numerical Python/numpy_/numpy_.py	/^x = numpy.array($/;"	kind:variable	line:166
 x	../modules/Numerical Python/numpy_/numpy_.py	/^x = numpy.array($/;"	kind:variable	line:17
+x	../modules/Numerical Python/numpy_/numpy_.py	/^x = numpy.array($/;"	kind:variable	line:197
 x	../modules/re(regex)_.py	/^x = r"[1-9]"$/;"	kind:variable	line:5
 x	../modules/subprocess_.py	/^x = subprocess.Popen("ls -l",shell="True")$/;"	kind:variable	line:10
 x	../modules/subprocess_.py	/^x = subprocess.Popen(["ls", "-l"])$/;"	kind:variable	line:9
@@ -909,8 +918,11 @@ x	../otherPythonConcepts/comprehensions.py	/^x = "hello"$/;"	kind:variable	line:
 y	../baseObjects/metaclasses.py	/^y = SingletonClass()$/;"	kind:variable	line:80
 y	../baseObjects/objects.py	/^y = Employee("Sarah", "Ryan", "123")$/;"	kind:variable	line:461
 y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.array([-7,8,9])$/;"	kind:variable	line:295
-y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.matrix( ((1,2), (5, -1)) )$/;"	kind:variable	line:463
-y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.matrix( ((1,2), (5, -1)) )$/;"	kind:variable	line:467
+y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.matrix( ((1,2), (5, -1)) )$/;"	kind:variable	line:473
+y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.matrix( ((1,2), (5, -1)) )$/;"	kind:variable	line:477
+y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.matrix( [0,0,1] )$/;"	kind:variable	line:361
 y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = x.copy()$/;"	kind:variable	line:207
 y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = x.copy()$/;"	kind:variable	line:217
+y	../modules/Numerical Python/numpy_/numpy_.py	/^y = numpy.load("savedData.npy")$/;"	kind:variable	line:206
+y	../modules/Numerical Python/numpy_/numpy_.py	/^y = numpy.loadtxt($/;"	kind:variable	line:181
 zipList	../modules/standardFunctions/defaultFunctions.py	/^zipList = zip( ["item_1", "item_2", "item_3", "item_4", "ignored item"], ["1_item", "2_item", "3_item", "4_item"],[1,2,3,4])$/;"	kind:variable	line:13
