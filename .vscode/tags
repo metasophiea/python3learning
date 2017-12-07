@@ -52,8 +52,8 @@ T	../TKinter/text.py	/^T = tkinter.Text($/;"	kind:variable	line:262
 Tape	../computationConcepts/statemachines/turingMachine.py	/^class Tape(object):$/;"	kind:class	line:1
 TuringMachine	../computationConcepts/statemachines/turingMachine.py	/^class TuringMachine(object):$/;"	kind:class	line:31
 WSGI_.py	../computationConcepts/web/WSGI_.py	1;"	kind:file	line:1
-X	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^X = numpy.linspace(-numpy.pi,numpy.pi,n,endpoint=True)$/;"	kind:variable	line:213
-Y	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^Y = numpy.sin(2*X)$/;"	kind:variable	line:214
+X	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^X = numpy.linspace(-numpy.pi,numpy.pi,n,endpoint=True)$/;"	kind:variable	line:186
+Y	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^Y = numpy.sin(2*X)$/;"	kind:variable	line:187
 __add__	../baseObjects/objects.py	/^    def __add__(self,obj):$/;"	kind:member	line:337
 __all__	../otherPythonConcepts/simplePackageExample_3/__init__.py	/^__all__ = ["submodule_a", "submodule_b"]/;"	kind:variable	line:6
 __call__	../baseObjects/metaclasses.py	/^    def __call__(cls):$/;"	kind:member	line:63
@@ -155,9 +155,20 @@ alist	../baseObjects/lists.py	/^alist = [1,2,3,4]$/;"	kind:variable	line:17
 all_colours	../computationConcepts/mastermind/combinatorics.py	/^def all_colours(colours, positions):$/;"	kind:function	line:32
 allowing	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 allstates	../TKinter/basic.py	/^def allstates(): $/;"	kind:function	line:128
-alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^            alpha=0.7$/;"	kind:variable	line:84
-alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    alpha=0.1$/;"	kind:variable	line:230
-alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    alpha=1.0$/;"	kind:variable	line:221
+alpha	../modules/Numerical Python/matplotlib_/axis.py	/^            alpha=0.7$/;"	kind:variable	line:54
+alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    alpha=0.1$/;"	kind:variable	line:203
+alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    alpha=0.5                        $/;"	kind:variable	line:231
+alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    alpha=0.5                        $/;"	kind:variable	line:259
+alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    alpha=0.5                        $/;"	kind:variable	line:293
+alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    alpha=0.5, $/;"	kind:variable	line:263
+alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    alpha=0.5, $/;"	kind:variable	line:297
+alpha	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    alpha=1.0$/;"	kind:variable	line:194
+alpha	../modules/Numerical Python/matplotlib_/multiplots.py	/^    alpha=0.5                        $/;"	kind:variable	line:103
+alpha	../modules/Numerical Python/matplotlib_/multiplots.py	/^    alpha=0.5                        $/;"	kind:variable	line:23
+alpha	../modules/Numerical Python/matplotlib_/multiplots.py	/^    alpha=0.5                        $/;"	kind:variable	line:49
+alpha	../modules/Numerical Python/matplotlib_/multiplots.py	/^    alpha=0.5                        $/;"	kind:variable	line:75
+alpha	../modules/Numerical Python/matplotlib_/multiplots.py	/^    alpha=0.5                        $/;"	kind:variable	line:85
+alpha	../modules/Numerical Python/matplotlib_/multiplots.py	/^    alpha=0.5                        $/;"	kind:variable	line:94
 anObj	../modules/standardFunctions/defaultFunctions.py	/^anObj = exampleClass()$/;"	kind:variable	line:76
 answerOk	../computationConcepts/mastermind/game.py	/^def answerOk(answerData):$/;"	kind:function	line:40
 antherAbstractClass	../baseObjects/abstractClasses.py	/^class antherAbstractClass(abstractClass):$/;"	kind:class	line:19
@@ -166,6 +177,7 @@ arithmetic_mean	../classicStuff/functions.py	/^def arithmetic_mean(first, *value
 aromas	../computationConcepts/syntheticDataGeneration.py	/^aromas = ['angular', 'bright', 'lingering', 'butterscotch', 'buttery', 'chocolate', 'complex', 'earth', 'flabby', 'flamboyant', 'fleshy', 'flowers', 'food friendly', 'fruits', 'grass', 'herbs', 'jammy', 'juicy', 'mocha', 'oaked', 'refined', 'structured', 'tight', 'toast','toasty', 'tobacco', 'unctuous', 'unoaked', 'vanilla', 'velvetly']$/;"	kind:variable	line:82
 array	../modules/Numerical Python/numpy_/dtype_.py	/^array = numpy.array($/;"	kind:variable	line:64
 array	../modules/Numerical Python/numpy_/dtype_.py	/^array = numpy.array($/;"	kind:variable	line:82
+arrowprops	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    arrowprops=dict($/;"	kind:variable	line:150
 atr	../baseObjects/metaclasses.py	/^    atr = 10$/;"	kind:variable	line:77
 atr	../baseObjects/objects.py	/^    atr = 10$/;"	kind:variable	line:116
 atr	../baseObjects/objects.py	/^    atr = 100$/;"	kind:variable	line:186
@@ -173,8 +185,9 @@ atr	../baseObjects/objects.py	/^    atr = 34$/;"	kind:variable	line:133
 atr	../baseObjects/objects.py	/^    atr = 34$/;"	kind:variable	line:162
 atr	../baseObjects/objects.py	/^    atr = 456$/;"	kind:variable	line:173
 atr	../baseObjects/objects.py	/^    atr = 456$/;"	kind:variable	line:193
-axis	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^axis = matplotlib.pyplot.gca()                  # get axis object$/;"	kind:variable	line:51
-axis	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^axis = matplotlib.pyplot.gca()                  # get axis object$/;"	kind:variable	line:67
+axis	../modules/Numerical Python/matplotlib_/axis.py	/^axis = matplotlib.pyplot.gca()                  # get axis object$/;"	kind:variable	line:37
+axis	../modules/Numerical Python/matplotlib_/axis.py	/^axis = matplotlib.pyplot.gca()                  # get axis object$/;"	kind:variable	line:7
+axis.py	../modules/Numerical Python/matplotlib_/axis.py	1;"	kind:file	line:1
 b	../baseObjects/metaclasses.py	/^b = regularClass1("Sarah") # this does not invoke the '__new__' method, as the class was already put together in the line above$/;"	kind:variable	line:41
 b	../baseObjects/objects.py	/^    b = "Hello" $/;"	kind:variable	line:31
 b	../baseObjects/objects.py	/^b = SimplistClass()$/;"	kind:variable	line:49
@@ -205,6 +218,7 @@ bool_false	../baseObjects/bools.py	/^bool_false = False$/;"	kind:variable	line:2
 bool_true	../baseObjects/bools.py	/^bool_true = True$/;"	kind:variable	line:1
 bools.py	../baseObjects/bools.py	1;"	kind:file	line:1
 bottom	../TKinter/basic.py	/^bottom = Checkbar($/;"	kind:variable	line:121
+bottom	../modules/Numerical Python/matplotlib_/multiplots.py	/^    bottom = 0.4,$/;"	kind:variable	line:133
 button.py	../TKinter/button.py	1;"	kind:file	line:1
 c	../baseObjects/metaclasses.py	/^c = regularClass2("Phil")$/;"	kind:variable	line:42
 c	../baseObjects/objects.py	/^c = SimplistClass()$/;"	kind:variable	line:63
@@ -239,8 +253,10 @@ classWith__init__	../baseObjects/objects.py	/^class classWith__init__:$/;"	kind:
 classWith__repr__	../baseObjects/objects.py	/^class classWith__repr__:$/;"	kind:class	line:255
 classWith__str__	../baseObjects/objects.py	/^class classWith__str__:$/;"	kind:class	line:242
 code	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
-color	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    color='blue',$/;"	kind:variable	line:220
-color	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    color='blue',$/;"	kind:variable	line:229
+color	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    color='b', $/;"	kind:variable	line:262
+color	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    color='b', $/;"	kind:variable	line:296
+color	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    color='blue',$/;"	kind:variable	line:193
+color	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    color='blue',$/;"	kind:variable	line:202
 colorchooser	../TKinter/messageBox.py	/^from tkinter import colorchooser             $/;"	kind:namespace	line:80
 colours	../computationConcepts/mastermind/game.py	/^    colours = ["red","blue","green","black","white","yellow"]$/;"	kind:variable	line:110
 colours	../computationConcepts/weightedRandomChoice.py	/^colours = ($/;"	kind:variable	line:194
@@ -312,7 +328,7 @@ dtype	../modules/Numerical Python/numpy_/dtype_.py	/^    dtype = num$/;"	kind:va
 dtype_.py	../modules/Numerical Python/numpy_/dtype_.py	1;"	kind:file	line:1
 e1	../TKinter/entry.py	/^e1 = tkinter.Entry(root)$/;"	kind:variable	line:146
 e2	../TKinter/entry.py	/^e2 = tkinter.Entry(root)$/;"	kind:variable	line:147
-edgecolor	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^            edgecolor='red',$/;"	kind:variable	line:83
+edgecolor	../modules/Numerical Python/matplotlib_/axis.py	/^            edgecolor='red',$/;"	kind:variable	line:53
 edges	../computationConcepts/graphs.py	/^    def edges(self):$/;"	kind:member	line:112
 edibles	../classicStuff/loops.py	/^edibles = ["ham", "spam","eggs","nuts"]$/;"	kind:variable	line:49
 element	../TKinter/canvas.py	/^element = tkinter.Canvas($/;"	kind:variable	line:78
@@ -341,7 +357,8 @@ f	../otherPythonConcepts/exceptions.py	/^def f():$/;"	kind:function	line:39
 f_1	../baseObjects/generator.py	/^f_1 = next(f)$/;"	kind:variable	line:256
 f_2	../baseObjects/generator.py	/^f_2 = next(f)$/;"	kind:variable	line:265
 fac	../computationConcepts/mastermind/combinatorics.py	/^def fac(n):$/;"	kind:function	line:3
-facecolor	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^            facecolor='orange',$/;"	kind:variable	line:82
+facecolor	../modules/Numerical Python/matplotlib_/axis.py	/^            facecolor='orange',$/;"	kind:variable	line:52
+facecolor	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^        facecolor='red',$/;"	kind:variable	line:154
 faces_of_die	../computationConcepts/weightedRandomChoice.py	/^faces_of_die = [1, 2, 3, 4, 5, 6]$/;"	kind:variable	line:50
 fahrenheit	../classicStuff/functions.py	/^def fahrenheit(T_in_celsius): # returns the temperature in degrees Fahrenheit$/;"	kind:function	line:5
 fg	../TKinter/button.py	/^    fg = "dark green",$/;"	kind:variable	line:121
@@ -353,6 +370,11 @@ fibonacci	../baseObjects/generator.py	/^    def fibonacci():$/;"	kind:function	l
 fibonacci	../baseObjects/generator.py	/^def fibonacci():$/;"	kind:function	line:56
 fibonacci2	../baseObjects/generator.py	/^def fibonacci2():$/;"	kind:function	line:145
 fifoName	../modules/os_.py	/^fifoName = "theBestFifoNameICouldComeUpWith"$/;"	kind:variable	line:208
+figure	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^figure = matplotlib.pyplot.figure()$/;"	kind:variable	line:80
+figure	../modules/Numerical Python/matplotlib_/multiplots.py	/^figure = matplotlib.pyplot.figure()$/;"	kind:variable	line:130
+figure	../modules/Numerical Python/matplotlib_/multiplots.py	/^figure = matplotlib.pyplot.figure()$/;"	kind:variable	line:147
+figure	../modules/Numerical Python/matplotlib_/multiplots.py	/^figure = matplotlib.pyplot.figure(figsize=(8, 4))$/;"	kind:variable	line:66
+figure	../modules/Numerical Python/matplotlib_/multiplots.py	/^figure = matplotlib.pyplot.figure(figsize=(8, 8))$/;"	kind:variable	line:41
 file	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 file_	../modules/standardFunctions/defaultFunctions.py	/^file_ = open("data.txt","w")$/;"	kind:variable	line:4
 file_obj	../modules/pickle_.py	/^file_obj = open(filepath+"\/pickledStuff.pkl", "rb")$/;"	kind:variable	line:25
@@ -391,6 +413,16 @@ font	../TKinter/label.py	/^    font        = ("Helvetica",64,"bold","italic")$/;
 font	../TKinter/message.py	/^    font    = ("times", 42, "italic")$/;"	kind:variable	line:50
 font	../TKinter/text.py	/^    font=('Arial', 12, 'bold', 'italic')$/;"	kind:variable	line:289
 font	../TKinter/text.py	/^    font=('Verdana', 20, 'bold')$/;"	kind:variable	line:293
+fontsize	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    fontsize=16,$/;"	kind:variable	line:149
+fontsize	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    fontsize=20,                    $/;"	kind:variable	line:230
+fontsize	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    fontsize=20,                    $/;"	kind:variable	line:258
+fontsize	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    fontsize=20,                    $/;"	kind:variable	line:292
+fontsize	../modules/Numerical Python/matplotlib_/multiplots.py	/^    fontsize=20,                    $/;"	kind:variable	line:48
+fontsize	../modules/Numerical Python/matplotlib_/multiplots.py	/^    fontsize=20,$/;"	kind:variable	line:102
+fontsize	../modules/Numerical Python/matplotlib_/multiplots.py	/^    fontsize=20,$/;"	kind:variable	line:22
+fontsize	../modules/Numerical Python/matplotlib_/multiplots.py	/^    fontsize=20,$/;"	kind:variable	line:74
+fontsize	../modules/Numerical Python/matplotlib_/multiplots.py	/^    fontsize=20,$/;"	kind:variable	line:84
+fontsize	../modules/Numerical Python/matplotlib_/multiplots.py	/^    fontsize=20,$/;"	kind:variable	line:93
 foo	../otherPythonConcepts/simplePackageExample/submodule_b.py	/^def foo():$/;"	kind:function	line:3
 foo	../otherPythonConcepts/simplePackageExample_2/submodule_b.py	/^def foo():$/;"	kind:function	line:3
 for	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
@@ -457,8 +489,15 @@ get_value	../baseObjects/objects.py	/^    def get_value(self): $/;"	kind:member	
 graph	../computationConcepts/graphs.py	/^    graph = Graph(g)$/;"	kind:variable	line:309
 graph	../modules/NetworkX_.py	/^graph = networkx.path_graph(5) # generating the simple path graph of nodes labeled by their number$/;"	kind:variable	line:35
 graphs.py	../computationConcepts/graphs.py	1;"	kind:file	line:1
+gridspec	../modules/Numerical Python/matplotlib_/multiplots.py	/^gridspec = matplotlib.gridspec.GridSpec($/;"	kind:variable	line:131
+gridspec	../modules/Numerical Python/matplotlib_/multiplots.py	/^gridspec = matplotlib.gridspec.GridSpec(3, 3)$/;"	kind:variable	line:148
+gridspec	../modules/Numerical Python/matplotlib_/multiplots.py	/^import matplotlib.gridspec$/;"	kind:namespace	line:127
 guesses	../computationConcepts/mastermind/game.py	/^    guesses = []	$/;"	kind:variable	line:113
+ha	../modules/Numerical Python/matplotlib_/multiplots.py	/^    ha='center', $/;"	kind:variable	line:30
+ha	../modules/Numerical Python/matplotlib_/multiplots.py	/^    ha='center', $/;"	kind:variable	line:56
 hanoi	../computationConcepts/towersOfHanoi.py	/^def hanoi(n, source, helper, target):$/;"	kind:function	line:39
+headlength	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^        headlength=20,$/;"	kind:variable	line:153
+headwidth	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^        headwidth=20,$/;"	kind:variable	line:152
 height	../TKinter/canvas.py	/^    height=canvasHeight)$/;"	kind:variable	line:81
 height	../TKinter/text.py	/^    height=10, $/;"	kind:variable	line:264
 hello	../otherPythonConcepts/simplePackageExample_3/submodule_a.py	/^def hello():$/;"	kind:function	line:3
@@ -468,6 +507,15 @@ helpers	../computationConcepts/syntheticDataGeneration.py	/^helpers = []$/;"	kin
 helpmenu	../TKinter/menus.py	/^helpmenu = tkinter.Menu(menu)$/;"	kind:variable	line:183
 here	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 hexVal	../baseObjects/variables.py	/^hexVal = hex(10)        # hexVal = 0xa$/;"	kind:variable	line:10
+horizontalalignment	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    horizontalalignment='center',   # x$/;"	kind:variable	line:228
+horizontalalignment	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    horizontalalignment='center',   # x$/;"	kind:variable	line:256
+horizontalalignment	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    horizontalalignment='center',   # x$/;"	kind:variable	line:290
+horizontalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    horizontalalignment='center',    $/;"	kind:variable	line:100
+horizontalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    horizontalalignment='center',    $/;"	kind:variable	line:20
+horizontalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    horizontalalignment='center',    $/;"	kind:variable	line:46
+horizontalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    horizontalalignment='center',    $/;"	kind:variable	line:72
+horizontalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    horizontalalignment='center',    $/;"	kind:variable	line:82
+horizontalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    horizontalalignment='center',    $/;"	kind:variable	line:91
 hostChecker	../computationConcepts/networkScanning.py	/^def hostChecker(ip,port):$/;"	kind:function	line:62
 identifier	../computationConcepts/syntheticDataGeneration.py	/^identifier = 1$/;"	kind:variable	line:171
 if.py	../classicStuff/if.py	1;"	kind:file	line:1
@@ -515,11 +563,16 @@ languages	../TKinter/radio.py	/^languages = [$/;"	kind:variable	line:119
 languages	../classicStuff/loops.py	/^languages = ["Java", "C++", "JavaScript", "Python"] $/;"	kind:variable	line:43
 last	../computationConcepts/web/pymysql_.py	/^        last=p[1], $/;"	kind:variable	line:92
 layout.py	../TKinter/layout.py	1;"	kind:file	line:1
+left	../modules/Numerical Python/matplotlib_/multiplots.py	/^    left = 0.05,$/;"	kind:variable	line:134
 leftShiftval	../baseObjects/variables.py	/^leftShiftval = 5 << 1$/;"	kind:variable	line:34
 levenshteinDistance.py	../computationConcepts/levenshteinDistance.py	1;"	kind:file	line:1
 like	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 lines	../modules/standardFunctions/files.py	/^lines = open(filepath+"\/testFile.txt").read()$/;"	kind:variable	line:58
 lines	../modules/standardFunctions/files.py	/^lines = open(filepath+"\/testFile.txt").readlines()$/;"	kind:variable	line:54
+linestyle	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    linestyle='dashed', $/;"	kind:variable	line:264
+linestyle	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    linestyle='dashed', $/;"	kind:variable	line:298
+linewidth	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    linewidth=0.5$/;"	kind:variable	line:265
+linewidth	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    linewidth=0.5$/;"	kind:variable	line:299
 list	../classicStuff/loops.py	/^list = ["Java", "C++", "JavaScript", "Python"]$/;"	kind:variable	line:65
 listA	../otherPythonConcepts/comprehensions.py	/^listA = ["square","circle","triangle"]$/;"	kind:variable	line:23
 listB	../otherPythonConcepts/comprehensions.py	/^listB = ["red","green","blue"]$/;"	kind:variable	line:24
@@ -536,8 +589,15 @@ master	../TKinter/message.py	/^master = tkinter.Tk()$/;"	kind:variable	line:44
 math	../otherPythonConcepts/modules.py	/^import pickle, math$/;"	kind:namespace	line:8
 math_sin	../otherPythonConcepts/modules.py	/^from math import pi as getPI, sin as math_sin$/;"	kind:namespace	line:21
 matplotlib	../modules/NetworkX_.py	/^import networkx, matplotlib$/;"	kind:namespace	line:1
+matplotlib	../modules/Numerical Python/matplotlib_/axis.py	/^import matplotlib, numpy$/;"	kind:namespace	line:1
+matplotlib	../modules/Numerical Python/matplotlib_/axis.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:2
 matplotlib	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^import matplotlib, numpy$/;"	kind:namespace	line:1
-matplotlib	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:8
+matplotlib	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:7
+matplotlib	../modules/Numerical Python/matplotlib_/multiplots.py	/^import matplotlib, numpy$/;"	kind:namespace	line:1
+matplotlib	../modules/Numerical Python/matplotlib_/multiplots.py	/^import matplotlib.gridspec$/;"	kind:namespace	line:127
+matplotlib	../modules/Numerical Python/matplotlib_/multiplots.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:2
+matplotlib	../modules/Numerical Python/matplotlib_/styling.py	/^import matplotlib, numpy$/;"	kind:namespace	line:1
+matplotlib	../modules/Numerical Python/matplotlib_/styling.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:2
 matplotlib	../modules/random_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:52
 matplotlib_.py	../modules/Numerical Python/matplotlib_/matplotlib_.py	1;"	kind:file	line:1
 maximum	../modules/standardFunctions/defaultFunctions.py	/^maximum = max( [1,2,3] )$/;"	kind:variable	line:24
@@ -563,8 +623,9 @@ msg	../TKinter/message.py	/^msg = tkinter.Message($/;"	kind:variable	line:46
 multString	../baseObjects/strings.py	/^multString = string * 3$/;"	kind:variable	line:6
 multVal	../baseObjects/variables.py	/^multVal = 5 * 2$/;"	kind:variable	line:16
 multer	../otherPythonConcepts/unitTesting/basic.py	/^def multer(a,b):$/;"	kind:function	line:6
+multiplots.py	../modules/Numerical Python/matplotlib_/multiplots.py	1;"	kind:file	line:1
 n	../computationConcepts/weightedRandomChoice.py	/^n = 100$/;"	kind:variable	line:130
-n	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^n = 256$/;"	kind:variable	line:212
+n	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^n = 256$/;"	kind:variable	line:185
 n	../otherPythonConcepts/exceptions.py	/^        n = input("Please enter an integer: ")$/;"	kind:variable	line:23
 n	../otherPythonConcepts/exceptions.py	/^        n = int(n)$/;"	kind:variable	line:24
 name	../modules/standardFunctions/console.py	/^name = input("What is your name? ")$/;"	kind:variable	line:1
@@ -595,7 +656,10 @@ num	../modules/Numerical Python/numpy_/dtype_.py	/^num = numpy.dtype(int)$/;"	ki
 number	../classicStuff/if.py	/^number = 10 if (string == word) else 100$/;"	kind:variable	line:19
 number	../classicStuff/if.py	/^number = 2 * (10 if (string == word) else 100)$/;"	kind:variable	line:21
 numpy	../computationConcepts/weightedRandomChoice.py	/^import random, numpy$/;"	kind:namespace	line:1
+numpy	../modules/Numerical Python/matplotlib_/axis.py	/^import matplotlib, numpy$/;"	kind:namespace	line:1
 numpy	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^import matplotlib, numpy$/;"	kind:namespace	line:1
+numpy	../modules/Numerical Python/matplotlib_/multiplots.py	/^import matplotlib, numpy$/;"	kind:namespace	line:1
+numpy	../modules/Numerical Python/matplotlib_/styling.py	/^import matplotlib, numpy$/;"	kind:namespace	line:1
 numpy	../modules/Numerical Python/numpy_/dtype_.py	/^import numpy$/;"	kind:namespace	line:1
 numpy	../modules/Numerical Python/numpy_/ndarray_.py	/^import numpy$/;"	kind:namespace	line:1
 numpy	../modules/Numerical Python/numpy_/numpy_.py	/^import numpy$/;"	kind:namespace	line:1
@@ -647,6 +711,13 @@ pickle	../otherPythonConcepts/modules.py	/^import pickle, math$/;"	kind:namespac
 pickle_.py	../modules/pickle_.py	1;"	kind:file	line:1
 pingers	../modules/threading_.py	/^pingers = []$/;"	kind:variable	line:131
 pingersCount	../modules/threading_.py	/^pingersCount = ipSuffixRange[1] + ipSuffixRange[0]$/;"	kind:variable	line:167
+plot	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^plot = figure.add_subplot(1, 1, 1)$/;"	kind:variable	line:81
+plot	../modules/Numerical Python/matplotlib_/multiplots.py	/^plot = figure.add_subplot( gridspec[0, 0] )$/;"	kind:variable	line:137
+plot_1	../modules/Numerical Python/matplotlib_/multiplots.py	/^plot_1 = figure.add_subplot( gridspec[0, :] )$/;"	kind:variable	line:150
+plot_2	../modules/Numerical Python/matplotlib_/multiplots.py	/^plot_2 = figure.add_subplot( gridspec[1, :-1] )$/;"	kind:variable	line:153
+plot_3	../modules/Numerical Python/matplotlib_/multiplots.py	/^plot_3 = figure.add_subplot( gridspec[1:, -1] )$/;"	kind:variable	line:156
+plot_4	../modules/Numerical Python/matplotlib_/multiplots.py	/^plot_4 = figure.add_subplot( gridspec[-1, 0] )$/;"	kind:variable	line:159
+plot_5	../modules/Numerical Python/matplotlib_/multiplots.py	/^plot_5 = figure.add_subplot( gridspec[-1, -2] )$/;"	kind:variable	line:162
 popUpFunction	../TKinter/menus.py	/^def popUpFunction():$/;"	kind:function	line:196
 popup	../TKinter/menus.py	/^def popup(event):$/;"	kind:function	line:205
 popupmenu	../TKinter/menus.py	/^popupmenu = tkinter.Menu(root, tearoff=0)$/;"	kind:variable	line:193
@@ -662,7 +733,10 @@ professions	../modules/Numerical Python/numpy_/numpy_.py	/^professions = ["scien
 propertyDecoratorObject	../baseObjects/objects.py	/^class propertyDecoratorObject:$/;"	kind:class	line:360
 pymysql	../computationConcepts/web/pymysql_.py	/^import pymysql$/;"	kind:namespace	line:1
 pymysql_.py	../computationConcepts/web/pymysql_.py	1;"	kind:file	line:1
-pyplot	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:8
+pyplot	../modules/Numerical Python/matplotlib_/axis.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:2
+pyplot	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:7
+pyplot	../modules/Numerical Python/matplotlib_/multiplots.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:2
+pyplot	../modules/Numerical Python/matplotlib_/styling.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:2
 pyplot	../modules/random_.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:52
 python_state_transitions	../computationConcepts/statemachines/opinionOfPythonRecogniser.py	/^def python_state_transitions(txt):$/;"	kind:function	line:15
 python_storage	../otherPythonConcepts/modules.py	/^import pickle as python_storage$/;"	kind:namespace	line:11
@@ -730,6 +804,7 @@ shelve_.py	../modules/shelve_.py	1;"	kind:file	line:1
 showCurrentGuess	../computationConcepts/mastermind/game.py	/^def showCurrentGuess(new_guess):$/;"	kind:function	line:16
 show_entry_fields	../TKinter/entry.py	/^def show_entry_fields():$/;"	kind:function	line:153
 show_values	../TKinter/scale.py	/^def show_values():$/;"	kind:function	line:119
+shrink	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^        shrink=0.01$/;"	kind:variable	line:155
 side	../TKinter/button.py	/^    side = tkinter.LEFT$/;"	kind:variable	line:101
 side	../TKinter/button.py	/^    side = tkinter.LEFT$/;"	kind:variable	line:113
 side	../TKinter/button.py	/^    side = tkinter.LEFT$/;"	kind:variable	line:125
@@ -761,6 +836,9 @@ string	../baseObjects/strings.py	/^string = "Hello"$/;"	kind:variable	line:1
 string	../classicStuff/if.py	/^string = "Hello"$/;"	kind:variable	line:4
 string_2	../classicStuff/if.py	/^string_2 = "Hello"$/;"	kind:variable	line:5
 strings.py	../baseObjects/strings.py	1;"	kind:file	line:1
+styling.py	../modules/Numerical Python/matplotlib_/styling.py	1;"	kind:file	line:1
+sub_1	../modules/Numerical Python/matplotlib_/multiplots.py	/^sub_1 = figure.add_subplot(2, 2, 1)$/;"	kind:variable	line:42
+sub_2	../modules/Numerical Python/matplotlib_/multiplots.py	/^sub_2 = figure.add_subplot(2, 2, 4)$/;"	kind:variable	line:52
 subfolders	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 submodule_a	../otherPythonConcepts/simplePackageExample/__init__.py	/^import simplePackageExample.submodule_a$/;"	kind:namespace	line:6
 submodule_a.py	../otherPythonConcepts/simplePackageExample/submodule_a.py	1;"	kind:file	line:1
@@ -797,6 +875,8 @@ t	../computationConcepts/statemachines/turingMachine.py	/^t = TuringMachine("11 
 t	../modules/re(regex)_.py	/^t = "A fat cat doesn't eat oat but a rat eats bats."$/;"	kind:variable	line:93
 target	../computationConcepts/towersOfHanoi.py	/^target = []$/;"	kind:variable	line:52
 tearDown	../otherPythonConcepts/unitTesting/unittest_.py	/^    def tearDown(self):$/;"	kind:member	line:25
+tempShow	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^tempShow = matplotlib.pyplot.show$/;"	kind:variable	line:15
+tempShow	../modules/Numerical Python/matplotlib_/multiplots.py	/^tempShow = matplotlib.pyplot.show$/;"	kind:variable	line:7
 test	../otherPythonConcepts/simplePackageExample_2/subsection_1/subsectionModule.py	/^def test():$/;"	kind:function	line:3
 test	../otherPythonConcepts/simplePackageExample_2/subsection_2/subsectionModule.py	/^def test():$/;"	kind:function	line:3
 testCalculation	../otherPythonConcepts/unitTesting/unittest_.py	/^    def testCalculation(self):$/;"	kind:member	line:29
@@ -836,6 +916,7 @@ to	../TKinter/scale.py	/^    to=42,$/;"	kind:variable	line:104
 to	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 toString	../baseObjects/strings.py	/^toString = str(100+1)$/;"	kind:variable	line:7
 top	../TKinter/basic.py	/^top = Checkbar($/;"	kind:variable	line:116
+top	../modules/Numerical Python/matplotlib_/multiplots.py	/^    top = 0.99$/;"	kind:variable	line:135
 towersOfHanoi.py	../computationConcepts/towersOfHanoi.py	1;"	kind:file	line:1
 transition_function	../computationConcepts/statemachines/turingMachine.py	/^transition_function = {$/;"	kind:variable	line:101
 transition_function	../computationConcepts/statemachines/turingMachine.py	/^transition_function = {$/;"	kind:variable	line:79
@@ -853,6 +934,8 @@ unittest	../otherPythonConcepts/unitTesting/unittest_.py	/^import unittest$/;"	k
 unittest_.py	../otherPythonConcepts/unitTesting/unittest_.py	1;"	kind:file	line:1
 use	../otherPythonConcepts/simplePackageExample/__init__.py	/^from . import submodule_b # here we see one can use the file system to import what we like, in affect allowing one to import code for other parts of the package (from subfolders or subsections of a package)/;"	kind:namespace	line:7
 usualFunction	../modules/standardFunctions/map.py	/^def usualFunction(input):$/;"	kind:function	line:7
+va	../modules/Numerical Python/matplotlib_/multiplots.py	/^    va='center'$/;"	kind:variable	line:31
+va	../modules/Numerical Python/matplotlib_/multiplots.py	/^    va='center'$/;"	kind:variable	line:57
 val	../baseObjects/variables.py	/^val = int(5)            # val    = 5   $/;"	kind:variable	line:1
 value	../baseObjects/metaclasses.py	/^    value = 0$/;"	kind:variable	line:27
 value	../baseObjects/metaclasses.py	/^    value = 0$/;"	kind:variable	line:34
@@ -874,6 +957,15 @@ vectorA	../modules/Numerical Python/numpy_/ndarray_.py	/^vectorA = numpy.array([
 vectorB	../modules/Numerical Python/numpy_/ndarray_.py	/^vectorB = numpy.array([1, 9, 0])$/;"	kind:variable	line:442
 verb_phrases	../computationConcepts/weightedRandomChoice.py	/^verb_phrases = ($/;"	kind:variable	line:206
 vertex_degree	../computationConcepts/graphs.py	/^    def vertex_degree(self, vertex):$/;"	kind:member	line:181
+verticalalignment	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    verticalalignment='center',     # y anchor placement$/;"	kind:variable	line:229
+verticalalignment	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    verticalalignment='center',     # y anchor placement$/;"	kind:variable	line:257
+verticalalignment	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    verticalalignment='center',     # y anchor placement$/;"	kind:variable	line:291
+verticalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    verticalalignment='center',     $/;"	kind:variable	line:101
+verticalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    verticalalignment='center',     $/;"	kind:variable	line:21
+verticalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    verticalalignment='center',     $/;"	kind:variable	line:47
+verticalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    verticalalignment='center',     $/;"	kind:variable	line:73
+verticalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    verticalalignment='center',     $/;"	kind:variable	line:83
+verticalalignment	../modules/Numerical Python/matplotlib_/multiplots.py	/^    verticalalignment='center',     $/;"	kind:variable	line:92
 vertices	../computationConcepts/graphs.py	/^    def vertices(self):$/;"	kind:member	line:108
 viewGuesses	../computationConcepts/mastermind/game.py	/^def viewGuesses():$/;"	kind:function	line:51
 w_firstnames	../computationConcepts/syntheticDataGeneration.py	/^w_firstnames = {$/;"	kind:variable	line:117
@@ -893,6 +985,7 @@ whatever_you_do	../TKinter/binding.py	/^whatever_you_do = "Whatever you do will 
 width	../TKinter/canvas.py	/^    width=3$/;"	kind:variable	line:95
 width	../TKinter/canvas.py	/^    width=canvasWidth,$/;"	kind:variable	line:80
 width	../TKinter/text.py	/^    width=60)$/;"	kind:variable	line:265
+width	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^        width=10,$/;"	kind:variable	line:151
 word	../classicStuff/if.py	/^word = input("enter input:")$/;"	kind:variable	line:9
 wraps	../otherPythonConcepts/decorators.py	/^from functools import wraps$/;"	kind:namespace	line:148
 write_slogan	../TKinter/button.py	/^def write_slogan():$/;"	kind:function	line:106
@@ -911,6 +1004,9 @@ x	../baseObjects/objects.py	/^x = classWith__repr__()$/;"	kind:variable	line:263
 x	../baseObjects/objects.py	/^x = classWith__str__()$/;"	kind:variable	line:247
 x	../baseObjects/objects.py	/^x = dirrivedClassWithClassMethod()$/;"	kind:variable	line:199
 x	../baseObjects/objects.py	/^x = dirrivedClassWithStaticMethod()$/;"	kind:variable	line:176
+x	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^x = numpy.arange(0, 5, 0.25)$/;"	kind:variable	line:82
+x	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^x = numpy.linspace(0, 3, 1000)$/;"	kind:variable	line:109
+x	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^x = numpy.linspace(0, 3.14, 70, endpoint=True)$/;"	kind:variable	line:142
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array( ((2,3), (3, 5)) )$/;"	kind:variable	line:472
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array( [0,0,1] )$/;"	kind:variable	line:360
 x	../modules/Numerical Python/numpy_/ndarray_.py	/^x = numpy.array($/;"	kind:variable	line:79
@@ -928,8 +1024,11 @@ x	../modules/re(regex)_.py	/^x = r"[1-9]"$/;"	kind:variable	line:5
 x	../modules/subprocess_.py	/^x = subprocess.Popen("ls -l",shell="True")$/;"	kind:variable	line:10
 x	../modules/subprocess_.py	/^x = subprocess.Popen(["ls", "-l"])$/;"	kind:variable	line:9
 x	../otherPythonConcepts/comprehensions.py	/^x = "hello"$/;"	kind:variable	line:45
+xy	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    xy=(1.95, 19.96),       # business end point location$/;"	kind:variable	line:147
+xytext	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^    xytext=(2.3, 23.5),     # back end location$/;"	kind:variable	line:148
 y	../baseObjects/metaclasses.py	/^y = SingletonClass()$/;"	kind:variable	line:80
 y	../baseObjects/objects.py	/^y = Employee("Sarah", "Ryan", "123")$/;"	kind:variable	line:461
+y	../modules/Numerical Python/matplotlib_/matplotlib_.py	/^y = numpy.cos(x*3) * 5$/;"	kind:variable	line:110
 y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.array([-7,8,9])$/;"	kind:variable	line:295
 y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.matrix( ((1,2), (5, -1)) )$/;"	kind:variable	line:473
 y	../modules/Numerical Python/numpy_/ndarray_.py	/^y = numpy.matrix( ((1,2), (5, -1)) )$/;"	kind:variable	line:477

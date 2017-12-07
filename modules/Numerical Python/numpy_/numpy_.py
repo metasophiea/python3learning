@@ -74,6 +74,7 @@ print()
 #       endpoint    - determines whether a closed or half-open interval will be returned
 #       retstep     - if set, the function will also return the value of the spacing between adjacent 
 #                     values (returning a tuple)
+#       num         - number of samples to generate (default 50)
 
 # 50 values between 1 and 10:
 print( numpy.linspace(1, 10) )
@@ -86,6 +87,37 @@ print()
 print( numpy.linspace(1, 10, retstep=True)[1] )
 print( numpy.linspace(1, 10, 20, endpoint=True, retstep=True)[1] )
 print( numpy.linspace(1, 10, 20, endpoint=False, retstep=True)[1] )
+print()
+
+
+
+
+
+
+
+
+# meshgrid
+#   Make N-D coordinate arrays for vectorized evaluations of N-D scalar/vector fields over N-D grids,
+#   given one-dimensional coordinate arrays x1, x2,..., xn.
+
+# This function appears to make a number of matrices out of a number of arrays. 
+
+# In this example, three arrays are applied resulting is three items returned.
+# these three items seems to hold the data for 3, 3-dimensional matrices: each 4x3x5
+# the three matrices are made from the data of their corresponding input arrays, but with
+# the data arranged in different ways
+
+xlist = [10, 20, 30]
+ylist = [1, 2, 3, 4]
+zlist = [0, -1, -2, -3, -4] 
+print(xlist)
+print(ylist)
+print(zlist)
+
+X, Y, Z = numpy.meshgrid(xlist, ylist, zlist)
+print(Y)
+print(X)
+print(Z)
 print()
 
 
