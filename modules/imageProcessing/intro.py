@@ -87,6 +87,16 @@ import matplotlib.image
 
 
 
+# Cropping
+img = matplotlib.image.imread('testImage.png')[20:150, 210:490]
+matplotlib.pyplot.axis("off")
+matplotlib.pyplot.imshow(img)
+matplotlib.pyplot.show()
 
-# Tone
+
+
+
+
+
+
 
