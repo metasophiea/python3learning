@@ -237,8 +237,29 @@ numpy.save("savedData", x)
 
 y = numpy.load("savedData.npy")
 print( y )
+print()
 
 
 
 
 
+
+
+
+# linalg
+# this method is used for solving Linear Combinations
+# A linear combination in mathematics is an expression constructed from a set of terms by
+# multiplying each term by a constant and adding the results.
+
+# (3.21, 1.77, 3.65) and the unit vectors (0,0,1), (0,1,0) and (1,0,0)
+# (3.21, 1.77, 3.65) = 3.21 · (1,0,0) + 1.77 (0,1,0) + 3.65 · (0,0,1) 
+x = numpy.array([[0,0,1],[0,1,0],[1,0,0]])
+y = ([3.65,1.55,3.42])
+print( numpy.linalg.solve(x,y) )
+print()
+
+# (3.21, 1.77, 3.65) and the unit vectors (0,1,1), (1,1,0) and (1,0,1)
+x = numpy.array([[0,1,1],[1,1,0],[1,0,1]])
+y = ([3.65,1.55,3.42])
+print( numpy.linalg.solve(x,y) )
+print()

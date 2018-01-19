@@ -1,6 +1,6 @@
 # how to get the filepath of the folder containing the script
 import os
-filepath = os.path.dirname(__file__)
+filepath = os.path.dirname(os.path.realpath(__file__))
 
 # open a file (for reading by default)
 file_obj = open(filepath+"/testFile.txt")

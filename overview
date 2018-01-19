@@ -95,16 +95,18 @@ _/
     Python Image Processing Tutorial
     Image Processing Techniques
     Pandas Tutorial
-*   Pandas Tutorial Continuation
+    Pandas Tutorial Continuation
     Data Visualization with Pandas and Python
     Python, Date and Time
     Python, Pandas and Timeseries
     Linear Combinations
 
+_/
+
 ---- Machine Learning ----
     Machine Learning Terminology
     k-nearest Neighbor Classifier
-    Neural Networks from Scratch in Python
+*   Neural Networks from Scratch in Python
     Neural Networks with Scikit
     Machine Learning with Scikit and Python
     Introduction Naive Bayes Classifier
