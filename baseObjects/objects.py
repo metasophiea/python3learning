@@ -157,7 +157,7 @@ print()
 # - static method
 # static methods are methods on the class level. They are unable to access non-static attributes and methods.
 # They also do not pay attention to inheritance, thus these methods will access the data stored only in their
-# classes static attributes; even if those attributes are redefined in a dirrived class 
+# classes static attributes; even if those attributes are redefined in a derived class 
 class classWithStaticMethod:
     atr = 34
 
