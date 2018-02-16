@@ -106,9 +106,11 @@ _/
 ---- Machine Learning ----
     Machine Learning Terminology
     k-nearest Neighbor Classifier
-*   Neural Networks from Scratch in Python - (above) Single Layer with Bias
+    Neural Networks from Scratch in Python
+*   Neural Network in Python using Numypy
+    Training and Testing with MNIST
     Neural Networks with Scikit
-    Machine Learning with Scikit and Python
+-   Machine Learning with Scikit and Python
     Introduction Naive Bayes Classifier
     Naive Bayes Classifier with Scikit
     Introduction into Text Classification using Naive Bayes

@@ -293,11 +293,21 @@ class Perceptron:
     #       value between -1 and 1)
     #       the 'learning_rate' is also defined here along with the bias
     # sigmoid_function(x)
-    #       
+    #       this is the threshold judgement function
+    #       the provided value is placed on the sigmoid function line,
+    #       if the result is above 0.5, 'True' is returned
     # __call__(self, in_data)
-    #       
+    #       first, all but the last value in weights are multiplied by 'in_data'
+    #       these values are summed. Then the last value of the weights is multiplied
+    #       by the bias and added to the sum. The resulting value is passed through 
+    #       the thresholding function
     # adjust(self, target_result, calculated_result, in_data)
-    #
+    #       this method is used to change the input weights. First the difference 
+    #       between the desired output and the produced output is calculated. Then,
+    #       for each input the difference is multiplied by the learning rate and a 
+    #       corresponding value from input data, and added to the weight.
+    #           The final weight set to itself plus the difference, by the learning 
+    #       rate by the bias
 
     def __init__(self, input_length, weights=None):
         if weights is None:
@@ -306,7 +316,7 @@ class Perceptron:
             self.weights = weights
 
         self.learning_rate = 0.1
-        self.bias = 0
+        self.bias = 10
         
     @staticmethod
     def sigmoid_function(x):
@@ -315,7 +325,7 @@ class Perceptron:
 
     def __call__(self, in_data):
         weighted_input = self.weights[:-1] * in_data
-        weighted_sum = weighted_input.sum() + self.bias *self.weights[-1]
+        weighted_sum = weighted_input.sum() + self.bias*self.weights[-1]
         return Perceptron.sigmoid_function(weighted_sum)
     
     def adjust(self, target_result, calculated_result, in_data):
@@ -325,6 +335,7 @@ class Perceptron:
             self.weights[i] += error * in_data[i] * self.learning_rate
 
         self.weights[-1] += error * self.bias * self.learning_rate 
+        print(self.weights[-1])
 
 
 
@@ -368,7 +379,7 @@ for point in points:
     )
 
 # based on the input weights within the neural node, compute the slop and offset 
-# of the dividing line it thinks is correct
+# of the dividing line it thinks is correct (I've no idea how this works)
 
 X = numpy.arange(-3, 120)
 m = -p.weights[0]  / p.weights[1]
